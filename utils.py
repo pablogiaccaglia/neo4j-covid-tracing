@@ -155,4 +155,4 @@ def convertCSVDelimiter(csvPath, oldDelimiter, newDelimiter) -> None:
 if __name__ == '__main__':
     #  standardizeCSVColumn("datasets/original/italian_theaters.csv", 'city')
     #  removeNullRows("datasets/original/italian_theaters_standardized.csv")
-    convertCSVDelimiter("datasets/final/italian_hospitals_standardized_no_nulls.csv", ';', ',')
+    convertCSVDelimiter("datasets/final/vaccines_no_duplicates.csv", ';', ',')
