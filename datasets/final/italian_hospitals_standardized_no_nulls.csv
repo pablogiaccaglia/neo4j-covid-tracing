@@ -1,0 +1,616 @@
+city;admin_name;name;ID
+Borgaro Torinese;Piemonte;CRI;1287732721
+Borgaro Torinese;Piemonte;CRI;1287732721
+Castellamonte;Piemonte;Ospedale Civile di Castellamonte;506720441
+Collegno;Piemonte;Guardia Medica;3521390394
+Giaveno;Piemonte;Ospedale Civile di Giaveno;1013180642
+Orbassano;Piemonte;Ospedale San Luigi - Emergency;3538127650
+Pianezza;Piemonte;IRM;2975475598
+Pomaretto;Piemonte;Ospedale di Pomaretto;1582482972
+Rivoli;Piemonte;Ospedale di Rivoli - Emergency;3521386459
+Torino;Piemonte;Azienda Asl TO2 Circoscrizione 7;3342035128
+Torino;Piemonte;Ospedale CTO - Emergency;3538149953
+Torino;Piemonte;Ospedale Koelliker;2524447312
+Torino;Piemonte;Ospedale Maria Vittoria - Emergency;3538127633
+Torino;Piemonte;Ospedale Martini - Emergency;3538127618
+Torino;Piemonte;Ospedale Mauriziano - Emergency;3538149967
+Torino;Piemonte;Ospedale Molinette - Emergency;3538127651
+Torino;Piemonte;Ospedale Sant'Anna - Emergency;3538127652
+Torino;Piemonte;Poliambulatorio ASL TO1;3896547668
+Torino;Piemonte;Presidio Ospedaliero Major;3352096005
+Torino;Piemonte;Presidio sanitario ?Vittorio Valletta?;3858667665
+Torino;Piemonte;Pronto soccorso pediatrico;3451061182
+Torino;Piemonte;"RSA """"Cardinal Ballestrero";3858824567
+Venaria Reale;Piemonte;Ospedale Venaria - Emergency;3538322174
+Vinovo;Piemonte;Croce Verde;872054634
+Gattinara;Piemonte;Asl Vc;2294634302
+Varallo;Piemonte;Casa Serena;2632598165
+Vercelli;Piemonte;Ambulatorio Veterinario;2943298582
+Vercelli;Piemonte;Ambulatorio Veterinario;2968790196
+Vercelli;Piemonte;Clinica Santa Rita;2872066082
+Vercelli;Piemonte;Guardia Medica;2814119513
+Vercelli;Piemonte;Piastra Polifunzionale;2809752409
+Vercelli;Piemonte;Pronto Soccorso;2800570544
+Vercelli;Piemonte;Studio di fisioterapia clinica Adriano Reis;3035467608
+Ghemme;Piemonte;Guardia Medica di Ghemme;2425413775
+Ghemme;Piemonte;Ospedale di Ghemme;2425413776
+Nebbiuno;Piemonte;Croce Rossa Italiana - Volontari del Vergante;2844465977
+Novara;Piemonte;Farmacia dell'Ospedale;2039728477
+Novara;Piemonte;Pronto Soccorso ASL Novara;3385724639
+Borgo San Dalmazzo;Piemonte;ASL Cuneo n.1;1445651410
+Boves;Piemonte;Azienda Sanitaria Locale cn1 Centralino;1448031743
+Bra;Piemonte;Casa di cura privata Città di BRA;1870099273
+Busca;Piemonte;Azienda Sanitaria Locale cn1;1446961749
+Caraglio;Piemonte;Ospedale di Caraglio ASL CN1;1803194882
+Chiusa Di Pesio;Piemonte;Azienda Sanitaria Locale cn1;1448063765
+Chiusa Di Pesio;Piemonte;"Residenza per anziani """"La Meridiana""""";1391573415
+Entracque;Piemonte;Centro Socio Assistenziale San Michele;1446273813
+Fossano;Piemonte;Ospedale Maggiore;1010828999
+Peveragno;Piemonte;Azienda Sanitaria Locale cn1 Prenotazioni;1447981808
+Peveragno;Piemonte;Croce Rossa Italiana Delegazione di Peveragno;1447984261
+Robilante;Piemonte;Istituto Climatico;1512114795
+Rodello;Piemonte;"Casa di cura """"La Residenza""""";3431226791
+Villanova Mondovi';Piemonte;Azienda Sanitaria locale cn1;1447884401
+Nizza Monferrato;Piemonte;Ospedale Santo Spirito;1177271563
+Acqui Terme;Piemonte;Casa di cura Villa Igea;3160224386
+Alessandria;Piemonte;Hospice Il Gelso;3456136050
+Alessandria;Piemonte;Pronto Soccorso;3184542612
+Alessandria;Piemonte;SALUS;3461258398
+Casalnoceto;Piemonte;centro paolo VI;916881543
+Novi Ligure;Piemonte;Ospedale San Giacomo;931802977
+Brusson;Valle d'Aosta;Casa Di Cura Per La Salute Della Mente;1821113074
+Brusson;Valle d'Aosta;Continuità Assistenziale (Ex Guardia Medica) AS;1297316345
+Donnas;Valle d'Aosta;Poliambulatorio di Donnas;1761381053
+Saint-Christophe;Valle d'Aosta;Servizio Ausili AUSL Valle d'Aosta;2349121564
+Valtournenche;Valle d'Aosta;Centro Traumatologico;3536731833
+Verres;Valle d'Aosta;Clinica Veterinaria di Verres;3740528835
+Albenga;Liguria;"Santa Maria di Misericordia""""";3022331437
+Finale Ligure;Liguria;P.A. Croce Verde Finalborgo;2519502535
+Savona;Liguria;Emergency Room;861803093
+Savona;Liguria;RSA del Santuario;368280172
+Zuccarello;Liguria;Soccorso Cinofilo Liguria - Campo Addestramento;2774569646
+Zuccarello;Liguria;Soccorso Cinofilo Liguria - Sede Operativa;2774570245
+Campo Ligure;Liguria;Opera Pia San Michele Arcangelo;603938253
+Cicagna;Liguria;Ospedaletto;3092330573
+Genova;Liguria;Croce Rossa Italiana - Comitato Locale di Genova;2775158723
+Genova;Liguria;Croce Rossa Italiana - Comitato Locale di Genova;3149433919
+Genova;Liguria;Hospice Gigi Ghirotti;1427976790
+Genova;Liguria;Ospedale Pastorino;3784314302
+Genova;Liguria;Pronto Soccorso;1655214176
+Genova;Liguria;Pronto Soccorso;2286538221
+Genova;Liguria;Pronto Soccorso Ostetrico;1149150256
+Genova;Liguria;Pubblica Assistenza Nerviese;1743778682
+Bisuschio;Lombardia;Centro Diurno di Bisuschio;3872646923
+Cittiglio;Lombardia;Ospedale di Cittiglio;872506122
+Cunardo;Lombardia;Le Terrazze;602211592
+Luino;Lombardia;Ospedale Luini Confalonieri;1869897812
+Saronno;Lombardia;LABORATORIO ANALISI MEDICHE GESTIONE LABORATORI;3216127174
+Saronno;Lombardia;Meditel clinica ambulatorio;1907133077
+Saronno;Lombardia;Pronto Soccorso;3215382613
+Cagno;Lombardia;Ambulatorio;2445650941
+Como;Lombardia;Villa Aprica;429876745
+Menaggio;Lombardia;ASL Menaggio;1740868546
+Menaggio;Lombardia;"Ospedale """"Sant'Anna"""" di Menaggio";280213549
+Tirano;Lombardia;Struttura sanitaria di Tirano - Poliambulatori;1456629565
+Abbiategrasso;Lombardia;Centro Diagnostico Fleming;2606776652
+Bresso;Lombardia;Centro Polifunzionale di Emergenza Croce Rossa I;2282025039
+Cernusco Sul Naviglio;Lombardia;Casa di Cura Anziani;1641747487
+Garbagnate Milanese;Lombardia;Casa Riposo S. Pertini;539588673
+Garbagnate Milanese;Lombardia;Ospedale S. Corona Garbagnate - Salvini;539389756
+Milano;Lombardia;Clinica Columbus;281587946
+Milano;Lombardia;Istituto Scientifico Ospedale San Luca;2791491258
+Milano;Lombardia;Ospedal Buzzi;541052343
+Milano;Lombardia;Ospedale Gaetano Pini;260044832
+Milano;Lombardia;Ospedale Luigi Sacco;275707305
+Milano;Lombardia;Ospedale San Giuseppe;272877453
+Milano;Lombardia;Poliambulatorio Cesare Pozzo;278208919
+Milano;Lombardia;Poliambulatorio Sassi;2678697562
+Milano;Lombardia;S. Ambrogio;2106322765
+Milano;Lombardia;S. Ambrogio-Prontosoccorso;2106323310
+Ponte San Pietro;Lombardia;Policlinico San Pietro;365883717
+Romano Di Lombardia;Lombardia;Ospedale di Romano;1937258648
+Spirano;Lombardia;Ospizio;1687457780
+Carpenedolo;Lombardia;Casa Di Riposo S.Maria Castello;1819494689
+Gargnano;Lombardia;Guardia Medica;1996725069
+Gavardo;Lombardia;Pronto Soccorso;3351874372
+Lograto;Lombardia;Ambulatorio medico;2145385340
+Manerbio;Lombardia;Ospedale di Manerbio;3939620367
+Montichiari;Lombardia;Spedali Civili Brescia Montichiari;2148204881
+Rodengo-Saiano;Lombardia;Pronto Soccorso Avis;2242220553
+Roe' Volciano;Lombardia;Fondazione Casa di Riposo di Roè Volciano - ONL;2833986032
+Casei Gerola;Lombardia;Casa di riposo San Fortunato;3826599061
+Casei Gerola;Lombardia;Studio Medico;3826601913
+Godiasco;Lombardia;Fondazione Don Carlo Gnocchi - Centro Santa Mari;2463395761
+Godiasco;Lombardia;Villa Esperia - Casa di Cura e Riabilitazione;2462838795
+Montescano;Lombardia;Istituto per la Riabilitazione Maugeri;600862762
+Pavia;Lombardia;Clinica Città di Pavia;645900549
+Pavia;Lombardia;C.N.A.O. - Centro Nazionale di Adroterapia Oncol;2852940512
+Pavia;Lombardia;DEA;2579533175
+Pavia;Lombardia;Fondazione Salvatore Maugeri;1628293885
+Pavia;Lombardia;Istituto di Medicina del Lavoro;681739610
+Pavia;Lombardia;Istituto Santa Margherita;3068442200
+Stradella;Lombardia;Croce Rossa Italiana - Stradella;2513622263
+Varzi;Lombardia;"Ospedale Civile di Varzi """"SS. Annunziata""""";3939620559
+Varzi;Lombardia;Pronto Soccorso - OC Varzi;2958452870
+Voghera;Lombardia;Ospedale Civile di Voghera - Accesso Pronto Socc;1978580077
+Voghera;Lombardia;Ospedale civile di voghera entrata posteriore;2200633476
+Castelverde;Lombardia;Opera Pia Redentore;676278746
+Crema;Lombardia;Ospedale Maggiore di Crema;283583053
+Cremona;Lombardia;Casa di cura Figlie di San Camillo;2090726100
+Cremona;Lombardia;Casa di cura San Camillo;2090726090
+Rivolta D'Adda;Lombardia;Ospedale di Rivolta d'Adda;2593163397
+Soresina;Lombardia;Guardia Medica;3428462806
+Sospiro;Lombardia;Clinica Sospiro;628037181
+San Benedetto Po;Lombardia;Poli ambulatorio;2845125874
+Viadana;Lombardia;ospitale civile;3523075426
+Badia;Trentino-Alto Adige;Ambulatorio dr. Spechtenhauser /medical facility;2359091864
+Corvara In Badia;Trentino-Alto Adige;medical facility;2347041428
+Merano;Trentino-Alto Adige;Privatklinik Martinsbrunn;1026932691
+Sarentino;Trentino-Alto Adige;Spital Sarnthein;1597396516
+Terlano;Trentino-Alto Adige;Sanitätssprengel;2756012609
+Baselga Di Pine';Trentino-Alto Adige;Poliambulatorio comunale - Medici Generici - Ped;2590602528
+Denno;Trentino-Alto Adige;Guardia Medica;2590418162
+Levico Terme;Trentino-Alto Adige;Poliambulatorio di Levico Terme;558635245
+Mezzolombardo;Trentino-Alto Adige;Guardia Medica;2590431393
+Mori;Trentino-Alto Adige;Guardia Medica;2590424734
+Pergine Valsugana;Trentino-Alto Adige;Ex Villa Rosa;474985898
+Segonzano;Trentino-Alto Adige;Guardia Medica;2503395889
+Taio;Trentino-Alto Adige;Guardia Medica;2590432394
+Trento;Trentino-Alto Adige;Guardia Medica;2590424266
+Trento;Trentino-Alto Adige;Studio Odontoiatrico;3637095818
+Tres;Trentino-Alto Adige;Medico di base;3374682876
+Albaredo D'Adige;Veneto;Usll20;1519319976
+Bardolino;Veneto;Distretto Sanitario;835482201
+Bardolino;Veneto;Medical Clinic;824408688
+Brenzone;Veneto;Infermeria di Casa Madre delle Piccole Suore del;3988496870
+Garda;Veneto;White Cross ambulance;671619973
+Grezzana;Veneto;Studio Medico Associato;3364333150
+Malcesine;Veneto;Ospedale di Malcesine;2339818894
+Verona;Veneto;Pronto soccorso;1332150759
+Verona;Veneto;Pronto Soccorso;1490269001
+Villafranca Di Verona;Veneto;Ospedale Marcello Magalini;1804969211
+Arsiero;Veneto;Guardia Medica;1493334562
+Asiago;Veneto;Ospedale civile di Asiago;2378284620
+Bassano Del Grappa;Veneto;Ospedale San Bassiano;304230205
+Bassano Del Grappa;Veneto;Vecchio Ospedale Psichiatrico;1559078833
+Caldogno;Veneto;Centro Diagnostico Veneto;338916073
+Roana;Veneto;Istituto Ortopedico Elioterapico;875665169
+Santorso;Veneto;Nuovo Ospedale Santorso;1650859424
+Schio;Veneto;Croce Rossa Italiana - Comitato Locale di Schio;2620114768
+Schio;Veneto;Defibrillatore (DAE) 24H;3498514926
+Thiene;Veneto;Ospedale di Thiene;444692252
+Vicenza;Veneto;Casa di Cura privata Eretenia;3284592570
+Vicenza;Veneto;Centro Diurno Anziani;3971286697
+Vicenza;Veneto;Guardia Medica - Servizio di continuità assiste;276392454
+Vicenza;Veneto;ingresso Palazzina Uffici dell'Ospedale;257360634
+Belluno;Veneto;Obitorio;3641023482
+Cortina D'Ampezzo;Veneto;Codivilla;2369237060
+Feltre;Veneto;Ospedale Civile;633282730
+Castelfranco Veneto;Veneto;Sanitaria;2094785552
+Conegliano;Veneto;La Nostra Famiglia;894283612
+Crespano Del Grappa;Veneto;SUEM 118  GUARDIA MEDICA;1388471311
+Monastier Di Treviso;Veneto;Casa di Cura Giovanni XXIII;582732952
+Pieve Di Soligo;Veneto;Farmacia Schiratti di Schiratti Samuele;1461910080
+Preganziol;Veneto;Park Villa Napoleon - casa di cura neuropsichiat;1330957451
+Villorba;Veneto;"Casa di riposo e Centro diurno """"Gino e Pierina";2348043780
+Mira;Veneto;Consultorio USL 13;1120722373
+San Michele Al Tagliamento;Veneto;Azienda ULSS 10;1482481262
+San Michele Al Tagliamento;Veneto;First Aid;1963439942
+Venezia;Veneto;Istituto Carlo Steeb;895559828
+Venezia;Veneto;Istituto Carlo Steeb;895559828
+Montagnana;Veneto;Ospedale di Montagnana;1600857902
+Padova;Veneto;Centro di foniatria;2954858744
+Padova;Veneto;Croce Rossa;2963468734
+Padova;Veneto;Dipartimento Socio Sanitario ai Colli;3124119148
+Padova;Veneto;Villa Maria;1005263880
+Piazzola Sul Brenta;Veneto;Distretto Sanitario;3735141153
+Selvazzano Dentro;Veneto;Ulss di Selvazzano;1540781487
+Cividale Del Friuli;Friuli-Venezia Giulia;Croce Rossa Italiana;2288834785
+Cividale Del Friuli;Friuli-Venezia Giulia;Hospital;3218834559
+Flaibano;Friuli-Venezia Giulia;Ambulatorio;2975045843
+Palmanova;Friuli-Venezia Giulia;Ospedale Civile di Palmanova;621603401
+Tolmezzo;Friuli-Venezia Giulia;Sant?Antonio Abate;1918387355
+Udine;Friuli-Venezia Giulia;Dipartimento di Salute Mentale A.S.S. 4;1462112178
+Udine;Friuli-Venezia Giulia;Istituto di Medicina Fisica e Riabilitazione Ger;1821567397
+Monfalcone;Friuli-Venezia Giulia;Pronto Soccoso;2929114188
+Trieste;Friuli-Venezia Giulia;Casa di cura Salus;1482133308
+Trieste;Friuli-Venezia Giulia;Pronto Soccorso;3217837479
+Trieste;Friuli-Venezia Giulia;Pronto Soccorso Cattinara;3217873909
+Castel San Giovanni;Emilia-Romagna;Ospedale civile;924449750
+Piacenza;Emilia-Romagna;defibrillatore (DAE);3069871601
+Pianello Val Tidone;Emilia-Romagna;Pia Casa Castagnetti;1319945702
+Rottofreno;Emilia-Romagna;Casa della Salute;2315622764
+Borgo Val Di Taro;Emilia-Romagna;Santa Maria;1455072062
+Fidenza;Emilia-Romagna;Assistenza Pubblica Fidenza;2582319720
+Fidenza;Emilia-Romagna;Italian Red Cross;2582316110
+Fidenza;Emilia-Romagna;Ospedale di Vaio;441922074
+Fontanellato;Emilia-Romagna;Centro Cardinal Ferrari;411882584
+Medesano;Emilia-Romagna;Croce rossa di Medesano;1748577183
+Parma;Emilia-Romagna;Ospedale Maggiore;441349778
+Tizzano Val Parma;Emilia-Romagna;Croce Rossa (Pronto Soccorso);3384733654
+Castelnovo Ne'Monti;Emilia-Romagna;Ospedale S. Anna;1944314039
+Montecchio Emilia;Emilia-Romagna;Ospedale Ercole Franchini;317847269
+Sant'Ilario D'Enza;Emilia-Romagna;USL Sant'Ilario d'Enza - Distretto Montecchio Em;2244650201
+Mirandola;Emilia-Romagna;Santa Maria Bianca;1775959558
+Modena;Emilia-Romagna;Casa di cura Villa Igea;2151903121
+Modena;Emilia-Romagna;Ospedale sant'Agostino-Estense;973891908
+Modena;Emilia-Romagna;Pronto Soccorso;1538402646
+Modena;Emilia-Romagna;Pronto Soccorso;2157172449
+Modena;Emilia-Romagna;Villa Rosa;1591090156
+Bologna;Emilia-Romagna;Ambulatorio;3190973943
+Bologna;Emilia-Romagna;Casa di cura Villa Bellombra;343166389
+Bologna;Emilia-Romagna;Cliniche Dentali;3810931037
+Bologna;Emilia-Romagna;CUP Metropolitano;1544177765
+Bologna;Emilia-Romagna;Istituto Ortopedico Rizzoli;1637036206
+Bologna;Emilia-Romagna;Ospedale Militare;474385036
+Bologna;Emilia-Romagna;Poliambulatorio Zanolini;3979367432
+Bologna;Emilia-Romagna;Villa Erbosa;440950148
+Bologna;Emilia-Romagna;Villa Regina;527877200
+Bologna;Emilia-Romagna;Villa Torri (ospedale privato);3982181498
+Budrio;Emilia-Romagna;Centro Protesi INAIL;1639926848
+Casalecchio Di Reno;Emilia-Romagna;Villa Chiara;1653392145
+Castel San Pietro Terme;Emilia-Romagna;Ospedale di Castel San Pietro Terme;1631842426
+Castiglione Dei Pepoli;Emilia-Romagna;Casa di cura / Primo intervento;3801840737
+Imola;Emilia-Romagna;Montecatone Rehabilitation Institute;827782011
+Imola;Emilia-Romagna;Polo Territoriale Città di Imola (Ospedale Vecc;246493812
+Loiano;Emilia-Romagna;Ospedale di Loiano;691691088
+San Giovanni In Persiceto;Emilia-Romagna;Ospedale Santissimo Salvatore;412480085
+San Pietro In Casale;Emilia-Romagna;"Polo Sanitario """"Anacleto Bonora""""";456203291
+Vergato;Emilia-Romagna;Ospedale di Vergato;811406978
+Argenta;Emilia-Romagna;Ospedale Civile Mazzolani-Vandini;2335579801
+Bondeno;Emilia-Romagna;Ospedale Fratelli Borselli;3361796794
+Comacchio;Emilia-Romagna;Ospedale San Camillo;1045853384
+Copparo;Emilia-Romagna;Ospedale San Giuseppe;2321777045
+Ferrara;Emilia-Romagna;"Casa di cura """"Salus""""";2263405659
+Ferrara;Emilia-Romagna;Centro di Medicina dello Sport;2627789359
+Ferrara;Emilia-Romagna;Guardia Medica - Servizi socio sanitari;2107657889
+Lagosanto;Emilia-Romagna;Ospedale del Delta;296858314
+Portomaggiore;Emilia-Romagna;Ospedale Carlo Eppi;2328753349
+Bagnara Di Romagna;Emilia-Romagna;Poliambulatorio;1166552706
+Faenza;Emilia-Romagna;Pronto Soccorso;546597683
+Fusignano;Emilia-Romagna;Presidio Ospedaliero;1716107790
+Lugo;Emilia-Romagna;Ospedale Umberto I;299846736
+Ravenna;Emilia-Romagna;Casa di Cura Domus Nova;568095443
+Ravenna;Emilia-Romagna;Casa di cura San Francesco;528899706
+Ravenna;Emilia-Romagna;Ospedale Santa Maria delle Croci;266550908
+Cesenatico;Emilia-Romagna;Ospedale di Cesenatico;2163556775
+Forli';Emilia-Romagna;"Casa di Cura """"Villa Igea""""";295030604
+Forli';Emilia-Romagna;"Casa di Cura """"Villa Serena""""";295017561
+Forli';Emilia-Romagna;"Ospedale Privato """"Primus"""", gruppo Villa Maria";1138002831
+Forli';Emilia-Romagna;Pronto Soccorso;303496338
+Mercato Saraceno;Emilia-Romagna;Ospedale Capelli;1713423344
+Cagli;Marche;"Ospedale Civile """"A. Celli""""";3887554332
+Fossombrone;Marche;Ospedale Civile Fossombrone;1435016188
+Frontone;Marche;Infermeria FISPS;2268215239
+Mondolfo;Marche;Ospedale Bartolini;2872559641
+Pergola;Marche;Ospedale SS Donnino e Carlo;2146013324
+Pesaro;Marche;ASUR;1858573726
+Urbania;Marche;DISTRETTO SANITARIO N° 2 DI URBANIA;3229583110
+Ancona;Marche;"Ospedale Cardiologico """"Giovanni Maria Lancisi""""";1260345488
+Ancona;Marche;"Ospedale Pediatrico """"G. Salesi""""";519171100
+Chiaravalle;Marche;Ospedale M. Montessori;848204101
+Cupramontana;Marche;Ambulatori;3063336686
+Sirolo;Marche;Croce Azzurra;3358233591
+Corridonia;Marche;Ospedale;519018205
+Potenza Picena;Marche;Santo Stefano;364424585
+Recanati;Marche;Casa di riposo IRCER;1413042519
+Ascoli Piceno;Marche;Casa di Cura San Giuseppe;595790313
+Ascoli Piceno;Marche;Casa di Cura Villa San Marco;644135437
+Offida;Marche;"Poliambulatorio di Offida (ex Ospedale Civile """"";672467096
+Camaiore;Toscana;Ospedale Versilia;256836182
+Lucca;Toscana;Casa di Cura Santa Zita;2302888821
+Lucca;Toscana;Fisioterapia;1798963327
+Lucca;Toscana;Presidio Osepdaliero Piana di Lucca;248898429
+Massarosa;Toscana;Misericordia;1549453127
+Massarosa;Toscana;Misericordia di Stiava;1997884009
+Montecarlo;Toscana;Misericordia di Montecarlo;1925413884
+Lamporecchio;Toscana;Casa della Salute;2940769836
+Bagno A Ripoli;Toscana;Ospedale S. Maria Annunziata;1753752061
+Borgo San Lorenzo;Toscana;Pronto soccorso;534447403
+Firenze;Toscana;Centro Sangue;938223605
+Firenze;Toscana;CTO;715801424
+Firenze;Toscana;Ospedale di Santa Maria Nuova;3111530034
+Firenze;Toscana;Ospedale Piero Palagi;3111530402
+Firenze;Toscana;Ospedale Santa Chiara;1268791137
+Greve In Chianti;Toscana;Opsedale Rosa Libri;1088821976
+Pontassieve;Toscana;Dentist;1938471740
+Pontassieve;Toscana;Dentist;1938471753
+Scandicci;Toscana;Humanitas;533694525
+Sesto Fiorentino;Toscana;Azienda Usl 10 Di Firenze;2209929226
+Figline E Incisa Valdarno;Toscana;Frate Sole;1047704499
+Figline E Incisa Valdarno;Toscana;Ospedale Serristori;2284593680
+Figline E Incisa Valdarno;Toscana;USL 20/b;2284594838
+Bibbona;Toscana;first aid (temp. Doctor);3053392453
+Marciana Marina;Toscana;Guardia Medica - Medical Assistance;465614224
+Piombino;Toscana;Villa Marina;1755087444
+Porto Azzurro;Toscana;Guardia Medica - Medical Assistance;464313412
+Cascina;Toscana;Guardia Medica;2430869207
+Cascina;Toscana;Studi Medici Associati;1811225653
+Castelfranco Di Sotto;Toscana;Distretto socio-sanitario Galleno;2354813963
+Montecatini Val Di Cecina;Toscana;Guardia Medica;2360521272
+Pisa;Toscana;Casa di Cura San Rossore;1854247433
+Pisa;Toscana;Centro Medico;1798962277
+Pisa;Toscana;IRCCS Stella Maris;1279453276
+Pisa;Toscana;Pronto Soccorso;3512154941
+Terricciola;Toscana;ASL 5 Unità Cure Primarie;1668362969
+Vecchiano;Toscana;Pronto Soccorso;2634502193
+Bibbiena;Toscana;Ospedale del Casentino;1392433677
+Cortona;Toscana;"Ospedale della Valdichiana """"Santa Margherita""""";1601712730
+Montevarchi;Toscana;La Gruccia;729191106
+Montepulciano;Toscana;Ospedali Riuniti Valdichiana Senese;1715089667
+Poggibonsi;Toscana;Ospedale dell'Alta Val d'Elsa;263362557
+Torrita Di Siena;Toscana;Consultorio Antares;2524317095
+Grosseto;Toscana;Infermeria;3598244294
+Grosseto;Toscana;Ospedale della misericordia;755792646
+Grosseto;Toscana;Pronto scoccorso;3670208706
+Bastia;Umbria;Centro ASL;2429716499
+Citta' Di Castello;Umbria;Ospedale di Città di Castello;703223321
+Foligno;Umbria;Nuovo Ospedale San Giovanni Battista;912145480
+Perugia;Umbria;Clinica Liotti;1490046090
+Perugia;Umbria;Santa Maria della Misericordia;1576533901
+Umbertide;Umbria;Ospedale Civile di Umbertide;1660262133
+Castel Viscardo;Umbria;Asl;3149436864
+Narni;Umbria;Presidio ospedaliero Narni;2683339413
+Orvieto;Umbria;Ospedale Santa Maria della Stella;3204463936
+San Venanzo;Umbria;U.S.L. Distretto Socio Sanitario;2550482145
+Acquapendente;Lazio;Ospedale Santa Maria della Scala;1732954478
+Capranica;Lazio;Villa Paola;246965787
+Civita Castellana;Lazio;Ospedale Andosilla di Civita Castellana;490454523
+Orte;Lazio;Centro Salute Orte;1818883486
+Tarquinia;Lazio;Ospedale;2128115697
+Viterbo;Lazio;Bel Colle;245879588
+Scandriglia;Lazio;Farmacia;3955223564
+Albano Laziale;Lazio;Ospedale Regina Apostolorum;1602697582
+Ariccia;Lazio;Luigi Spolverini;902522337
+Bracciano;Lazio;Ospedale Pubblico Padre Pio;911787320
+Genzano Di Roma;Lazio;Istituto S.Giovanni Di Dio Fate Bene Fratelli;262336538
+Genzano Di Roma;Lazio;Ospedale de Santis;825972097
+Monterotondo;Lazio;Gonfalone;1983448219
+Morlupo;Lazio;Croce Rossa Morlupo;2819141133
+Nemi;Lazio;Villa delle Querce;1035723052
+Palombara Sabina;Lazio;San Salvatore;799400828
+Rocca Di Papa;Lazio;ASL;2440169911
+Roma;Lazio;ARES118;1196645632
+Roma;Lazio;ARES118;1196645632
+Roma;Lazio;Aurelia Hospital;434692525
+Roma;Lazio;Aurelia Hospital;434692525
+Roma;Lazio;Distretto di salute mentale A.S.L. Roma D;2824672193
+Roma;Lazio;Distretto di salute mentale A.S.L. Roma D;2824672193
+Roma;Lazio;I.F.O. Istituto Regina Elena e Istituto San Gall;804465318
+Roma;Lazio;I.F.O. Istituto Regina Elena e Istituto San Gall;804465318
+Roma;Lazio;Ospedale Israelitico;365299638
+Roma;Lazio;Ospedale Israelitico;365299638
+Roma;Lazio;Ospedale San Giovanni Battista;262114028
+Roma;Lazio;Ospedale San Giovanni Battista;262114028
+Roma;Lazio;Policlinico Tor Vergata;924590499
+Roma;Lazio;Policlinico Tor Vergata;924590499
+Roma;Lazio;Pronto Soccorso;248528643
+Roma;Lazio;Pronto Soccorso;248528643
+Roma;Lazio;Pronto Soccorso;2318096925
+Roma;Lazio;Pronto Soccorso;2318096925
+Roma;Lazio;Villa Sandra;428571538
+Roma;Lazio;Villa Sandra;428571538
+Roma;Lazio;Villa Stuart;3034658080
+Roma;Lazio;Villa Stuart;3034658080
+Roma;Lazio;Villa Tiberia;1925831648
+Roma;Lazio;Villa Tiberia;1925831648
+Tivoli;Lazio;San Giovanni Evangelista;748775623
+Valmontone;Lazio;Croce Rossa;839208231
+Ladispoli;Lazio;POSTAZIONE 118;2936704791
+Fiumicino;Lazio;Ospedale Pediatrico Bambin Gesu;251871299
+Gaeta;Lazio;Sala Mortuaria;3400475533
+Castel Volturno;Campania;Clinica Pineta Grande;1759748613
+Solopaca;Campania;Covermark Point camouflage;3762483426
+Telese Terme;Campania;Fondazione Salvatore Maugeri;1482097122
+Agerola;Campania;Guardia Medica;2452231029
+Arzano;Campania;Distretto Sanitario;2455948307
+Boscotrecase;Campania;Pronto Soccorso, presidio ospedaliero di Boscotr;2245070714
+Capri;Campania;Ospedale G. Capilupi Capri;717588934
+Frattaminore;Campania;Ospedale di Frattamaggiore San Giovanni di Dio;944699669
+Ischia;Campania;Istituto di Igiene mentale Buzziconia;2985999241
+Napoli;Campania;AOU Federico II;1180796146
+Napoli;Campania;Fatebenefratelli;1563719945
+Napoli;Campania;Santobono;434788443
+Ottaviano;Campania;Casa di cura Trusso;1457151225
+Pollena Trocchia;Campania;Presidio Sanitario Apicella;3807622459
+Portici;Campania;Guardia medica;2311452925
+Procida;Campania;Ospedale Civile Albano Francescano;536513332
+San Gennaro Vesuviano;Campania;Casa di cura La Madonnina;2778473426
+San Giuseppe Vesuviano;Campania;Clinica Santa Lucia;1462176201
+Vico Equense;Campania;Ospedale De Luca e Rossano;686531791
+Montella;Campania;Misericordia Montella;1436186943
+Battipaglia;Campania;Clinica Salus;1105817999
+Battipaglia;Campania;Santa Maria della Speranza;1089138199
+Buonabitacolo;Campania;Guardia Medica;2251338911
+Celle Di Bulgheria;Campania;Guardia Medica;1704258810
+Eboli;Campania;Campolongo Hospital;1107808246
+Oliveto Citra;Campania;San Francesco D'Assisi;1089165860
+Padula;Campania;Clinica Fischietti;2251342126
+Petina;Campania;Guardia medica;3441511946
+Polla;Campania;"Ospedaliero """"Luigi Curto""""";3508293448
+Ravello;Campania;Amalfi Coast Hospital;2089784335
+Roccadaspide;Campania;Distretto ASL SA3 di Roccadaspide;546428302
+Roccadaspide;Campania;Ospedale di Roccadaspide;450198361
+Torchiara;Campania;Guardia Medica;2806634148
+Castel Del Monte;Abruzzo;Ambulatorio Medico;2725529566
+Castel Di Sangro;Abruzzo;Presidio Ospedaliero;1497306398
+L'Aquila;Abruzzo;San Salvatore;309825644
+L'Aquila;Abruzzo;Villa Letizia;3776497182
+Pescocostanzo;Abruzzo;Guardia Medica;2956884002
+Pratola Peligna;Abruzzo;Croce Verde;1604313268
+Sulmona;Abruzzo;"Ospedale Civile """"SS. Annunziata""""";1389962789
+Silvi;Abruzzo;Presidio sanitario Silvi;2962649633
+Pescara;Abruzzo;"Casa di Cura Privata """"Pierangeli""""";414248160
+Chieti;Abruzzo;Ospedale Clinicizzato Ss. Annunziata;283246152
+Campobasso;Molise;Ospedale Antonio Cardarelli;2774114656
+Campobasso;Molise;Pronto Soccorso;2672544500
+Castelnuovo Della Daunia;Puglia;Clinica De Luca;2288509818
+Cerignola;Puglia;Tatarella;293551107
+Foggia;Puglia;"Casa Divina Provvidenza """"Don Uva""""";836076221
+Foggia;Puglia;Clinica Colonnello D'Avanzo;351142744
+Lesina;Puglia;Pronto Soccorso Estivo;1241563267
+San Marco In Lamis;Puglia;Ospedale di San Marco in Lamis;2293620765
+Sannicandro Garganico;Puglia;a.s.l.fg;2156948851
+San Severo;Puglia;Ospedale Teresa Masselli Mascia;1240376403
+San Severo;Puglia;Ospedale Teresa Masselli Mascia;1240376442
+Bari;Puglia;Ambulatorio medico - Croce Rossa Italiana;1433747566
+Bari;Puglia;Ambulatorio Primo Soccorso - First Aid - Croce R;1412486593
+Bari;Puglia;ex C.T.O;616872053
+Bari;Puglia;First Aid - university;2124054724
+Bari;Puglia;Mater Dei;1291624453
+Bari;Puglia;Prontosoccorso policlinico;3874499030
+Gioia Del Colle;Puglia;Centro Nazionale Riabilitativo per Hanseniani;2137514980
+Gravina In Puglia;Puglia;Guardia Medica;3354040309
+Gravina In Puglia;Puglia;Pronto Soccorso;3342451831
+Polignano A Mare;Puglia;Punto di primo intervento;567243847
+Ruvo Di Puglia;Puglia;Diagnostica s.r.l.;3536974724
+Sammichele Di Bari;Puglia;Guardia Medica;2393726733
+Terlizzi;Puglia;Pronto Soccorso;323970296
+Triggiano;Puglia;"Ospedale """"Francesca Fallacara""""";1443084160
+Triggiano;Puglia;"Ospedale """"Francesca Fallacara"""" Padiglione Nord";1443084176
+Castellaneta;Puglia;Ospedale castellaneta;2808373547
+Grottaglie;Puglia;ASL;2454234307
+Grottaglie;Puglia;Pronto Soccorso 118;2374710402
+Martina Franca;Puglia;Civile di Martina Franca;590052359
+Taranto;Puglia;Ospedale Militare Marittimo;1376709969
+Taranto;Puglia;Ospedale Militare Marittimo;1376709969
+Statte;Puglia;Ospedale G. Moscati;1375792171
+Latiano;Puglia;guardia medica;2097713322
+Galatina;Puglia;Clinica S. Francesco;2154757521
+Gallipoli;Puglia;"Ospedale """"Sacro Cuore""""";1350293449
+Lecce;Puglia;Clinica Petrucciani;2347705644
+Nardo';Puglia;Ospedale Civile Giuseppe Sambiasi;966256936
+Salice Salentino;Puglia;Poliambulatorio San Francesco;2504509546
+Trepuzzi;Puglia;118;3918739670
+Forenza;Basilicata;Pronto Soccorso;3213388604
+Potenza;Basilicata;Croce Rossa Italiana;3739240400
+Senise;Basilicata;ASL;3127463474
+Matera;Basilicata;Guardia Medica;2506049647
+Pisticci;Basilicata;Ospedale di Tinchi;2442861478
+Acri;Calabria;Presidio ospedalaliere Beato Angelo;2358340869
+Cosenza;Calabria;Pronto Soccorso;1409086932
+Luzzi;Calabria;Poliambulatorio;2272013482
+San Fili;Calabria;Casa di cura Villa Igea;3706948465
+San Giovanni In Fiore;Calabria;Pronto soccorso;1863503079
+Villapiana;Calabria;Farmacia D.ssa De Franco Rosa;3623935700
+Maida;Calabria;Ambulatorio Medico;2549611958
+Locri;Calabria;Ospedale di Locri;447451624
+Palmi;Calabria;Guardia Medica;1717736577
+Pazzano;Calabria;Guardia Medica;1667062959
+Polistena;Calabria;"Presidio Ospedaliero """"Santa Maria degli Unghere";2758237665
+Taurianova;Calabria;Ospedale di Taurianova;1362136151
+Taurianova;Calabria;Veterinario;2431244667
+Alcamo;Sicilia;"Ospedale """"San Vito e Santo Spirito""""";1503692847
+Bagheria;Sicilia;poliambulatorio USL;1879138982
+Bagheria;Sicilia;Punto di primo intervento;3563294320
+Bagheria;Sicilia;USL medicina di base;2018466720
+Bagheria;Sicilia;USL servizio veterinario;2018466722
+Cefalu';Sicilia;Pronto Soccorso;3298106707
+Corleone;Sicilia;ASP office;3970918223
+Corleone;Sicilia;Hospital;3970921973
+Geraci Siculo;Sicilia;Medical Assistance;3442497762
+Palermo;Sicilia;Casa di cura Demma;3942565372
+Palermo;Sicilia;Casa di cura NOTO Pasqualino;3942564368
+Petralia Sottana;Sicilia;"Ospedale """"Madonna dell'Alto""""";1511807213
+Pollina;Sicilia;Guardia Medica Finale;2264288522
+San Giuseppe Jato;Sicilia;guardia medica;3874635259
+Lipari;Sicilia;Ambulance;759589649
+Lipari;Sicilia;Centro Diriabilitazione Neuropsicomotoria;2320159644
+Messina;Sicilia;Casa di Cura Villa Igea;1665759739
+Messina;Sicilia;Ospedale Papardo;1647430093
+Messina;Sicilia;Villa Salus;1678302426
+San Piero Patti;Sicilia;P. T. E.;3120527367
+Agrigento;Sicilia;Ambulatorio medico;2341948097
+Agrigento;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455389
+Agrigento;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455406
+Agrigento;Sicilia;Servizio continuità assistenziale (ex Guardia M;2176931644
+Alessandria Della Rocca;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455468
+Aragona;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455414
+Bivona;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455475
+Burgio;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455473
+Caltabellotta;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455467
+Caltabellotta;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455469
+Camastra;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455387
+Campobello Di Licata;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455386
+Canicatti';Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455407
+Casteltermini;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455466
+Castrofilippo;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455405
+Cattolica Eraclea;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455409
+Cattolica Eraclea;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455418
+Cianciana;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455465
+Comitini;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455415
+Favara;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455398
+Joppolo Giancaxio;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455408
+Lampedusa E Linosa;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455381
+Licata;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455382
+Licata;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455383
+Lucca Sicula;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455471
+Menfi;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455474
+Montallegro;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455410
+Montevago;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455480
+Naro;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455391
+Palma Di Montechiaro;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455384
+Palma Di Montechiaro;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455385
+Porto Empedocle;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455390
+Porto Empedocle;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455395
+Racalmuto;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455412
+Racalmuto;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455413
+Raffadali;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455411
+Ravanusa;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455388
+Realmonte;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455397
+Realmonte;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455396
+Ribera;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455417
+Ribera;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455437
+Sambuca Di Sicilia;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455478
+San Biagio Platani;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455446
+San Giovanni Gemini;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455477
+Santa Elisabetta;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455416
+Santa Margherita Di Belice;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455479
+Sant'Angelo Muxaro;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455433
+Santo Stefano Quisquina;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455476
+Siculiana;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455403
+Villafranca Sicula;Sicilia;Servizio continuità assistenziale (ex Guardia M;2142455472
+Caltanissetta;Sicilia;Ospedale San Elia;2713620698
+Enna;Sicilia;Umberto 1°;529486348
+Piazza Armerina;Sicilia;Ospedale Michele Chiello;1664732380
+Aci Castello;Sicilia;Guardia Medica;2412380560
+Caltagirone;Sicilia;Gravina;312672489
+Catania;Sicilia;NAS Sigonella Hospital;1956584790
+Nicolosi;Sicilia;Analisi Service;3809824961
+Pedara;Sicilia;AUSL3 Azienda Unità Sanitaria Locale;1240849873
+Valverde;Sicilia;Guardia Medica;3404194550
+Zafferana Etnea;Sicilia;Guardia medica;1214187752
+Ragusa;Sicilia;Guardia Medica;3855605457
+Ragusa;Sicilia;Guardia Medica;2249465540
+Santa Croce Camerina;Sicilia;Medlab;3777530657
+Santa Croce Camerina;Sicilia;Radiologia Dott. Gerratana;3796102194
+Buscemi;Sicilia;Guardia medica;3136636640
+Lentini;Sicilia;Flight Line Clinic;1956529094
+Alghero;Sardegna;Ospedale Civile di Alghero;1163107779
+Alghero;Sardegna;Ospedale Marino Regina Margherita;1163107774
+Onani';Sardegna;Ambulatorio Onanì;2544242086
+Maracalagonis;Sardegna;Guardia Medica;3350116131
+Maracalagonis;Sardegna;Guardia Medica;3350116131
+Roveredo In Piano;Friuli-Venezia Giulia;RSA;1835568061
+Cabras;Sardegna;118;3118753598
+Mogoro;Sardegna;Guardia medica;2614920362
+Ponderano;Piemonte;Ospedale degli Infermi;3185119556
+Introbio;Lombardia;A.S.L. Presidio di Introbio;2621644202
+Introbio;Lombardia;"R.S.A. """"Villa Serena"""" - Casa di Riposo";2621644204
+Lodi;Lombardia;Ospedale Maggiore;564682203
+Rimini;Emilia-Romagna;Ospedale dei villeggianti;1934414893
+Prato;Toscana;Casa di cura Villa Fiorita;2357663100
+Crotone;Calabria;ASP;1584061157
+Omegna;Piemonte;Ospedale Madonna del Popolo;1313078620
+Pieve Vergonte;Piemonte;Distretto Sanitario ASL 14;3196013184
+Pieve Vergonte;Piemonte;Veterinario;3726707110
+Santa Teresa Gallura;Sardegna;Guardia Medica;2839889768
+Carbonia;Sardegna;Ospedale Sirai;1529348762
+Carate Brianza;Lombardia;Bianalisi s.r.l. Analisi Mediche;3655972703
+Limbiate;Lombardia;Villa Bianca - Multimedica;1301169753
+Lissone;Lombardia;Croce Verde Lissonese;2429516858
+Seregno;Lombardia;Centro Psico - Sociale Seregno;905797149
+Varedo;Lombardia;Varedo Soccorso;2912402416
+Andria;Puglia;Guardia Medica;418759967
+Minervino Murge;Puglia;Ospedale Civile;667117500
+Trani;Puglia;San Nicola Pellegrino;387221877

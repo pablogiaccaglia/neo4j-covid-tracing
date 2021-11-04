@@ -1,0 +1,758 @@
+city;admin_name;name;ID
+Bardonecchia;Piemonte;Sabrina;3700735141
+Chieri;Piemonte;;1739777081
+Chivasso;Piemonte;;966247815
+Chivasso;Piemonte;;966248025
+Ivrea;Piemonte;ABCinema d'Essai;773637449
+Ivrea;Piemonte;Cinema Boaro;1876474160
+Moncalieri;Piemonte;UCG Cinema;262100274
+Pinerolo;Piemonte;Cinema Hollywood;3352525199
+Pinerolo;Piemonte;Cinema Italia;2425831724
+Rivoli;Piemonte;Cinema Teatro Borgonuovo;1855973149
+Sestriere;Piemonte;Cinema Fraiteve;3721581842
+Torino;Piemonte;Cinecafé Ambrosio;3274388861
+Torino;Piemonte;Cinema Eliseo;2113383951
+Torino;Piemonte;Cinema Lux;1350142517
+Torino;Piemonte;Cinema Romano;1370040605
+Torino;Piemonte;Cineplex Massaua;2049845183
+Torino;Piemonte;Classico;3284942161
+Torino;Piemonte;Due Giardini;735032355
+Torino;Piemonte;Greenwich Village;248787330
+Torino;Piemonte;Maffei;1467593787
+Torino;Piemonte;Metropol;1467593792
+Torino;Piemonte;Nazionale;2791170550
+Torino;Piemonte;The Space Cinema;2688303785
+Torino;Piemonte;UCI Cinemas Lingotto;1172116311
+Varallo;Piemonte;Cinema Oratorio Sottoriva;2627228401
+Vercelli;Piemonte;Cinema Italia;499620955
+Bellinzago Novarese;Piemonte;Movie Planet;2145291059
+Novara;Piemonte;VIP;2036115172
+Alba;Piemonte;Cine4;1749822805
+Borgo San Dalmazzo;Piemonte;Cinelandia;1967623229
+Centallo;Piemonte;Lux;1730573268
+Cuneo;Piemonte;Lanteri;1970779012
+Asti;Piemonte;Nuovo Splendor;1470052046
+Alessandria;Piemonte;Cinema Teatro Alessandrino;1891230225
+Alessandria;Piemonte;Cinema Teatro Macallè;3626519732
+Alessandria;Piemonte;Multisala Kristalli;3640431757
+Alessandria;Piemonte;UCI Cinemas;3604599298
+Ovada;Piemonte;Cinema Teatro Comunale;1631132523
+Tortona;Piemonte;Megaplex Stardust;1749595238
+Valenza;Piemonte;Cineteatro Sociale;1639017564
+Aosta;Valle d'Aosta;Cinéma Théatre de la Ville;1270415684
+Ayas;Valle d'Aosta;Cinema Sant'Anna;372793690
+Cogne;Valle d'Aosta;Gran Paradiso;1842637099
+Courmayeur;Valle d'Aosta;;3110756774
+Courmayeur;Valle d'Aosta;;3722861892
+Saint-Christophe;Valle d'Aosta;Cinelandia;1984398245
+Saint-Vincent;Valle d'Aosta;Cinema Auditorium IPR;2387376837
+Verres;Valle d'Aosta;Cinema Ideal;1729271446
+Imperia;Liguria;Cinema Centrale;1321427854
+Imperia;Liguria;Cinema Imperia;472445152
+San Bartolomeo Al Mare;Liguria;Smeraldo;3725430216
+San Remo;Liguria;Cinema Ariston;503198215
+Borgio Verezzi;Liguria;Cinema Teatro Gassmann;1417138880
+Finale Ligure;Liguria;Cinema all'aperto;1712120655
+Savona;Liguria;Multisala Diana;601477594
+Savona;Liguria;Nuovo Filmstudio;602511004
+Chiavari;Liguria;Cinema Mignon;3610446816
+Genova;Liguria;America;253268182
+Genova;Liguria;Ariston;253266745
+Genova;Liguria;Chiabrera;3120670438
+Genova;Liguria;Cinema Cappuccini;750786139
+Genova;Liguria;Cinema Centrale;897271247
+Genova;Liguria;Cinema Corallo;2178108475
+Genova;Liguria;Cinema Eden;331552714
+Genova;Liguria;Cinema Eldorado;966304779
+Genova;Liguria;Cinema teatro Verdi;302324772
+Genova;Liguria;City;253486824
+Genova;Liguria;Nickelodeon;413995838
+Genova;Liguria;Nuovo Cinema Palmaro;442709467
+Genova;Liguria;Odeon;253266819
+Genova;Liguria;Olimpia;253486101
+Genova;Liguria;San Giovanni Battista;303163729
+Genova;Liguria;Sìvori;413995262
+Genova;Liguria;The Space Cinema;252806062
+Genova;Liguria;UCI Cinemas Fiumara;253267452
+Ronco Scrivia;Liguria;Columbia;3468419999
+Rossiglione;Liguria;Cinema Comunale;686595637
+La Spezia;Liguria;Controluce;2027126976
+Monterosso Al Mare;Liguria;;3554116493
+Bisuschio;Lombardia;Cinema S. Giorgio;1576834890
+Gavirate;Lombardia;Eden;3844356305
+Gavirate;Lombardia;Garden;3846864772
+Germignaga;Lombardia;Cinema Teatro Italia;3205978480
+Grantola;Lombardia;Mignon;3870607268
+Olgiate Olona;Lombardia;Cinema Nuovo;1282636374
+Origgio;Lombardia;CineTeatro San Giuseppe;659798280
+Saronno;Lombardia;Multisala Saronnese;1907266823
+Somma Lombardo;Lombardia;Cinema Odeon;2333695682
+Tradate;Lombardia;Starplex;1865594176
+Travedona-Monate;Lombardia;Santamanzio;2692927046
+Varese;Lombardia;Cinema Teatro Nuovo;1343526652
+San Fedele Intelvi;Lombardia;;2565813535
+Aprica;Lombardia;;1026730066
+Morbegno;Lombardia;Cinema Iris;2833186449
+Morbegno;Lombardia;Cinema Pedretti;2833186450
+Morbegno;Lombardia;Cinema Tre;2833186451
+Sondrio;Lombardia;excelsior;2575898174
+Abbiategrasso;Lombardia;cinema al corso;450562080
+Arese;Lombardia;Cinema Teatro Arese;1999713424
+Arluno;Lombardia;Cinema Oratorio;609695758
+Bellinzago Lombardo;Lombardia;Arcadia;906715849
+Bollate;Lombardia;Splendor;912755868
+Bollate;Lombardia;Splendor;912755868
+Bresso;Lombardia;;577786811
+Cernusco Sul Naviglio;Lombardia;Cine Teatro Agorà;445325846
+Gorgonzola;Lombardia;Cinema Sala Argentia;544451639
+Legnano;Lombardia;Cinema Galleria;714791302
+Legnano;Lombardia;Cinema Ratti;868475135
+Milano;Lombardia;Anteo;252634867
+Milano;Lombardia;Apollo;435199449
+Milano;Lombardia;Arcobaleno Film Center;442138046
+Milano;Lombardia;Arena Umanitaria;1977225057
+Milano;Lombardia;Arianteo Conservatorio;1977225058
+Milano;Lombardia;Ariosto;442586656
+Milano;Lombardia;Arlecchino;2420779234
+Milano;Lombardia;Centrale;442587403
+Milano;Lombardia;Cinema Orchidea;3840440921
+Milano;Lombardia;Colosseo;442587550
+Milano;Lombardia;Don Bosco;358878181
+Milano;Lombardia;Ducale;29978509
+Milano;Lombardia;Eliseo;442588357
+Milano;Lombardia;Europlex Bicocca;250051812
+Milano;Lombardia;Garden;255138301
+Milano;Lombardia;Gloria;268616396
+Milano;Lombardia;Gnomo;442590118
+Milano;Lombardia;Mexico;442591065
+Milano;Lombardia;Odeon;251293086
+Milano;Lombardia;Orfeo;268616425
+Milano;Lombardia;Rosetum;995613962
+Milano;Lombardia;Spazio Oberdan;1977225059
+Milano;Lombardia;UCI Cinemas Certosa;714322674
+Paderno Dugnano;Lombardia;"Cinema Multisala """"Le Giraffe""""";2525339105
+Pioltello;Lombardia;UCI cinemas;445312008
+Rozzano;Lombardia;Medusa multisala;590353684
+Sesto San Giovanni;Lombardia;Skyline;1505376846
+Albino;Lombardia;Cineteatro Nuovo;1975212592
+Alzano Lombardo;Lombardia;Cineam dell'oratorio di Alzano Lombardo;3021940972
+Bergamo;Lombardia;Conca Verde;450615075
+Branzi;Lombardia;;1811307308
+Romano Di Lombardia;Lombardia;Multisala il Borgo;3242944010
+Sorisole;Lombardia;Cinema Agorá;1638074371
+Bagnolo Mella;Lombardia;;2441147381
+Brescia;Lombardia;Astra;733086608
+Brescia;Lombardia;Moretto;733086600
+Brescia;Lombardia;Multisala OZ;1265574878
+Brescia;Lombardia;Multisala Wiz;732898944
+Brescia;Lombardia;Nuovo Eden;1773639455
+Brescia;Lombardia;Sociale;733086621
+Capriolo;Lombardia;Gemini;370344532
+Collebeato;Lombardia;Cinema San Filippo Neri;2793795094
+Desenzano Del Garda;Lombardia;Cinema Paolo VI;3013962671
+Gargnano;Lombardia;Il teatrino;3979506088
+Montichiari;Lombardia;Cinema Teatro Gloria;2148210147
+Rovato;Lombardia;;2121226949
+Salo';Lombardia;Cinema teatro Cristal;1403540617
+Montebello Della Battaglia;Lombardia;The Space Multisala;2698875903
+Parona;Lombardia;Movie Planet Parona;694681554
+Pavia;Lombardia;Cinema Teatro Politeama;3569173697
+Rivanazzano;Lombardia;Cinema Sociale;2433981108
+Voghera;Lombardia;Cinema - Teatro Arlecchino;623548753
+Bagnolo Cremasco;Lombardia;;2286070168
+Crema;Lombardia;Sala Alessandrini;3771702547
+Cremona;Lombardia;;854329790
+Spino D'Adda;Lombardia;Cinema Vottoria;3364335016
+Asola;Lombardia;San Carlo;1477405279
+Mantova;Lombardia;;2820177751
+Bressanone;Trentino-Alto Adige;Sternkino;2398204047
+Caldaro Sulla Strada Del Vino;Trentino-Alto Adige;;1743011198
+Cles;Trentino-Alto Adige;;939451818
+Coredo;Trentino-Alto Adige;Cinema Dolomiti;2140551480
+Folgaria;Trentino-Alto Adige;Cinema Paradiso;1806514145
+Lavarone;Trentino-Alto Adige;Cinema Dolomiti;1732128586
+Lavarone;Trentino-Alto Adige;Cinema Teatro Dolomiti;3170252310
+Male';Trentino-Alto Adige;Cinema Comunale;1098424206
+Pergine Valsugana;Trentino-Alto Adige;Cinema  Teatro Pergine Valsugana;2853936060
+Predazzo;Trentino-Alto Adige;Bar Teatro;2208013392
+Predazzo;Trentino-Alto Adige;Cinema;269955384
+Rovereto;Trentino-Alto Adige;Supercinema Rosmini;417419594
+Trento;Trentino-Alto Adige;Supercinema Vittoria;269184853
+Bardolino;Veneto;;835598169
+Cerea;Veneto;Cinema Mignon;1402598138
+Cerea;Veneto;Cinema Principe;3214419210
+Isola Della Scala;Veneto;Cap. Bovo;1740460012
+Legnago;Veneto;Cinema Italia;1417495630
+San Bonifacio;Veneto;Cinema Cristallo;1941683049
+Sommacampagna;Veneto;;2407813146
+Sona;Veneto;The space cinemas;2989532864
+Valeggio Sul Mincio;Veneto;;2835348134
+Verona;Veneto;Arena estiva Fiume;2381215266
+Verona;Veneto;Cinema Diamante;1462387106
+Verona;Veneto;Cinema Multisala Rivoli;1152590532
+Verona;Veneto;Cinema Pindemonte;262307626
+Asiago;Veneto;Lux;1373709124
+Bassano Del Grappa;Veneto;Astra;506466076
+Bassano Del Grappa;Veneto;Cinema all'aperto Giardini Parolini;1795363443
+Bassano Del Grappa;Veneto;Cinema Grotta;1421298580
+Bassano Del Grappa;Veneto;Metropolis cinema multisala;506461391
+Bassano Del Grappa;Veneto;Sala Martinovich;1587579132
+Gallio;Veneto;Cineghel;1762104950
+Malo;Veneto;Aurora;3135341630
+Marostica;Veneto;Sala Micropolis;2878909741
+Rossano Veneto;Veneto;Cinema Estivo all'aperto;1567309156
+Schio;Veneto;Cinema Salesiani;1411213452
+Schio;Veneto;Cinema Teatro Pasubio;345834526
+Schio;Veneto;Cinema Teatro Sociale;341157821
+Tonezza Del Cimone;Veneto;Cinema Tonezza;3914291067
+Torrebelvicino;Veneto;Cinema Arcobaleno;311389234
+Torri Di Quartesolo;Veneto;The Space;1998787402
+Valdagno;Veneto;Cinema Teatro Super;1800416591
+Vicenza;Veneto;Cinema Patronato;2801987021
+Vicenza;Veneto;Cinema Roma;2115061857
+Vicenza;Veneto;Cinema Teatro San Marco;612195662
+Vicenza;Veneto;Ex-Cinema Arlecchino;3538934250
+Vicenza;Veneto;Patronato Leone XIII Ekuò;2780522369
+Belluno;Veneto;;4018386158
+Feltre;Veneto;OffiCinema;300997241
+Santo Stefano Di Cadore;Veneto;Cinema Piave;3014739319
+Quero Vas;Veneto;;1824482351
+Castelfranco Veneto;Veneto;Multisala Hesperia;736523050
+Mogliano Veneto;Veneto;Cinema Busan;857484461
+Montebelluna;Veneto;Italia Eden;1402453777
+Paese;Veneto;Cinema Edera;500616960
+Pieve Di Soligo;Veneto;Cinema Teatro Careni;1461896066
+Silea;Veneto;Cinecity - The Space Cinema;190392858
+Treviso;Veneto;"Cinema Teatro """"Embassy""""";1237234215
+Treviso;Veneto;"Multisala """"Corso""""";1950581665
+Vittorio Veneto;Veneto;Bianconiglio;1565688120
+Vittorio Veneto;Veneto;Cinema Estate;1575557337
+Cavarzere;Veneto;Cinema Verdi;1499655901
+Concordia Sagittaria;Veneto;;1880763898
+Marcon;Veneto;Uci Cinema;1859393968
+San Dona' Di Piave;Veneto;;445126814
+San Dona' Di Piave;Veneto;;3268128171
+San Michele Al Tagliamento;Veneto;;3186083987
+Spinea;Veneto;Ai bersaglieri;466226986
+Venezia;Veneto;;1024991380
+Venezia;Veneto;;1024991380
+Venezia;Veneto;;1814292386
+Venezia;Veneto;;1814292386
+Venezia;Veneto;Giorgione;1627214317
+Venezia;Veneto;Giorgione;1627214317
+Venezia;Veneto;IMG Piazza Candiani;3883895942
+Venezia;Veneto;IMG Piazza Candiani;3883895942
+Venezia;Veneto;Rossini;3354644723
+Venezia;Veneto;Rossini;3354644723
+Padova;Veneto;Astra;250135708
+Padova;Veneto;Cinema Concordi;476638123
+Padova;Veneto;Cinema Cristallo;1218298761
+Padova;Veneto;Cinema Lux;617417280
+Padova;Veneto;Cinema Rex;2804058326
+Padova;Veneto;Multisala MPX;476638165
+Padova;Veneto;Multisala PortoAstra;746507331
+Padova;Veneto;Torresino;1460204861
+Adria;Veneto;Cinema Teatro Politeama;3353099529
+Rovigo;Veneto;Cinema Duomo;257437196
+Rovigo;Veneto;Cinergia;2383309043
+Rovigo;Veneto;Don Bosco;921257007
+Porto Viro;Veneto;Cinema Eden;1501848829
+Buja;Friuli-Venezia Giulia;;1741399640
+Pradamano;Friuli-Venezia Giulia;The Space;527332536
+Udine;Friuli-Venezia Giulia;Centrale;1119814211
+Udine;Friuli-Venezia Giulia;Cinema Diana;630794527
+Udine;Friuli-Venezia Giulia;Visionario;795959692
+Gorizia;Friuli-Venezia Giulia;Kinemax Gorizia;316495408
+Villesse;Friuli-Venezia Giulia;UCI Cinemas;3864637007
+Trieste;Friuli-Venezia Giulia;Ariston dei Fabbri;2414220134
+Trieste;Friuli-Venezia Giulia;Cinema Ambasciatori;1822587746
+Trieste;Friuli-Venezia Giulia;Cinema Ariston;343320780
+Trieste;Friuli-Venezia Giulia;Cinema Federico Fellini;314396371
+Trieste;Friuli-Venezia Giulia;Cinema Giotto;1822587745
+Trieste;Friuli-Venezia Giulia;Cinema Nazionale;255711607
+Trieste;Friuli-Venezia Giulia;The Space (ex CineCity);314394320
+Caorso;Emilia-Romagna;Cine Fox;1938073113
+Castel San Giovanni;Emilia-Romagna;;955208721
+Rottofreno;Emilia-Romagna;Cinema Jolly2;2317280590
+Parma;Emilia-Romagna;CineCity;564669262
+Parma;Emilia-Romagna;Warner Village;343657223
+Albinea;Emilia-Romagna;Cinema Apollo;3012937610
+Casalgrande;Emilia-Romagna;Cinema nuovo roma;2297852636
+Reggio Nell'Emilia;Emilia-Romagna;Cinema Olimpia;920542484
+Reggio Nell'Emilia;Emilia-Romagna;City-In;2645251588
+Reggio Nell'Emilia;Emilia-Romagna;Cristallo;2582050278
+Sant'Ilario D'Enza;Emilia-Romagna;Forum;612940040
+Carpi;Emilia-Romagna;Cinema Del Corso;1618024194
+Carpi;Emilia-Romagna;Space City;1581366486
+Frassinoro;Emilia-Romagna;Cinemalux;290278246
+Modena;Emilia-Romagna;Michelangelo;1320140157
+Novi Di Modena;Emilia-Romagna;Cinema Teatro LUX;1610889969
+Baricella;Emilia-Romagna;Santa Maria;1213592776
+Bologna;Emilia-Romagna;Bellinzona;3181504341
+Bologna;Emilia-Romagna;Bloom Culture Teatri;3645563600
+Bologna;Emilia-Romagna;Capitol;3241249259
+Bologna;Emilia-Romagna;Chaplin;3181507492
+Bologna;Emilia-Romagna;Cinema Arlecchino;1685235409
+Bologna;Emilia-Romagna;Cinema Lumière;1735448480
+Bologna;Emilia-Romagna;Cinema Medica Palace;1312716242
+Bologna;Emilia-Romagna;Cinema Orione;964932949
+Bologna;Emilia-Romagna;Cineteca di Bologna;3181344021
+Bologna;Emilia-Romagna;Jolly;3181441641
+Bologna;Emilia-Romagna;Nuovo Nosadella;3181344018
+Bologna;Emilia-Romagna;Perla;3182766145
+Bologna;Emilia-Romagna;Smeraldo;3817706458
+Bologna;Emilia-Romagna;The Space Cinema;1621390104
+Casalecchio Di Reno;Emilia-Romagna;Uci Cinemas Meridiana;853173714
+Imola;Emilia-Romagna;CineCircolo Cappuccini;2181326211
+Imola;Emilia-Romagna;Cinema Cristallo;246493836
+Minerbio;Emilia-Romagna;Mandrioli;1216084409
+Pianoro;Emilia-Romagna;Star City;1669292767
+San Giovanni In Persiceto;Emilia-Romagna;Cinema Giada;3909471987
+Sant'Agata Bolognese;Emilia-Romagna;Cinecì;531294965
+Vergato;Emilia-Romagna;Cinema Nuovo;811406731
+Cento;Emilia-Romagna;Cinepark Cinema Multisala;2199578727
+Cento;Emilia-Romagna;Don Zucchini;2450671594
+Ferrara;Emilia-Romagna;Cinema Boldini;1249700590
+Ferrara;Emilia-Romagna;Cinema parrocchiale di San Benedetto;1235745384
+Ferrara;Emilia-Romagna;Multisala Apollo Cinepark;1251039469
+Ferrara;Emilia-Romagna;UCI Cinemas;1255267630
+Bagnacavallo;Emilia-Romagna;;3419889951
+Cervia;Emilia-Romagna;Cinema Sarti;667881374
+Conselice;Emilia-Romagna;Cinema parrocchiale;1172710312
+Faenza;Emilia-Romagna;Cinema Italia;2313747032
+Faenza;Emilia-Romagna;Sarti;2313747051
+Ravenna;Emilia-Romagna;Cinema City;657853385
+Ravenna;Emilia-Romagna;Mariani;2585089489
+Cesena;Emilia-Romagna;Cinema Astra;256784755
+Cesena;Emilia-Romagna;Cinema Eliseo Multisala;3499819542
+Forli';Emilia-Romagna;Cinema Apollo;971825810
+Forli';Emilia-Romagna;Cinema Eliseo;2900666154
+Forli';Emilia-Romagna;"Cinema """"Saffi""""";1104914492
+Forli';Emilia-Romagna;Multisala Astoria;1140049300
+Forlimpopoli;Emilia-Romagna;"Multisala """"Cineflash""""";1319770562
+Fano;Marche;"Cinema Teatro """"Masetti""""";1490433052
+Fano;Marche;Cityplex Politeama;1597985102
+Fano;Marche;Malatesta;1598153211
+Fano;Marche;UCI Cinemas;590031865
+Pergola;Marche;capitol;1904017593
+Pesaro;Marche;Multisala Metropolis;766426276
+Pesaro;Marche;UCI Cinemas;2089791115
+Urbania;Marche;SALA LUX;3229582465
+Ancona;Marche;Cinema Teatro Dorico;687053357
+Ancona;Marche;Cinema Teatro Galleria;1311372023
+Ancona;Marche;Cinemazzurro;1311371745
+Ancona;Marche;Multisala Goldoni;1000475955
+Ancona;Marche;UCI Cinemas Ancona;893969287
+Castelfidardo;Marche;Cinema Teatro Astra;1870966935
+Castelleone Di Suasa;Marche;Cinema Suasa;259723419
+Fabriano;Marche;Cinema Montini;1468816625
+Fabriano;Marche;Movieland Multisala;1202391037
+Maiolati Spontini;Marche;Cinema Nuovo Ariston;3180285196
+Numana;Marche;Cinema Arena Italia;2532660693
+Senigallia;Marche;Cinema Teatro La Piccola Fenice;2783499144
+Senigallia;Marche;Uci Cinemas Senigallia;1484736353
+Camerino;Marche;Cinema Teatro Comunale M. Betti;684286700
+Civitanova Marche;Marche;Capitol;1413618397
+Macerata;Marche;Cinema Italia;1352788356
+Macerata;Marche;Multiplex2000;462246099
+Matelica;Marche;;1839733066
+Recanati;Marche;Multicinema Sabbatini;1413590715
+Tolentino;Marche;Giometti cinema;1388726771
+Ussita;Marche;;859523964
+Ascoli Piceno;Marche;Multiplex delle Stelle;644068429
+Ascoli Piceno;Marche;Multiplex delle Stelle;644068429
+Ascoli Piceno;Marche;Odeon Multisala;639343070
+Ascoli Piceno;Marche;Piceno Multisala;639343069
+Cupra Marittima;Marche;Cinema Margherita;1717069517
+Carrara;Toscana;Supercinema;370832156
+Barga;Toscana;Puccini;2517150520
+Barga;Toscana;Roma;2517516293
+Lucca;Toscana;Astra;3168348026
+Lucca;Toscana;Cinema Centrale;1948962722
+Pietrasanta;Toscana;Italia;1409520703
+Viareggio;Toscana;Eden;664070060
+Viareggio;Toscana;Eolo;664070062
+Viareggio;Toscana;Multisala Goldoni;1676985210
+Viareggio;Toscana;Odeon;664070061
+Pistoia;Toscana;Globo;2503728699
+Pistoia;Toscana;Lux;2139016688
+Pistoia;Toscana;Roma;3256462761
+Empoli;Toscana;Excelsior;1698428320
+Empoli;Toscana;La Perla;1698427836
+Fiesole;Toscana;Cinema Unione Girone;3914962189
+Firenze;Toscana;;2364507502
+Firenze;Toscana;Cinema Castello;3914910412
+Firenze;Toscana;Cinema Cinecittà;3914930975
+Firenze;Toscana;Cinema CineRigacci;3914910411
+Firenze;Toscana;Cinema Fiamma;3914932159
+Firenze;Toscana;Cinema Fiorella Atelier;3089718408
+Firenze;Toscana;Cinema Flora Atelier;1260432731
+Firenze;Toscana;Cinema Fulgor;3914938240
+Firenze;Toscana;Cinema Marconi;3914940631
+Firenze;Toscana;Cinema Officine Cinematografiche - Sala Signori;3914951454
+Firenze;Toscana;Cinema Portico;3914951757
+Firenze;Toscana;Cinema Principe;3914951455
+Firenze;Toscana;Cinema Spazio Alfieri;3914951685
+Firenze;Toscana;Cinema Spazio Uno;3914929936
+Firenze;Toscana;Cinema Stensen;3914951456
+Firenze;Toscana;Odeon Cinehall;2953868598
+Firenze;Toscana;UCI cinemas;533613242
+Firenze;Toscana;UCI Cinemas;2091252665
+Greve In Chianti;Toscana;Cinema Boito;1088852932
+Lastra A Signa;Toscana;;1589290251
+San Casciano In Val Di Pesa;Toscana;Cinema Everest;595572469
+Scandicci;Toscana;Cinema Cabiria;541185690
+Scandicci;Toscana;Supercinema Aurora;533694248
+Sesto Fiorentino;Toscana;Multisala Grotta;560422830
+Castagneto Carducci;Toscana;;3177062150
+Castagneto Carducci;Toscana;Arena Etruria;1388699884
+Livorno;Toscana;;2375216156
+Livorno;Toscana;Arena Estiva Ardenza;2082670320
+Livorno;Toscana;Aurora;391750319
+Livorno;Toscana;Cinema Gran Guardia;2609894405
+Livorno;Toscana;Cinema Teatro Quattro Mori;391925259
+Livorno;Toscana;Kino Dessè;1294200368
+Livorno;Toscana;Multisala Grande;2980869501
+Livorno;Toscana;Salesiani;1570750244
+Livorno;Toscana;The Space Cinema;1474898011
+Marciana Marina;Toscana;Cinemare;452948103
+Marciana Marina;Toscana;Metropolis;1340334561
+Piombino;Toscana;Odeon;1970213701
+Rosignano Marittimo;Toscana;;1713957077
+Rosignano Marittimo;Toscana;;1723040156
+San Vincenzo;Toscana;;1399996446
+Pisa;Toscana;Ciak;2969257837
+Pisa;Toscana;Cinema Arno;253554577
+Pisa;Toscana;Cinema Arsenale;3489102937
+Pisa;Toscana;Cinema teatro Lux;2661741071
+Pisa;Toscana;Cinema teatro Nuovo;1677276923
+Pisa;Toscana;Lanteri;3323919870
+Pontedera;Toscana;Circolo Cinematografico Agorà;1813913094
+Volterra;Toscana;Cinema Centrale Multisala;471087414
+Arezzo;Toscana;Politeama;1960949131
+Arezzo;Toscana;UCI Arezzo;663188696
+Bibbiena;Toscana;Italia;3854080671
+Bucine;Toscana;Cinema Ambra;3175628266
+Montevarchi;Toscana;Cine8;500919179
+Sansepolcro;Toscana;Dante;1683198237
+Sansepolcro;Toscana;Nuova Aurora;1683117737
+Colle Di Val D'Elsa;Toscana;Cinema S.Agostino;1490181940
+Poggibonsi;Toscana;Cinema Garibaldi;3709369352
+Siena;Toscana;Cinema Nuovo Pendola;496123836
+Sinalunga;Toscana;UCI Cinemas Sinalunga;254058342
+Castiglione Della Pescaia;Toscana;Cinema;2475514018
+Follonica;Toscana;Cinema Astra;3003818928
+Grosseto;Toscana;Cinema;3598244304
+Grosseto;Toscana;Cinema all'aperto / Spettacoli;3143607468
+Grosseto;Toscana;The Space cinema;1651578966
+Citta' Di Castello;Umbria;Cinema Eden;1480423640
+Citta' Di Castello;Umbria;Nuovo Cinema Castello;3833641114
+Corciano;Umbria;The Space cinema;1737773293
+Foligno;Umbria;Multisala Supercinema Clarici;2616045820
+Gubbio;Umbria;Cinema Astra;3154005232
+Gubbio;Umbria;Cinema Italia;1870786187
+Marsciano;Umbria;Cinema Concordia;3227768173
+Perugia;Umbria;Cinema Pavone;1942098827
+Perugia;Umbria;Nuovo Cinema Méliès;2494949679
+Perugia;Umbria;PostModernissimo;3366294910
+Perugia;Umbria;Sant'Angelo Cinematografo Teatro;1728788965
+Perugia;Umbria;UCI Cinemas;1514200378
+Perugia;Umbria;Zenith;1731560125
+Umbertide;Umbria;Metropolis cinema;1664061614
+Orvieto;Umbria;Cinema Corso;1449350664
+Terni;Umbria;Cityplex Politeama Lucioli;3839528428
+Montefiascone;Lazio;Cinema Gallery;757452223
+Tuscania;Lazio;Supercinema;1930180202
+Valentano;Lazio;Cinema Colombo;3422166427
+Rieti;Lazio;Multisala Moderno;2763598274
+Anzio;Lazio;Astoria;442495480
+Anzio;Lazio;Moderno;442495672
+Genzano Di Roma;Lazio;Cinema Multisala Cynthianum;1000774083
+Grottaferrata;Lazio;Al Fellini;905085280
+Monterotondo;Lazio;Mancini;1996953352
+Roma;Lazio;Admiral;1283216891
+Roma;Lazio;Admiral;1283216891
+Roma;Lazio;Adriano;309569303
+Roma;Lazio;Adriano;309569303
+Roma;Lazio;Alcazar;1528875622
+Roma;Lazio;Alcazar;1528875622
+Roma;Lazio;Alhambra;3476234693
+Roma;Lazio;Alhambra;3476234693
+Roma;Lazio;Andromeda;610928685
+Roma;Lazio;Andromeda;610928685
+Roma;Lazio;Azzurro Scipioni;1334091777
+Roma;Lazio;Azzurro Scipioni;1334091777
+Roma;Lazio;Barberini;612605225
+Roma;Lazio;Barberini;612605225
+Roma;Lazio;Brodway;1701670092
+Roma;Lazio;Brodway;1701670092
+Roma;Lazio;Cinecittà;899270724
+Roma;Lazio;Cinecittà;899270724
+Roma;Lazio;Cineclub Alphaville;248663946
+Roma;Lazio;Cineclub Alphaville;248663946
+Roma;Lazio;Cineclub Detour;1542593183
+Roma;Lazio;Cineclub Detour;1542593183
+Roma;Lazio;Cineclub Kino;1759856900
+Roma;Lazio;Cineclub Kino;1759856900
+Roma;Lazio;CineClub Podere Rosa;1601383258
+Roma;Lazio;CineClub Podere Rosa;1601383258
+Roma;Lazio;Cineland;388097156
+Roma;Lazio;Cineland;388097156
+Roma;Lazio;Cinema CIAK;916548809
+Roma;Lazio;Cinema CIAK;916548809
+Roma;Lazio;Cinema Royal;276555836
+Roma;Lazio;Cinema Royal;276555836
+Roma;Lazio;Cinema Savoy;301336161
+Roma;Lazio;Cinema Savoy;301336161
+Roma;Lazio;Cinema Teatro Don Bosco;3889651820
+Roma;Lazio;Cinema Teatro Don Bosco;3889651820
+Roma;Lazio;Cinema Tiziano;309568195
+Roma;Lazio;Cinema Tiziano;309568195
+Roma;Lazio;Cinestar Cassia;916498660
+Roma;Lazio;Cinestar Cassia;916498660
+Roma;Lazio;Doria;422034617
+Roma;Lazio;Doria;422034617
+Roma;Lazio;Eden;1160046238
+Roma;Lazio;Eden;1160046238
+Roma;Lazio;Empire;310479059
+Roma;Lazio;Empire;310479059
+Roma;Lazio;EUR Cine;250884088
+Roma;Lazio;EUR Cine;250884088
+Roma;Lazio;Europa;1023823864
+Roma;Lazio;Europa;1023823864
+Roma;Lazio;Farnese;257352141
+Roma;Lazio;Farnese;257352141
+Roma;Lazio;Fiamma;1118787065
+Roma;Lazio;Fiamma;1118787065
+Roma;Lazio;Filmstudio;267112900
+Roma;Lazio;Filmstudio;267112900
+Roma;Lazio;Galaxi;610928412
+Roma;Lazio;Galaxi;610928412
+Roma;Lazio;Giulio Cesare;612601679
+Roma;Lazio;Giulio Cesare;612601679
+Roma;Lazio;Greenwich;251888861
+Roma;Lazio;Greenwich;251888861
+Roma;Lazio;Madison;260540041
+Roma;Lazio;Madison;260540041
+Roma;Lazio;Maestoso;1269962043
+Roma;Lazio;Maestoso;1269962043
+Roma;Lazio;Multisala Atlantic;266493853
+Roma;Lazio;Multisala Atlantic;266493853
+Roma;Lazio;Nuovo Cinema Aquila;330885344
+Roma;Lazio;Nuovo Cinema Aquila;330885344
+Roma;Lazio;Nuovo Olimpia;1257246656
+Roma;Lazio;Nuovo Olimpia;1257246656
+Roma;Lazio;Nuovo Sacher;248674890
+Roma;Lazio;Nuovo Sacher;248674890
+Roma;Lazio;open air;393179330
+Roma;Lazio;open air;393179330
+Roma;Lazio;Quattro Fontane;250889369
+Roma;Lazio;Quattro Fontane;250889369
+Roma;Lazio;Reale;248676601
+Roma;Lazio;Reale;248676601
+Roma;Lazio;The Space-Moderno;1222037500
+Roma;Lazio;The Space-Moderno;1222037500
+Roma;Lazio;Trianon;1267228617
+Roma;Lazio;Trianon;1267228617
+Roma;Lazio;UCI - 8 sale;1507335546
+Roma;Lazio;UCI - 8 sale;1507335546
+Roma;Lazio;Warner Village;367251977
+Roma;Lazio;Warner Village;367251977
+Tivoli;Lazio;Cinema Giuseppetti;3476274460
+Velletri;Lazio;Augustus Multiplex;665482026
+Aprilia;Lazio;Multiplex Village;861012765
+Fondi;Lazio;SuperCinema;669812227
+Gaeta;Lazio;Ariston;3394164813
+Itri;Lazio;;2188746694
+Latina;Lazio;Corso;764449199
+Latina;Lazio;Giacomini;764449196
+Latina;Lazio;Supercinema;764449194
+Minturno;Lazio;Cinema Arena Eden;2887215843
+Terracina;Lazio;Rio Cinema Multisala;1575174523
+Frosinone;Lazio;Multisala Sisto;1929283107
+Isola Del Liri;Lazio;;2338289231
+Curti;Campania;Cinema Fellini;2465270827
+San Cipriano D'Aversa;Campania;Faro;764075051
+Afragola;Campania;Happy Maxicinema;1704639198
+Casalnuovo Di Napoli;Campania;;3750393937
+Castellammare Di Stabia;Campania;Cinema Montil;1631087510
+Castellammare Di Stabia;Campania;Stabia Hall;1631084455
+Forio;Campania;;1654201977
+Ischia;Campania;Cinema Excelsior;1879168101
+Napoli;Campania;Cinema delle Palme;499480599
+Napoli;Campania;Cinema Filangieri;499479012
+Napoli;Campania;Cinema Metropolitan;499480400
+Napoli;Campania;Plaza - ingresso Bernini;1418558868
+Napoli;Campania;Plaza - ingresso Kerbaker;1418558871
+Nola;Campania;The Space Cinema;966077292
+Piano Di Sorrento;Campania;Cimena delle Rose;1330756567
+Pomigliano D'Arco;Campania;Teatro Cinema GLORIA;1481651330
+Procida;Campania;Procida Hall;2126186960
+San Giorgio A Cremano;Campania;Flaminio;298270500
+Sorrento;Campania;Armida;679074648
+Lioni;Campania;;1643376287
+Mercogliano;Campania;Movieplex;1693972997
+Montella;Campania;Cinema Fierro;1436226469
+Montella;Campania;Fontana Parco Giochi;1436185060
+Battipaglia;Campania;Garofalo;1089138269
+Cava De' Tirreni;Campania;Cine Alambra;2397899318
+Eboli;Campania;Cinema Italia;1105027089
+Nocera Superiore;Campania;Italia;849595690
+Salerno;Campania;Cinema Apollo;2841282795
+Salerno;Campania;Cinema Fatima;2847372915
+Salerno;Campania;Cinema Teatro Augusteo;2796871163
+Salerno;Campania;Cinema Teatro San Demetrio;2841285453
+Teramo;Abruzzo;Cinema Comunale;1084506648
+Teramo;Abruzzo;Cinema Smeraldo;1084506645
+Montesilvano;Abruzzo;The Space Cinema;75251540
+Pescara;Abruzzo;Pescara Cityplex;3292291236
+Spoltore;Abruzzo;Cinema Arca Multiplex;135133652
+Torre De' Passeri;Abruzzo;Ciccillino;490585867
+Chieti;Abruzzo;Giometti;590031698
+Chieti;Abruzzo;Teatro Auditorium Supercinema;734442785
+Francavilla Al Mare;Abruzzo;Asterope;948559067
+Termoli;Molise;Cinema Sant'Antonio;687321749
+Foggia;Puglia;Cinema Ariston;1517625256
+Foggia;Puglia;La città del cinema;617187895
+San Severo;Puglia;Cinema;1238336211
+Vieste;Puglia;;3699804523
+Bari;Puglia;;3439716849
+Bari;Puglia;Cinema Armenise;639357019
+Bari;Puglia;Cinema Royal;620120661
+Bari;Puglia;Esedra;643883764
+Bari;Puglia;Multicinema Galleria;360070137
+Bari;Puglia;Nuovo Splendor;1242093379
+Bari;Puglia;Odeon;849689836
+Casamassima;Puglia;The Space Cinema;1634080143
+Corato;Puglia;Cinema Elia;578119728
+Molfetta;Puglia;Cinema Odeon;2069339077
+Molfetta;Puglia;UCI Cinemas multisala;448683033
+Terlizzi;Puglia;Piccolo Osservatorio Garzia;563766858
+Castellaneta;Puglia;IMAX;2306636080
+Ginosa;Puglia;;2062261874
+Grottaglie;Puglia;Cinema Vittoria;2462950214
+Martina Franca;Puglia;Cinema Teatro Nuovo;477498744
+Martina Franca;Puglia;Cinema Teatro Verdi;592016534
+Taranto;Puglia;Cinema Lumiere;2184740610
+Taranto;Puglia;Cinema Lumiere;2184740610
+Latiano;Puglia;cine-teatro Olmi;2410441862
+Galatina;Puglia;;2173154835
+Maglie;Puglia;Cinema Moderno;3580537995
+Taviano;Puglia;;2353348298
+Potenza;Basilicata;Don Bosco;3654413788
+Venosa;Basilicata;;2267274165
+Matera;Basilicata;Cinema Comunale;2505383729
+Amantea;Calabria;Arena Sicoli;1923309770
+Diamante;Calabria;vittoria;1414409471
+Catanzaro;Calabria;Cinema Teatro Masciari;1787826504
+Catanzaro;Calabria;TheSpace;1856099751
+Reggio Di Calabria;Calabria;Cinema Nuova Pergola;811798512
+Marsala;Sicilia;Cinema Centrale;881239511
+Campofelice Di Roccella;Sicilia;Arena Re;2942539216
+Cefalu';Sicilia;Cinema de Francesc a;3826590511
+Palermo;Sicilia;ABC;268695044
+Palermo;Sicilia;Ariston;277642730
+Palermo;Sicilia;Cinema Lux;3730965262
+Palermo;Sicilia;Cine Multisala Marconi;618709524
+Palermo;Sicilia;Dante;267186897
+Palermo;Sicilia;Fiamma (nel 2015 non attivo);271672159
+Palermo;Sicilia;Gaudium;573760502
+Palermo;Sicilia;Golden;573760503
+Palermo;Sicilia;Imperia;268695275
+Palermo;Sicilia;King;3483720080
+Palermo;Sicilia;King;3800809853
+Palermo;Sicilia;UCI Cinemas;3241235167
+Villabate;Sicilia;Cine Ambassador;412327779
+Lipari;Sicilia;Museo del Cinema;3419393690
+Messina;Sicilia;Apollo;3404942513
+Messina;Sicilia;Cine Capitol;3120571791
+Messina;Sicilia;Lux;3404942516
+Milazzo;Sicilia;Liga;2703924085
+Agrigento;Sicilia;Cine Astor;1913916305
+Agrigento;Sicilia;Cinema Concordia;1913919134
+Agrigento;Sicilia;cinema multisala Ciak;962993052
+Porto Empedocle;Sicilia;cinema multisala Mezzano;1913933924
+Gela;Sicilia;Cine Teatro Antidoto;3719711777
+Piazza Armerina;Sicilia;Teatro Garibaldi;1664822167
+Caltagirone;Sicilia;Cineteatro Sant'Anna;2351946827
+Catania;Sicilia;;1956586420
+Catania;Sicilia;ABC;310484907
+Catania;Sicilia;Alfieri;309476307
+Catania;Sicilia;Arena Adua;297883789
+Catania;Sicilia;Arena Corsaro;297883786
+Catania;Sicilia;Ariston;309466252
+Catania;Sicilia;Capitol;317430354
+Catania;Sicilia;Corsaro;297883790
+Catania;Sicilia;King;318607654
+Catania;Sicilia;Lo Pò;2058561640
+Catania;Sicilia;Odeon;3259731762
+Catania;Sicilia;Recupero;320041349
+Catania;Sicilia;Tiffany;309123975
+Giarre;Sicilia;Cineteatro Garibaldi;2002700577
+Motta Sant'Anastasia;Sicilia;Cinema Virgillito;929553592
+San Giovanni La Punta;Sicilia;Cine Centrale;317492309
+San Giovanni La Punta;Sicilia;Multiplex Cinestar;316514588
+Ispica;Sicilia;Cinema Diana;454383800
+Modica;Sicilia;Aurora;877283753
+Ragusa;Sicilia;Cinema La Licata;2324552406
+Ragusa;Sicilia;Cine Teatro Don Bosco;3232369112
+Ragusa;Sicilia;Lumière;2397539469
+Scicli;Sicilia;Cine-Arena;2560793526
+Alghero;Sardegna;Miramare;1163331316
+Sassari;Sardegna;Cinema Moderno;2278931518
+Sassari;Sardegna;Ex Cinema Ariston;4017967928
+Dorgali;Sardegna;;2254697969
+Cagliari;Sardegna;Cinema Odissea;2508589301
+Cagliari;Sardegna;Cinema Odissea;2508589301
+Cagliari;Sardegna;Cinema Odissea;2508589301
+Cagliari;Sardegna;Greenwich d'essai;2508488940
+Cagliari;Sardegna;Greenwich d'essai;2508488940
+Cagliari;Sardegna;Greenwich d'essai;2508488940
+Cagliari;Sardegna;Multisala Cineworld;1436689026
+Cagliari;Sardegna;Multisala Cineworld;1436689026
+Cagliari;Sardegna;Multisala Cineworld;1436689026
+Cagliari;Sardegna;UCI Cinemas;1452759826
+Cagliari;Sardegna;UCI Cinemas;1452759826
+Cagliari;Sardegna;UCI Cinemas;1452759826
+Quartucciu;Sardegna;Warner village The space;867589445
+Quartucciu;Sardegna;Warner village The space;867589445
+Maniago;Friuli-Venezia Giulia;Cinema Manzoni;3427386912
+Pordenone;Friuli-Venezia Giulia;Cinema Don Bosco;1309384861
+Pordenone;Friuli-Venezia Giulia;CinemaZero;446008451
+Sacile;Friuli-Venezia Giulia;Teatro ruffo;3297493561
+Ghilarza;Sardegna;Cinema Joseph;3227058661
+Oristano;Sardegna;Cinema Multisala Ariston;3275219840
+Biella;Piemonte;Cinema Mazzini;2246723263
+Biella;Piemonte;Cinema Teatro Odeon;2246723266
+Candelo;Piemonte;Cinema Verdi;471945783
+Cossato;Piemonte;Cinema Teatro Comunale;2131182338
+Vigliano Biellese;Piemonte;Cineteatro Erios;2420559039
+Mandello Del Lario;Lombardia;Cine teatro F. De Andrè;2888790555
+Lodi;Lombardia;Cinema del Viale;566454948
+Lodi;Lombardia;Fanfulla;3383756674
+Lodi;Lombardia;Moderno;3383734219
+Pieve Fissiraga;Lombardia;Cinelandia;1819025450
+Santarcangelo Di Romagna;Emilia-Romagna;Teatro Supercinema;1737593750
+Pennabilli;Emilia-Romagna;Cinema Gambrinus;2858050764
+Prato;Toscana;Eden;622540449
+Prato;Toscana;Excelsior;622540462
+Prato;Toscana;Multiplex Omnia Center;622540398
+Prato;Toscana;Terminale;622540432
+Crotone;Calabria;Sala Raimondi;1310845517
+Cannobio;Piemonte;;1414937182
+Domodossola;Piemonte;Cinema Corso;448941947
+Malesco;Piemonte;;2548323748
+Omegna;Piemonte;;465188385
+Tempio Pausania;Sardegna;;479953708
+Carbonia;Sardegna;Supercinema;2006430322
+Brugherio;Lombardia;Cinema Teatro San Giuseppe;822310974
+Carate Brianza;Lombardia;Vfx Cinema e TV di Federico Surace;3355590948
+Lissone;Lombardia;Cineteatro Excelsior;647694268
+Lissone;Lombardia;UCI Cinemas Lissone;647686881
+Monza;Lombardia;Capitol;455980207
+Lentate Sul Seveso;Lombardia;Cinema Teatro Sant'Angelo;3992149991
+Fermo;Marche;Super 8;2665758497
+Porto Sant'Elpidio;Marche;Multiplex;253327471
+Servigliano;Marche;Multisala;1217649652
+Andria;Puglia;Multisala Roma;3109427880
+Barletta;Puglia;Cinema Opera;565693494
