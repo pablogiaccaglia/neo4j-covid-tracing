@@ -1,5 +1,6 @@
 from neo4j import GraphDatabase
 
+
 class CovidGraphHandler:
 
     def __init__(self, uri, user, password):
@@ -16,7 +17,6 @@ class CovidGraphHandler:
     def testPersonsCreation(self):
         with self.driver.session() as session:
             session.write_transaction(self.createPerson)
-
 
     @staticmethod
     def _create_and_return_greeting(tx, message):

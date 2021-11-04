@@ -3,7 +3,7 @@ import enum
 import random
 import string
 from collections import namedtuple
-from csv import DictReader, DictWriter
+from csv import DictReader, DictWriter, reader, writer
 
 personalInfoFilePath = "datasets/personal_info_reduced.txt"
 namesFilePath = "datasets/names.csv"
@@ -80,10 +80,10 @@ def getRandomDocument() -> Document:
     return random.choice(Document.values.value)
 
 
-def standardizeCSVColumn(csvPath, columnName):
+def standardizeCSVColumn(csvPath, columnName, delimiter = ':') -> None:
     """converts each row of the given column in the csv in a standard lowercase format with first letter uppercase"""
     try:
-        reader = DictReader(open(csvPath), delimiter = ';')
+        reader = DictReader(open(csvPath), delimiter = delimiter)
         if columnName not in reader.fieldnames:
             raise Exception
     except:
@@ -93,17 +93,17 @@ def standardizeCSVColumn(csvPath, columnName):
     fileExtension = csvPath.find('.csv')
     outputString = csvPath[:fileExtension] + '_standardized' + csvPath[fileExtension:]
 
-    writer = DictWriter(open(outputString, 'w'), reader.fieldnames, delimiter = ';')
+    writer = DictWriter(open(outputString, 'w'), reader.fieldnames, delimiter = delimiter)
     writer.writeheader()
     for row in reader:
         row[columnName] = row[columnName].title()
         writer.writerow(row)
 
 
-def removeNullRows(csvPath):
+def removeNullRows(csvPath, delimiter = ':') -> None:
     """ removes all the row which contains at least one null value"""
     try:
-        reader = DictReader(open(csvPath), delimiter = ';')
+        reader = DictReader(open(csvPath), delimiter = delimiter)
     except:
         print("cannot remove null values")
         return
@@ -111,7 +111,7 @@ def removeNullRows(csvPath):
     fileExtension = csvPath.find('.csv')
     outputString = csvPath[:fileExtension] + '_no_nulls' + csvPath[fileExtension:]
 
-    writer = DictWriter(open(outputString, 'w'), reader.fieldnames, delimiter = ';')
+    writer = DictWriter(open(outputString, 'w'), reader.fieldnames, delimiter = delimiter)
     writer.writeheader()
 
     for row in reader:
@@ -123,7 +123,7 @@ def removeNullRows(csvPath):
             writer.writerow(row)
 
 
-def removeDuplicateRows(csvPath):
+def removeDuplicateRows(csvPath) -> None:
     written_entries = []
 
     fileExtension = csvPath.find('.csv')
@@ -140,7 +140,19 @@ def removeDuplicateRows(csvPath):
                         written_entries.append(column)
 
 
+def convertCSVDelimiter(csvPath, oldDelimiter, newDelimiter) -> None:
+
+    fileExtension = csvPath.find('.csv')
+    outputString = csvPath[:fileExtension] + '_converted' + csvPath[fileExtension:]
+
+    with open(csvPath) as in_file, open(outputString, 'w') as out_file:
+        inCSV = reader(in_file, delimiter = oldDelimiter)
+        outCSV = writer(out_file, delimiter = newDelimiter)
+        for row in inCSV:
+            outCSV.writerow(row)
+
+
 if __name__ == '__main__':
     #  standardizeCSVColumn("datasets/original/italian_theaters.csv", 'city')
     #  removeNullRows("datasets/original/italian_theaters_standardized.csv")
-    removeDuplicateRows("datasets/original/vaccines.csv")
+    convertCSVDelimiter("datasets/final/italian_hospitals_standardized_no_nulls.csv", ';', ',')
