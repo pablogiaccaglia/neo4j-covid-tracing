@@ -11,7 +11,6 @@ import pandas as pd
 # using the reduced version of the original 'personal_info'
 # because it is huge (part of 2019 Facebook data breach)
 personalInfoFilePath = "datasets/personal_info_reduced.txt"
-
 namesFilePath = "datasets/names.csv"
 
 
@@ -272,5 +271,4 @@ def createNamesCSV() -> None:
 
 
 if __name__ == '__main__':
-    #  addStreetToPlacesCSV("datasets/final/italian_cafes_standardized_no_nulls.csv", ',')
-    pass
+    addStreetToPlacesCSV("datasets/final/italian_cafes_standardized_no_nulls.csv", ',')
