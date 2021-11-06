@@ -4,8 +4,14 @@ import random
 import string
 from collections import namedtuple
 from csv import DictReader, DictWriter, reader, writer
+from OSMPythonTools.api import Api
+from OSMPythonTools.nominatim import Nominatim
+import pandas as pd
 
+# using the reduced version of the original 'personal_info'
+# because it is huge (part of 2019 Facebook data breach)
 personalInfoFilePath = "datasets/personal_info_reduced.txt"
+
 namesFilePath = "datasets/names.csv"
 
 
@@ -80,30 +86,10 @@ def getRandomDocument() -> Document:
     return random.choice(Document.values.value)
 
 
-def standardizeCSVColumn(csvPath, columnName, delimiter = ':') -> None:
-    """converts each row of the given column in the csv in a standard lowercase format with first letter uppercase"""
-    try:
-        reader = DictReader(open(csvPath), delimiter = delimiter)
-        if columnName not in reader.fieldnames:
-            raise Exception
-    except:
-        print("cannot standardize")
-        return
-
-    fileExtension = csvPath.find('.csv')
-    outputString = csvPath[:fileExtension] + '_standardized' + csvPath[fileExtension:]
-
-    writer = DictWriter(open(outputString, 'w'), reader.fieldnames, delimiter = delimiter)
-    writer.writeheader()
-    for row in reader:
-        row[columnName] = row[columnName].title()
-        writer.writerow(row)
-
-
 def removeNullRows(csvPath, delimiter = ':') -> None:
     """ removes all the row which contains at least one null value"""
     try:
-        reader = DictReader(open(csvPath), delimiter = delimiter)
+        dictReader = DictReader(open(csvPath), delimiter = delimiter)
     except:
         print("cannot remove null values")
         return
@@ -111,16 +97,16 @@ def removeNullRows(csvPath, delimiter = ':') -> None:
     fileExtension = csvPath.find('.csv')
     outputString = csvPath[:fileExtension] + '_no_nulls' + csvPath[fileExtension:]
 
-    writer = DictWriter(open(outputString, 'w'), reader.fieldnames, delimiter = delimiter)
-    writer.writeheader()
+    dictWriter = DictWriter(open(outputString, 'w'), dictReader.fieldnames, delimiter = delimiter)
+    dictWriter.writeheader()
 
-    for row in reader:
+    for row in dictReader:
         nullFound = False
         for column, value in row.items():
             if value is None or value == "":
                 nullFound = True
         if not nullFound:
-            writer.writerow(row)
+            dictWriter.writerow(row)
 
 
 def removeDuplicateRows(csvPath) -> None:
@@ -140,8 +126,27 @@ def removeDuplicateRows(csvPath) -> None:
                         written_entries.append(column)
 
 
-def convertCSVDelimiter(csvPath, oldDelimiter, newDelimiter) -> None:
+def standardizeCSVColumn(csvPath, columnName, delimiter = ':') -> None:
+    """converts each row of the given column in the csv in a standard lowercase format with first letter uppercase"""
+    try:
+        dictReader = DictReader(open(csvPath), delimiter = delimiter)
+        if columnName not in dictReader.fieldnames:
+            raise Exception
+    except:
+        print("cannot standardize")
+        return
 
+    fileExtension = csvPath.find('.csv')
+    outputString = csvPath[:fileExtension] + '_standardized' + csvPath[fileExtension:]
+
+    dictWriter = DictWriter(open(outputString, 'w'), dictReader.fieldnames, delimiter = delimiter)
+    dictWriter.writeheader()
+    for row in dictReader:
+        row[columnName] = row[columnName].title()
+        dictWriter.writerow(row)
+
+
+def convertCSVDelimiter(csvPath, oldDelimiter, newDelimiter) -> None:
     fileExtension = csvPath.find('.csv')
     outputString = csvPath[:fileExtension] + '_converted' + csvPath[fileExtension:]
 
@@ -152,7 +157,120 @@ def convertCSVDelimiter(csvPath, oldDelimiter, newDelimiter) -> None:
             outCSV.writerow(row)
 
 
+def getOSMAddressFromID(ID) -> str:
+    try:
+        api = Api()
+        busStop = api.query('way/' + str(ID))
+
+        tags = busStop.tags()
+
+        return tags["addr:street"]
+    except:
+        return "None"
+
+
+def findAddress(queryString) -> ['namedtuple']:
+    placeInfo = namedtuple("placeInfo", ['id', 'address'])
+
+    try:
+        nominatim = Nominatim()
+        result = nominatim.query(queryString)
+
+        placeElements = result.displayName().split(',')
+
+        if placeElements[1].isdigit() or placeElements[1][1:].isdigit() or len(placeElements[1]) < 7:
+
+            streetName = placeElements[2]
+
+            if placeElements[1][0] == ' ':
+                placeElements[1] = placeElements[1][1:]
+
+            streetNumber = placeElements[1]
+
+        else:
+            streetNumber = random.randint(1, 199)
+            streetName = placeElements[1]
+
+        if streetName[0] == ' ':
+            streetName = streetName[1:]
+
+        address = streetName + " " + str(streetNumber)
+
+        info = placeInfo(id = result.id, address = address)
+
+    except:
+        info = placeInfo(id = "None", address = getRandomCityName() + " " + str(random.randint(1, 199)))
+        return info
+
+    return info
+
+
+def getRandomCityName() -> str:
+    csvfile = pd.read_csv('datasets/final/italy_cities.csv')
+    sample = csvfile.sample()
+    city = sample.values[0][0]
+    return city
+
+
+def addStreetToPlacesCSV(csvPath, delimiter) -> None:
+    fileExtension = csvPath.find('.csv')
+    outputString = csvPath[:fileExtension] + '_with_streets' + csvPath[fileExtension:]
+
+    addr = []
+
+    dictReader = DictReader(open(csvPath), delimiter = delimiter)
+
+    for row in dictReader:
+        queryString = row['city'] + " " + row['admin_name'] + " " + row['name']
+        addr.append(findAddress(queryString))
+
+    inCSV = reader(open(csvPath, 'r'))
+    outCSV = writer(open(outputString, 'w'))
+    headers = next(inCSV)
+    headers.append("address")
+    outCSV.writerow(headers)
+
+    for (row, value) in zip(inCSV, addr):
+        row.append(value.address)
+        outCSV.writerow(row)
+
+
+def buildPersonsList() -> list:
+    lines = tuple(open(personalInfoFilePath, 'r'))
+    parsedInfo = []
+    peoplesData = []
+
+    for line in lines:
+        parsedInfo.append(line.split(":"))
+
+    for info in parsedInfo:
+        if info[2] != "" and info[3] != "" and info[4] != "":
+            document = getRandomDocument()
+            Person = namedtuple("person", ["firstName", "lastName", "fullName", "sex", "birth_date", "id", "id_type"])
+            personData = Person(info[2], info[3], info[2] + " " + info[3], info[4], str(getRandomDate()),
+                                document.id(), document.name)
+            peoplesData.append(personData)
+
+    return peoplesData
+
+
+def createCSV(header, data) -> None:
+    for entry in data:
+        if len(entry) != len(header):
+            return
+
+    with open(namesFilePath, 'w') as f:
+        wrt = writer(f)
+        wrt.writerow(header)
+        wrt.writerows(data)
+
+
+def createNamesCSV() -> None:
+    names = buildPersonsList()
+    header = ["name", "surname", "fullname", "sex", "birth date", "id", "id_type"]
+    createCSV(header, names)
+
+
 if __name__ == '__main__':
-    #  standardizeCSVColumn("datasets/original/italian_theaters.csv", 'city')
-    #  removeNullRows("datasets/original/italian_theaters_standardized.csv")
-    convertCSVDelimiter("datasets/final/vaccines_no_duplicates.csv", ';', ',')
+    #  addStreetToPlacesCSV("datasets/final/italian_cafes_standardized_no_nulls.csv", ',')
+    pass
