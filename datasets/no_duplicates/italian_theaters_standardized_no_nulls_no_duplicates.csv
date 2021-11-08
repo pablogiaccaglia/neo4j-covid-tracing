@@ -1,7 +1,6 @@
 city,admin_name,name,ID
 Cambiano,Piemonte,Teatro Comunale,563313694
 Caselle Torinese,Piemonte,Tensostruttura Beato Giovanni Paolo II,1145909839
-Caselle Torinese,Piemonte,Tensostruttura Beato Giovanni Paolo II,1145909839
 Ceres,Piemonte,Gruppo Musicale,1760846493
 Chiaverano,Piemonte,Teatro Bertagnoglio,2189533333
 Orbassano,Piemonte,Teatro Sandro Pertini,920720793
@@ -177,7 +176,6 @@ Rovereto,Trentino-Alto Adige,Teatro Cinema Antonio Rosmini,3076571018
 Sarnonico,Trentino-Alto Adige,Teatro Livio Covi,2288458101
 Scurelle,Trentino-Alto Adige,Teatro,2194713687
 Storo,Trentino-Alto Adige,teatro Santa Croce,755814000
-Storo,Trentino-Alto Adige,teatro Santa Croce,755814000
 Telve,Trentino-Alto Adige,Teatro parrocchiale Telve,2628566893
 Trento,Trentino-Alto Adige,Teatro,265581228
 Trento,Trentino-Alto Adige,Teatro Concordia,1999372436
@@ -237,18 +235,11 @@ Iesolo,Veneto,Anfiteatro Piazza Aurora,1574348738
 Portogruaro,Veneto,Teatro Luigi Russolo,1867583374
 San Michele Al Tagliamento,Veneto,Teatro,3180296430
 Venezia,Veneto,Goldoni,1627037963
-Venezia,Veneto,Goldoni,1627037963
-Venezia,Veneto,Musica A Palazzo,2189496192
 Venezia,Veneto,Musica A Palazzo,2189496192
 Venezia,Veneto,Teatro Arnaldo Momo,1025016096
-Venezia,Veneto,Teatro Arnaldo Momo,1025016096
-Venezia,Veneto,Teatro Corso,2229600894
 Venezia,Veneto,Teatro Corso,2229600894
 Venezia,Veneto,Teatro La Fenice,251501878
-Venezia,Veneto,Teatro La Fenice,251501878
 Venezia,Veneto,Teatro Marinoni Bene Comune,2361767761
-Venezia,Veneto,Teatro Marinoni Bene Comune,2361767761
-Venezia,Veneto,Virtuosi de Venezia,2189874138
 Venezia,Veneto,Virtuosi de Venezia,2189874138
 Borgoricco,Veneto,Centro Civico,924233633
 Cittadella,Veneto,Teatro Sociale,2368877156
@@ -450,48 +441,26 @@ Salisano,Lazio,Teatro di Salisano,1589491472
 Anzio,Lazio,Teatro di Villa Adele,442490906
 Arsoli,Lazio,Teatro Comunale,4009575913
 Roma,Lazio,Anfitrione,266963039
-Roma,Lazio,Anfitrione,266963039
-Roma,Lazio,Auditorium RAI di via della Conciliazione,259653354
 Roma,Lazio,Auditorium RAI di via della Conciliazione,259653354
 Roma,Lazio,"Spazio Anarchico """"19 luglio""""",1793865801
-Roma,Lazio,"Spazio Anarchico """"19 luglio""""",1793865801
-Roma,Lazio,Teatro allo Scalo,356696450
 Roma,Lazio,Teatro allo Scalo,356696450
 Roma,Lazio,Teatro Ambra alla Garbatella,1646269932
-Roma,Lazio,Teatro Ambra alla Garbatella,1646269932
-Roma,Lazio,Teatro Argot Studio,1565344046
 Roma,Lazio,Teatro Argot Studio,1565344046
 Roma,Lazio,Teatro dei burattini San Carlino,1305071780
-Roma,Lazio,Teatro dei burattini San Carlino,1305071780
-Roma,Lazio,Teatro dei Satiri,3185502321
 Roma,Lazio,Teatro dei Satiri,3185502321
 Roma,Lazio,Teatro della Cometa,1391511152
-Roma,Lazio,Teatro della Cometa,1391511152
-Roma,Lazio,Teatro dell'Angelo,1524746360
 Roma,Lazio,Teatro dell'Angelo,1524746360
 Roma,Lazio,Teatro dell'Orologio,1142943804
-Roma,Lazio,Teatro dell'Orologio,1142943804
-Roma,Lazio,Teatro Ghione,1754895755
 Roma,Lazio,Teatro Ghione,1754895755
 Roma,Lazio,Teatro Golden,2593354384
-Roma,Lazio,Teatro Golden,2593354384
-Roma,Lazio,Teatro Manzoni,1046022651
 Roma,Lazio,Teatro Manzoni,1046022651
 Roma,Lazio,Teatro Olimpico,259642836
-Roma,Lazio,Teatro Olimpico,259642836
-Roma,Lazio,Teatro Parioli,614409043
 Roma,Lazio,Teatro Parioli,614409043
 Roma,Lazio,Teatro Petrolini,2737700137
-Roma,Lazio,Teatro Petrolini,2737700137
-Roma,Lazio,Teatro Prati,1756284049
 Roma,Lazio,Teatro Prati,1756284049
 Roma,Lazio,Teatro San Genesio,260204146
-Roma,Lazio,Teatro San Genesio,260204146
-Roma,Lazio,Teatro Sistina,3039065548
 Roma,Lazio,Teatro Sistina,3039065548
 Roma,Lazio,Teatro Vittoria,252419164
-Roma,Lazio,Teatro Vittoria,252419164
-Roma,Lazio,Vascello,1201568109
 Roma,Lazio,Vascello,1201568109
 Velletri,Lazio,Teatro Aurora,2187805974
 Velletri,Lazio,Teatro di Terra,2187805973
@@ -621,7 +590,6 @@ Sassari,Sardegna,Teatro Verdi,2275370524
 Dorgali,Sardegna,"Centro Polifunzionale """"Don Milani""""",2254695512
 Dorgali,Sardegna,Cineteatro Arena,2283121791
 Nuoro,Sardegna,"Anfiteatro """"Fabrizio De Andrè""""",473967404
-Maracalagonis,Sardegna,Arena Parco Gioghi Torre,3346429465
 Maracalagonis,Sardegna,Arena Parco Gioghi Torre,3346429465
 Maniago,Friuli-Venezia Giulia,Teatro Verdi,3427700467
 Pordenone,Friuli-Venezia Giulia,Teatro Verdi,410104305

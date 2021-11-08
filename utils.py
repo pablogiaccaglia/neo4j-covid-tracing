@@ -8,10 +8,19 @@ from OSMPythonTools.api import Api
 from OSMPythonTools.nominatim import Nominatim
 import pandas as pd
 
+''' paths to CSV paths in the 'final' folder '''
+italianCafesCSVPath = 'datasets/final/italian_cafes_standardized_no_nulls_with_streets_no_duplicates.csv'
+italianRestaurantsCSVPath = 'datasets/final/italian_restaurants_standardized_no_nulls_no_duplicates_with_streets.csv'
+italianCinemasCSVPath = 'datasets/final/italian_cinemas_standardized_no_nulls_no_duplicates_with_streets.csv'
+italianHospitalsCSVPath = 'datasets/final/italian_hospitals_standardized_no_nulls_no_duplicates_with_streets.csv'
+italianTheatersCSVPath = 'datasets/final/italian_theaters_standardized_no_nulls_no_duplicates_with_streets.csv'
+italianCitiesCSVPath = 'datasets/final/italy_cities.csv'
+italianStreetsCSVPath = 'datasets/final/italian_streets_no_duplicates_standardized.csv'
+vaccinesCSVPath = 'datasets/final/italian_vaccines.csv'
+peopleCSVPath = 'datasets/final/names.csv'
 # using the reduced version of the original 'personal_info'
 # because it is huge (part of 2019 Facebook data breach)
-personalInfoFilePath = "datasets/personal_info_reduced.txt"
-namesFilePath = "datasets/names.csv"
+personalInfoCSVPath = "datasets/personal_info_reduced.txt"
 
 
 def getRandomDate() -> datetime:
@@ -27,7 +36,7 @@ def getRandomDate() -> datetime:
 
 
 def getRandomResidence() -> namedtuple:
-    data = DictReader(open('datasets/original/italy_cities.csv'))
+    data = DictReader(open(italianCitiesCSVPath))
     term = random.choice([i for i in data])
     residenceTuple = namedtuple('residence', ['city', 'region', 'country'])
     residence = residenceTuple(term['city_ascii'], term['admin_name'], term['country'])
@@ -117,12 +126,10 @@ def removeDuplicateRows(csvPath) -> None:
     with open(outputString, 'w') as out_file:
         with open(csvPath, 'r') as my_file:
             for line in my_file:
-                columns = line.strip().split(',')
-                for column in columns:
-                    if column not in written_entries:
-                        print(line.strip())
-                        out_file.write(line)
-                        written_entries.append(column)
+                if line not in written_entries:
+                    print(line)
+                    out_file.write(line)
+                    written_entries.append(line)
 
 
 def standardizeCSVColumn(csvPath, columnName, delimiter = ':') -> None:
@@ -141,7 +148,8 @@ def standardizeCSVColumn(csvPath, columnName, delimiter = ':') -> None:
     dictWriter = DictWriter(open(outputString, 'w'), dictReader.fieldnames, delimiter = delimiter)
     dictWriter.writeheader()
     for row in dictReader:
-        row[columnName] = row[columnName].title()
+        word = row[columnName] + " " + str(random.randint(1, 199))
+        row[columnName] = word
         dictWriter.writerow(row)
 
 
@@ -159,9 +167,9 @@ def convertCSVDelimiter(csvPath, oldDelimiter, newDelimiter) -> None:
 def getOSMAddressFromID(ID) -> str:
     try:
         api = Api()
-        busStop = api.query('way/' + str(ID))
+        way = api.query('way/' + str(ID))
 
-        tags = busStop.tags()
+        tags = way.tags()
 
         return tags["addr:street"]
     except:
@@ -205,10 +213,17 @@ def findAddress(queryString) -> ['namedtuple']:
 
 
 def getRandomCityName() -> str:
-    csvfile = pd.read_csv('datasets/final/italy_cities.csv')
+    csvfile = pd.read_csv(italianCitiesCSVPath)
     sample = csvfile.sample()
     city = sample.values[0][0]
     return city
+
+
+def getRandomCityID() -> str:
+    csvfile = pd.read_csv(italianCitiesCSVPath)
+    sample = csvfile.sample()
+    id = sample.values[0][5]
+    return id
 
 
 def addStreetToPlacesCSV(csvPath, delimiter) -> None:
@@ -235,7 +250,7 @@ def addStreetToPlacesCSV(csvPath, delimiter) -> None:
 
 
 def buildPersonsList() -> list:
-    lines = tuple(open(personalInfoFilePath, 'r'))
+    lines = tuple(open(personalInfoCSVPath, 'r'))
     parsedInfo = []
     peoplesData = []
 
@@ -258,7 +273,7 @@ def createCSV(header, data) -> None:
         if len(entry) != len(header):
             return
 
-    with open(namesFilePath, 'w') as f:
+    with open(peopleCSVPath, 'w') as f:
         wrt = writer(f)
         wrt.writerow(header)
         wrt.writerows(data)
@@ -270,5 +285,20 @@ def createNamesCSV() -> None:
     createCSV(header, names)
 
 
+def getRandomItalianVaccine() -> str:
+    csvfile = pd.read_csv(vaccinesCSVPath)
+    sample = csvfile.sample()
+    vaccine = sample.values[0][1]
+    return vaccine
+
+
+def getRandomItalianAddress() -> str:
+    csvfile = pd.read_csv(italianStreetsCSVPath)
+    sample = csvfile.sample()
+    address = sample.values[0][0]
+    return address
+
+
 if __name__ == '__main__':
-    addStreetToPlacesCSV("datasets/final/italian_cafes_standardized_no_nulls.csv", ',')
+    print(getRandomItalianAddress())
+    pass

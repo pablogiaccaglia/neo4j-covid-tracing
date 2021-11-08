@@ -93,7 +93,6 @@ Arese,Lombardia,Cinema Teatro Arese,1999713424
 Arluno,Lombardia,Cinema Oratorio,609695758
 Bellinzago Lombardo,Lombardia,Arcadia,906715849
 Bollate,Lombardia,Splendor,912755868
-Bollate,Lombardia,Splendor,912755868
 Cernusco Sul Naviglio,Lombardia,Cine Teatro Agorà,445325846
 Gorgonzola,Lombardia,Cinema Sala Argentia,544451639
 Legnano,Lombardia,Cinema Galleria,714791302
@@ -209,10 +208,7 @@ Cavarzere,Veneto,Cinema Verdi,1499655901
 Marcon,Veneto,Uci Cinema,1859393968
 Spinea,Veneto,Ai bersaglieri,466226986
 Venezia,Veneto,Giorgione,1627214317
-Venezia,Veneto,Giorgione,1627214317
 Venezia,Veneto,IMG Piazza Candiani,3883895942
-Venezia,Veneto,IMG Piazza Candiani,3883895942
-Venezia,Veneto,Rossini,3354644723
 Venezia,Veneto,Rossini,3354644723
 Padova,Veneto,Astra,250135708
 Padova,Veneto,Cinema Concordi,476638123
@@ -325,7 +321,6 @@ Macerata,Marche,Multiplex2000,462246099
 Recanati,Marche,Multicinema Sabbatini,1413590715
 Tolentino,Marche,Giometti cinema,1388726771
 Ascoli Piceno,Marche,Multiplex delle Stelle,644068429
-Ascoli Piceno,Marche,Multiplex delle Stelle,644068429
 Ascoli Piceno,Marche,Odeon Multisala,639343070
 Ascoli Piceno,Marche,Piceno Multisala,639343069
 Cupra Marittima,Marche,Cinema Margherita,1717069517
@@ -429,92 +424,48 @@ Genzano Di Roma,Lazio,Cinema Multisala Cynthianum,1000774083
 Grottaferrata,Lazio,Al Fellini,905085280
 Monterotondo,Lazio,Mancini,1996953352
 Roma,Lazio,Admiral,1283216891
-Roma,Lazio,Admiral,1283216891
-Roma,Lazio,Adriano,309569303
 Roma,Lazio,Adriano,309569303
 Roma,Lazio,Alcazar,1528875622
-Roma,Lazio,Alcazar,1528875622
-Roma,Lazio,Alhambra,3476234693
 Roma,Lazio,Alhambra,3476234693
 Roma,Lazio,Andromeda,610928685
-Roma,Lazio,Andromeda,610928685
-Roma,Lazio,Azzurro Scipioni,1334091777
 Roma,Lazio,Azzurro Scipioni,1334091777
 Roma,Lazio,Barberini,612605225
-Roma,Lazio,Barberini,612605225
-Roma,Lazio,Brodway,1701670092
 Roma,Lazio,Brodway,1701670092
 Roma,Lazio,Cinecittà,899270724
-Roma,Lazio,Cinecittà,899270724
-Roma,Lazio,Cineclub Alphaville,248663946
 Roma,Lazio,Cineclub Alphaville,248663946
 Roma,Lazio,Cineclub Detour,1542593183
-Roma,Lazio,Cineclub Detour,1542593183
-Roma,Lazio,Cineclub Kino,1759856900
 Roma,Lazio,Cineclub Kino,1759856900
 Roma,Lazio,CineClub Podere Rosa,1601383258
-Roma,Lazio,CineClub Podere Rosa,1601383258
-Roma,Lazio,Cineland,388097156
 Roma,Lazio,Cineland,388097156
 Roma,Lazio,Cinema CIAK,916548809
-Roma,Lazio,Cinema CIAK,916548809
-Roma,Lazio,Cinema Royal,276555836
 Roma,Lazio,Cinema Royal,276555836
 Roma,Lazio,Cinema Savoy,301336161
-Roma,Lazio,Cinema Savoy,301336161
-Roma,Lazio,Cinema Teatro Don Bosco,3889651820
 Roma,Lazio,Cinema Teatro Don Bosco,3889651820
 Roma,Lazio,Cinema Tiziano,309568195
-Roma,Lazio,Cinema Tiziano,309568195
-Roma,Lazio,Cinestar Cassia,916498660
 Roma,Lazio,Cinestar Cassia,916498660
 Roma,Lazio,Doria,422034617
-Roma,Lazio,Doria,422034617
-Roma,Lazio,Eden,1160046238
 Roma,Lazio,Eden,1160046238
 Roma,Lazio,Empire,310479059
-Roma,Lazio,Empire,310479059
-Roma,Lazio,EUR Cine,250884088
 Roma,Lazio,EUR Cine,250884088
 Roma,Lazio,Europa,1023823864
-Roma,Lazio,Europa,1023823864
-Roma,Lazio,Farnese,257352141
 Roma,Lazio,Farnese,257352141
 Roma,Lazio,Fiamma,1118787065
-Roma,Lazio,Fiamma,1118787065
-Roma,Lazio,Filmstudio,267112900
 Roma,Lazio,Filmstudio,267112900
 Roma,Lazio,Galaxi,610928412
-Roma,Lazio,Galaxi,610928412
-Roma,Lazio,Giulio Cesare,612601679
 Roma,Lazio,Giulio Cesare,612601679
 Roma,Lazio,Greenwich,251888861
-Roma,Lazio,Greenwich,251888861
-Roma,Lazio,Madison,260540041
 Roma,Lazio,Madison,260540041
 Roma,Lazio,Maestoso,1269962043
-Roma,Lazio,Maestoso,1269962043
-Roma,Lazio,Multisala Atlantic,266493853
 Roma,Lazio,Multisala Atlantic,266493853
 Roma,Lazio,Nuovo Cinema Aquila,330885344
-Roma,Lazio,Nuovo Cinema Aquila,330885344
-Roma,Lazio,Nuovo Olimpia,1257246656
 Roma,Lazio,Nuovo Olimpia,1257246656
 Roma,Lazio,Nuovo Sacher,248674890
-Roma,Lazio,Nuovo Sacher,248674890
-Roma,Lazio,open air,393179330
 Roma,Lazio,open air,393179330
 Roma,Lazio,Quattro Fontane,250889369
-Roma,Lazio,Quattro Fontane,250889369
-Roma,Lazio,Reale,248676601
 Roma,Lazio,Reale,248676601
 Roma,Lazio,The Space-Moderno,1222037500
-Roma,Lazio,The Space-Moderno,1222037500
-Roma,Lazio,Trianon,1267228617
 Roma,Lazio,Trianon,1267228617
 Roma,Lazio,UCI - 8 sale,1507335546
-Roma,Lazio,UCI - 8 sale,1507335546
-Roma,Lazio,Warner Village,367251977
 Roma,Lazio,Warner Village,367251977
 Tivoli,Lazio,Cinema Giuseppetti,3476274460
 Velletri,Lazio,Augustus Multiplex,665482026
@@ -584,7 +535,6 @@ Grottaglie,Puglia,Cinema Vittoria,2462950214
 Martina Franca,Puglia,Cinema Teatro Nuovo,477498744
 Martina Franca,Puglia,Cinema Teatro Verdi,592016534
 Taranto,Puglia,Cinema Lumiere,2184740610
-Taranto,Puglia,Cinema Lumiere,2184740610
 Latiano,Puglia,cine-teatro Olmi,2410441862
 Maglie,Puglia,Cinema Moderno,3580537995
 Potenza,Basilicata,Don Bosco,3654413788
@@ -648,18 +598,9 @@ Alghero,Sardegna,Miramare,1163331316
 Sassari,Sardegna,Cinema Moderno,2278931518
 Sassari,Sardegna,Ex Cinema Ariston,4017967928
 Cagliari,Sardegna,Cinema Odissea,2508589301
-Cagliari,Sardegna,Cinema Odissea,2508589301
-Cagliari,Sardegna,Cinema Odissea,2508589301
-Cagliari,Sardegna,Greenwich d'essai,2508488940
-Cagliari,Sardegna,Greenwich d'essai,2508488940
 Cagliari,Sardegna,Greenwich d'essai,2508488940
 Cagliari,Sardegna,Multisala Cineworld,1436689026
-Cagliari,Sardegna,Multisala Cineworld,1436689026
-Cagliari,Sardegna,Multisala Cineworld,1436689026
 Cagliari,Sardegna,UCI Cinemas,1452759826
-Cagliari,Sardegna,UCI Cinemas,1452759826
-Cagliari,Sardegna,UCI Cinemas,1452759826
-Quartucciu,Sardegna,Warner village The space,867589445
 Quartucciu,Sardegna,Warner village The space,867589445
 Maniago,Friuli-Venezia Giulia,Cinema Manzoni,3427386912
 Pordenone,Friuli-Venezia Giulia,Cinema Don Bosco,1309384861
