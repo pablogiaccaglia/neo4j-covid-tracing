@@ -24,11 +24,7 @@ class CovidGraphHandler:
         self.italianVaccines = 'file:///italian_vaccines.csv'
         self.covidTestsCSVInternalPath = 'file:///covid_tests.csv'
 
-        self.italianPlacesCSVsPaths = [utils.italianCafesCSVPath,
-                                       utils.italianRestaurantsCSVPath,
-                                       utils.italianTheatersCSVPath,
-                                       utils.italianHospitalsCSVPath,
-                                       utils.italianCinemasCSVPath]
+        self.italianPlacesCSVsPaths = utils.italianPlaces
 
     def close(self):
         self.driver.close()
@@ -56,10 +52,8 @@ class CovidGraphHandler:
         self.session.write_transaction(self._createCountryNodes)
 
     def createRelationships(self):
-        self.session.write_transaction(self._createPartOfRelationship)
-        self._createLocateRelationship()
-        self._createReceivedVaccineRelationship()
-        self._livesInAndLivesWithRelationshipsHandler()
+
+        self._handleWentToRelationship()
 
     def _createTestsNodes(self, tx):
         query = """ LOAD CSV WITH HEADERS FROM '{0}'
@@ -86,7 +80,7 @@ class CovidGraphHandler:
                 LOAD CSV WITH HEADERS FROM '{0}'
                 AS line FIELDTERMINATOR ','
                 with line
-                CREATE (:Place {{name: line.name, id: toInteger(line.ID), type: 'cafe'}})
+                CREATE (:Place {{name: line.name, id: toInteger(line.ID), type: 'c afe'}})
         """.format(self.italianCafesCSVInternalPath)
 
         tx.run(query)
@@ -195,8 +189,6 @@ class CovidGraphHandler:
 
                 self.session.write_transaction(self._queryExecutor, query)
 
-
-
     def _queryExecutor(self, tx, query):
         tx.run(query)
 
@@ -222,7 +214,7 @@ class CovidGraphHandler:
         numOfVaccinatedWith1Dose = 0
         dailyNumberOfVaccinesWith1Dose = math.floor(val / 121)
         currentDailyNumberOfVaccinesWith1Dose = 0
-        currentDate = datetime.datetime(2021, 11, 7).date()
+        currentDate = datetime.date(2021, 11, 7)
 
         for entry in data:
             vaccine = utils.getRandomItalianVaccine()
@@ -256,7 +248,7 @@ class CovidGraphHandler:
         numOfVaccinatedWith2Doses = 0
         dailyNumberOfVaccinesWith2Doses = math.floor(val / 121)
         currentDailyNumberOfVaccinesWith2Doses = 0
-        currentDate = datetime.datetime(2021, 1, 5).date()
+        currentDate = datetime.date(2021, 1, 5)
 
         for entry in data:
             vaccine = utils.getRandomItalianVaccine()
@@ -283,7 +275,7 @@ class CovidGraphHandler:
 
     def _createLivesInRelationship(self, tx, entry, address, cityId):
 
-        personId = entry[5]
+        personId = entry['id']
         query = ''' 
                     MATCH (p:Person) MATCH (c:City)
                     WHERE p.id = '{0}'
@@ -311,10 +303,9 @@ class CovidGraphHandler:
         assignedAddresses = []
         multipleEntries = []
 
-        peopleData = csv.reader(open(utils.peopleCSVPath))
+        peopleData = csv.DictReader(open(utils.peopleCSVPath))
 
         enum_iter = enumerate(peopleData)
-        next(enum_iter)
 
         for idx, entry in enum_iter:
 
@@ -346,17 +337,114 @@ class CovidGraphHandler:
                     multipleEntries.remove(entry3)
                     multipleEntries2 = multipleEntries
                     for entry4 in multipleEntries2:
-                        id1 = entry3[5]
-                        id2 = entry4[5]
+                        id1 = entry3['id']
+                        id2 = entry4['id']
                         self.session.write_transaction(self._createLivesWithRelationship, id1, id2)
+
+    def _handleWentToRelationship(self):
+        peopleData = csv.DictReader(open(utils.peopleCSVPath))
+
+        for entry in peopleData:
+
+            for i in range(100):
+                placeID = utils.getRandomCityID()
+                date = (utils.getRandomDate(datetime.date(2020, 3, 10), datetime.date(2021, 11, 7)))
+                personID = entry['id']
+                self.session.write_transaction(self._createWentToRelatioship, personID, placeID, date)
+
+    def _createWentToRelatioship(self, tx, personID, placeID, date):
+
+        query = '''
+                    MATCH (pe:Person) MATCH (pl:Place)
+                    WHERE pe.id = '{0}'
+                    AND pl.id = '{1}'
+                    MERGE (pe)-[r:WENT_TO {{date : '{2}'}}]- (pl)'''.format(personID, placeID, date)
+
+        tx.run(query)
+
+    def _handleTookTestRelationship(self):
+
+        peopleData = csv.DictReader(open(utils.peopleCSVPath))
+
+        numberOfTakenTests = [0, 0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 3, 3, 4]
+
+        for entry in peopleData:
+            takes = random.choice(numberOfTakenTests)
+            personID = entry['id']
+
+            for _ in range(takes):
+                date = (utils.getRandomDate(datetime.date(2020, 3, 10), datetime.date(2021, 11, 7)))
+                test = utils.getRandomCovidTest()
+                isPositive = random.choice([True, False])
+                self.session.write_transaction(self._createTookTestRelationship, personID, date, test, isPositive)
+
+    def _createTookTestRelationship(self, tx, personID, date, test, isPositive):
+        query = '''
+                MATCH (p:Person) MATCH (t:Test)
+                WHERE p.id = '{0}'
+                AND t.type = '{1}'
+                MERGE (p)-[r:TOOK {{date : date('{2}') , isPositive : toBoolean({3}) }}]-(t)'''.format(personID, test,
+                                                                                                       date, isPositive)
+        tx.run(query)
+
+    def _handleMetRelationship(self):
+
+        peopleData = csv.DictReader(open(utils.peopleCSVPath))
+        sources = ['manual_registration', 'smartphone', 'smartwatch', 'wearable']
+
+        for entry in peopleData:
+            numberOfRelationships = random.randint(10, 100)
+
+            person1ID = entry['id']
+
+            date = (utils.getRandomDate(datetime.date(2020, 3, 10), datetime.date(2021, 11, 7)))
+
+            for _ in range(numberOfRelationships):
+
+                placeID = None
+
+                source = random.choice(sources)
+                if source == 'manual_registration':
+                    placeID = utils.getRandomPlaceID()
+
+                person2ID = utils.getRandomPersonID()
+
+                while person2ID is person1ID:
+                    person2ID = utils.getRandomPersonID()
+
+                print(person1ID)
+                print(person2ID)
+
+                self.session.write_transaction(self._createMetRelationship, person1ID, person2ID, date, source, placeID)
+
+    def _createMetRelationship(self, tx, person1ID, person2ID, date, source, placeID = None):
+
+        if placeID is not None:
+
+            query = '''
+                    MATCH (pe1:Person) MATCH (pe2:Person) MATCH (pl:Place)
+                    WHERE pe1.id = '{0}'
+                    AND pe2.id = '{1}'
+                    AND pl.id = {2}
+                    MERGE (pe1)-[r:MET {{date : date('{3}'), source : '{4}', placeID : {5} }}]-(pe2)'''.format(person1ID,
+                                                                                                              person2ID,
+                                                                                                              placeID,
+                                                                                                              date,
+                                                                                                              source,
+                                                                                                              placeID)
+        else:
+            query = '''
+                    MATCH (pe1:Person) MATCH (pe2:Person)
+                    WHERE pe1.id = '{0}'
+                    AND pe2.id = '{1}'
+                    MERGE (pe1)-[r:MET {{date : date('{2}'), source : '{3}' }}]-(pe2)'''.format(person1ID, person2ID,
+                                                                                               date, source)
+
+        tx.run(query)
 
 
 if __name__ == "__main__":
-    handler = CovidGraphHandler("URL", "USERNAME", "PASSWORD")
-    handler.createPersonNodes()
-    handler.createPlaceNodes()
-    handler.createVaccineNodes()
-    handler.createCityNodes()
-    handler.createCountryNodes()
+    handler = CovidGraphHandler("bolt://localhost:7687", "neo4j", "PablitoPablo990")
+
     handler.createRelationships()
     handler.close()

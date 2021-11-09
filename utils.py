@@ -18,14 +18,21 @@ italianCitiesCSVPath = 'datasets/final/italy_cities.csv'
 italianStreetsCSVPath = 'datasets/final/italian_streets_no_duplicates_standardized.csv'
 vaccinesCSVPath = 'datasets/final/italian_vaccines.csv'
 peopleCSVPath = 'datasets/final/names.csv'
+covidTestsCSVPath = 'datasets/final/covid_tests.csv'
 # using the reduced version of the original 'personal_info'
 # because it is huge (part of 2019 Facebook data breach)
 personalInfoCSVPath = "datasets/personal_info_reduced.txt"
 
+italianPlaces = [italianCafesCSVPath,
+                 italianRestaurantsCSVPath,
+                 italianTheatersCSVPath,
+                 italianHospitalsCSVPath,
+                 italianCinemasCSVPath]
 
-def getRandomDate() -> datetime:
-    start_date = datetime.date(1930, 1, 1)
-    end_date = datetime.date(2021, 1, 1)
+
+def getRandomDate(start_date = datetime.date(1930, 1, 1), end_date = datetime.date(2021, 1, 1)) -> datetime:
+    start_date = start_date
+    end_date = end_date
 
     time_between_dates = end_date - start_date
     days_between_dates = time_between_dates.days
@@ -90,9 +97,64 @@ class Document(enum.Enum):
     values = [CIE, DrivingLicenseCard, ItalianPassport]
 
 
+# RANDOM GETTERS
+
 def getRandomDocument() -> Document:
     return random.choice(Document.values.value)
 
+
+def getRandomCityName() -> str:
+    csvFile = pd.read_csv(italianCitiesCSVPath)
+    sample = csvFile.sample()
+    city = sample.values[0][0]
+    return city
+
+
+def getRandomCityID() -> str:
+    csvFile = pd.read_csv(italianCitiesCSVPath)
+    sample = csvFile.sample()
+    cityID = sample.values[0][5]
+    return cityID
+
+
+def getRandomItalianVaccine() -> str:
+    csvFile = pd.read_csv(vaccinesCSVPath)
+    sample = csvFile.sample()
+    vaccine = sample.values[0][1]
+    return vaccine
+
+
+def getRandomItalianAddress() -> str:
+    csvFile = pd.read_csv(italianStreetsCSVPath)
+    sample = csvFile.sample()
+    address = sample.values[0][0]
+    return address
+
+
+def getRandomCovidTest() -> str:
+    csvFile = pd.read_csv(covidTestsCSVPath)
+    sample = csvFile.sample()
+    test = sample.values[0][0]
+    return test
+
+
+def getRandomPersonID() -> str:
+    csvFile = pd.read_csv(peopleCSVPath)
+    sample = csvFile.sample()
+    personID = sample.values[0][5]
+    return personID
+
+
+def getRandomPlaceID() -> int:
+    csvFile = pd.read_csv(random.choice(italianPlaces))
+    sample = csvFile.sample()
+    placeID = sample.values[0][3]
+
+    return placeID
+
+
+
+# CSV MANIPULATION METHODS
 
 def removeNullRows(csvPath, delimiter = ':') -> None:
     """ removes all the row which contains at least one null value"""
@@ -212,20 +274,6 @@ def findAddress(queryString) -> ['namedtuple']:
     return info
 
 
-def getRandomCityName() -> str:
-    csvfile = pd.read_csv(italianCitiesCSVPath)
-    sample = csvfile.sample()
-    city = sample.values[0][0]
-    return city
-
-
-def getRandomCityID() -> str:
-    csvfile = pd.read_csv(italianCitiesCSVPath)
-    sample = csvfile.sample()
-    id = sample.values[0][5]
-    return id
-
-
 def addStreetToPlacesCSV(csvPath, delimiter) -> None:
     fileExtension = csvPath.find('.csv')
     outputString = csvPath[:fileExtension] + '_with_streets' + csvPath[fileExtension:]
@@ -285,20 +333,6 @@ def createNamesCSV() -> None:
     createCSV(header, names)
 
 
-def getRandomItalianVaccine() -> str:
-    csvfile = pd.read_csv(vaccinesCSVPath)
-    sample = csvfile.sample()
-    vaccine = sample.values[0][1]
-    return vaccine
-
-
-def getRandomItalianAddress() -> str:
-    csvfile = pd.read_csv(italianStreetsCSVPath)
-    sample = csvfile.sample()
-    address = sample.values[0][0]
-    return address
-
-
 if __name__ == '__main__':
-    print(getRandomItalianAddress())
+    print(getRandomDate())
     pass
