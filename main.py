@@ -52,7 +52,12 @@ class CovidGraphHandler:
         self.session.write_transaction(self._createCountryNodes)
 
     def createRelationships(self):
-
+        self.session.write_transaction(self._createPartOfRelationship)
+        self._createLocateRelationship()
+        self._createReceivedVaccineRelationship()
+        self._livesInAndLivesWithRelationshipsHandler()
+        self._handleTookTestRelationship()
+        self._handleMetRelationship()
         self._handleWentToRelationship()
 
     def _createTestsNodes(self, tx):
@@ -445,6 +450,11 @@ class CovidGraphHandler:
 
 if __name__ == "__main__":
     handler = CovidGraphHandler("bolt://localhost:7687", "neo4j", "PASSWORD")
-
+    handler.createPersonNodes()
+    handler.createPlaceNodes()
+    handler.createVaccineNodes()
+    handler.createTestsNodes()
+    handler.createCityNodes()
+    handler.createCountryNodes()
     handler.createRelationships()
     handler.close()
