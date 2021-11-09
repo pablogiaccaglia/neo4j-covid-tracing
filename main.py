@@ -444,7 +444,7 @@ class CovidGraphHandler:
 
 
 if __name__ == "__main__":
-    handler = CovidGraphHandler("bolt://localhost:7687", "neo4j", "PablitoPablo990")
+    handler = CovidGraphHandler("bolt://localhost:7687", "neo4j", "PASSWORD")
 
     handler.createRelationships()
     handler.close()
