@@ -17,11 +17,11 @@ italianTheatersCSVPath = 'datasets/final/italian_theaters_standardized_no_nulls_
 italianCitiesCSVPath = 'datasets/final/italy_cities.csv'
 italianStreetsCSVPath = 'datasets/final/italian_streets_no_duplicates_standardized.csv'
 vaccinesCSVPath = 'datasets/final/italian_vaccines.csv'
-peopleCSVPath = 'datasets/final/names.csv'
+peopleCSVPath = 'datasets/final/people.csv'
 covidTestsCSVPath = 'datasets/final/covid_tests.csv'
 # using the reduced version of the original 'personal_info'
 # because it is huge (part of 2019 Facebook data breach)
-personalInfoCSVPath = "datasets/personal_info_reduced.txt"
+personalInfoCSVPath = "datasets/original/personal_info_reduced.txt"
 
 italianPlaces = [italianCafesCSVPath,
                  italianRestaurantsCSVPath,
@@ -151,7 +151,6 @@ def getRandomPlaceID() -> int:
     placeID = sample.values[0][3]
 
     return placeID
-
 
 
 # CSV MANIPULATION METHODS
@@ -334,5 +333,5 @@ def createNamesCSV() -> None:
 
 
 if __name__ == '__main__':
-    print(getRandomDate())
+    createNamesCSV()
     pass

@@ -1,0 +1,640 @@
+city,admin_name,name,ID,address
+Bardonecchia,Piemonte,Sabrina,3700735141,Via Giuseppe Francesco Medail 71
+Ivrea,Piemonte,ABCinema d'Essai,773637449,Vicolo Baratono 124
+Ivrea,Piemonte,Cinema Boaro,1876474160,Via Palestro 33
+Moncalieri,Piemonte,UCG Cinema,262100274,Santa Maria a Vico 98
+Pinerolo,Piemonte,Cinema Hollywood,3352525199,Via Nazionale 120
+Pinerolo,Piemonte,Cinema Italia,2425831724,Via Montegrappa 6
+Rivoli,Piemonte,Cinema Teatro Borgonuovo,6242928909,Via Roma 149/C
+Sestriere,Piemonte,Cinema Fraiteve,3721581842,Piazzale Fraiteve 42
+Torino,Piemonte,Cinecafé Ambrosio,3274388861,Corso Vittorio Emanuele II 52
+Torino,Piemonte,Cinema Eliseo,2113383951,Via Monginevro 173
+Torino,Piemonte,Cinema Lux,1350142517,Galleria San Federico 168
+Torino,Piemonte,Cinema Romano,1370040605,Galleria Subalpina 61
+Torino,Piemonte,Cineplex Massaua,2049845183,Piazza Massaua 79
+Torino,Piemonte,Classico,3284942161,Piazza Vittorio Veneto 5
+Torino,Piemonte,Due Giardini,466891671,Via Monfalcone 142
+Torino,Piemonte,Greenwich Village,248787330,Via Po 52
+Torino,Piemonte,Maffei,1467593787,Via Principe Tommaso 66
+Torino,Piemonte,Metropol,1467593792,Via Principe Tommaso 49
+Torino,Piemonte,Nazionale,2791170550,Via Giuseppe Pomba 7
+Torino,Piemonte,The Space Cinema,2688303785,Salita Michelangelo Garove 57
+Torino,Piemonte,UCI Cinemas Lingotto,1172116311,Via Nizza 230
+Varallo,Piemonte,Cinema Oratorio Sottoriva,2627228401,Via Don Bosco 188
+Vercelli,Piemonte,Cinema Italia,499620955,Vercelli Trino
+Bellinzago Novarese,Piemonte,Movie Planet,2145291059,Via della Libertà 84
+Novara,Piemonte,VIP,2036115172,Via Costantino Perazzi 3/C
+Alba,Piemonte,Cine4,1749822805,Via Vincenco Giacosa 63
+Borgo San Dalmazzo,Piemonte,Cinelandia,1967623229,Via Cuneo 86
+Centallo,Piemonte,Lux,1730573268,Viale Vittorio Veneto 62
+Cuneo,Piemonte,Lanteri,1970779012,Via Emanuele Filiberto 4
+Asti,Piemonte,Nuovo Splendor,1470052046,Via Carlo Vassallo 24
+Alessandria,Piemonte,Cinema Teatro Alessandrino,1891230225,Via Giuseppe Verdi 12
+Alessandria,Piemonte,Cinema Teatro Macallè,3626519732,Via Marsala 1
+Alessandria,Piemonte,Multisala Kristalli,3640431757,Via Giuseppe Parini 15
+Alessandria,Piemonte,UCI Cinemas,3604599298,Zona Industriale D5 160
+Ovada,Piemonte,Cinema Teatro Comunale,1631132523,Corso Martiri della Libertà 180
+Tortona,Piemonte,Megaplex Stardust,1749595238,Via dei Fragolai 105
+Valenza,Piemonte,Cineteatro Sociale,1639017564,Lacchiarella 87
+Aosta,Valle d'Aosta,Cinéma Théatre de la Ville,1270415684,Via/Rue Xavier de Maistre 122
+Ayas,Valle d'Aosta,Cinema Sant'Anna,372793690,Place Recteur Dondeynaz 37
+Cogne,Valle d'Aosta,Gran Paradiso,1842637099,Rue Bourgeois 114
+Saint-Christophe,Valle d'Aosta,Cinelandia,1984398245,Località Grand Chemin 52
+Saint-Vincent,Valle d'Aosta,Cinema Auditorium IPR,2387376837,Dozza 57
+Verres,Valle d'Aosta,Cinema Ideal,1729271446,Via Stazione 1
+Imperia,Liguria,Cinema Centrale,1321427854,Via Felice Cascione 95
+Imperia,Liguria,Cinema Imperia,472445152,Via dell'Unione 17
+San Bartolomeo Al Mare,Liguria,Smeraldo,3725430216,Via Aurelia 106
+San Remo,Liguria,Cinema Ariston,503198215,Via Giacomo Matteotti 194
+Borgio Verezzi,Liguria,Cinema Teatro Gassmann,1417138880,Via Quattro Novembre 15
+Finale Ligure,Liguria,Cinema all'aperto,1712120655,Portoferraio 170
+Savona,Liguria,Multisala Diana,601477594,Via Giuseppe Brignoni 1r
+Savona,Liguria,Nuovo Filmstudio,602511004,Via dei Carpentieri 166
+Chiavari,Liguria,Cinema Mignon,3610446816,Via Martiri della Liberazione 64
+Genova,Liguria,America,253268182,Via Colombo 161
+Genova,Liguria,Ariston,253266745,Vico San Matteo 146
+Genova,Liguria,Chiabrera,3120670438,Via Chiabrera 72
+Genova,Liguria,Cinema Cappuccini,750786139,Piazza dei Cappuccini 193
+Genova,Liguria,Cinema Centrale,897271247,Via San Vincenzo 159
+Genova,Liguria,Cinema Corallo,2178108475,13 rosso 83
+Genova,Liguria,Cinema Eden,331552714,Ottaviano 145
+Genova,Liguria,Cinema Eldorado,966304779,Via Giacomo Buranello 9
+Genova,Liguria,Cinema teatro Verdi,302324772,Via Giuseppe Elia Benza 105
+Genova,Liguria,City,253486824,Vico Carmagnola 36
+Genova,Liguria,Nickelodeon,413995838,Via della Consolazione 33
+Genova,Liguria,Nuovo Cinema Palmaro,442709467,Via Pra' 70
+Genova,Liguria,Odeon,253266819,Corso Buenos Aires 148
+Genova,Liguria,Olimpia,253486101,Via Venti Settembre 57
+Genova,Liguria,San Giovanni Battista,303163729,Medio Ponente 76
+Genova,Liguria,Sìvori,413995262,Largo Eros Lanfranco 190
+Genova,Liguria,The Space Cinema,252806062,Via Magazzini del Cotone 47
+Genova,Liguria,UCI Cinemas Fiumara,253267452,Rotonda Giuseppe Verduci e Ruggero Volpi 172
+Ronco Scrivia,Liguria,Columbia,3468419999,Strada statale dei Giovi 69
+Rossiglione,Liguria,Cinema Comunale,686595637,Via Roma 82
+La Spezia,Liguria,Controluce,2027126976,Via Roma 70
+Bisuschio,Lombardia,Cinema S. Giorgio,1576834890,Via della Repubblica 138
+Gavirate,Lombardia,Eden,3844356305,Via D. Buzzi 94
+Gavirate,Lombardia,Garden,3846864772,Piazza Martiri delle Foibe 171
+Germignaga,Lombardia,Cinema Teatro Italia,3205978480,Via Goffredo Mameli 20
+Grantola,Lombardia,Mignon,3870607268,Viale R. Beverina 16
+Olgiate Olona,Lombardia,Cinema Nuovo,1282636374,Via Biagio Bellotti 22
+Origgio,Lombardia,CineTeatro San Giuseppe,659798280,Via Piantanida 85
+Saronno,Lombardia,Multisala Saronnese,1907266823,Via San Giuseppe 21
+Somma Lombardo,Lombardia,Cinema Odeon,2333695682,Seregno 66
+Tradate,Lombardia,Starplex,1865594176,Via Europa 167
+Travedona-Monate,Lombardia,Santamanzio,2692927046,Via Venticinque Aprile 177
+Varese,Lombardia,Cinema Teatro Nuovo,1343526652,Viale dei Mille 36
+Morbegno,Lombardia,Cinema Iris,2833186449,Via Ambrosetti Tommaso 27
+Morbegno,Lombardia,Cinema Pedretti,2833186450,Piazza Enea Mattei 1
+Morbegno,Lombardia,Cinema Tre,2833186451,Via Ambrosetti Tommaso 5
+Sondrio,Lombardia,excelsior,2575898174,Piazza Teresina Tua Quadrio 103
+Abbiategrasso,Lombardia,cinema al corso,450562080,Via Curioni 162
+Arese,Lombardia,Cinema Teatro Arese,1999713424,Piazza Carlo Alberto dalla Chiesa 4
+Arluno,Lombardia,Cinema Oratorio,609695758,Via Guglielmo Marconi 14
+Bellinzago Lombardo,Lombardia,Arcadia,906715849,Strada Provinciale 11 Padana Superiore 164
+Bollate,Lombardia,Splendor,912755868,Via Papa Leone XIII 142
+Cernusco Sul Naviglio,Lombardia,Cine Teatro Agorà,445325846,Via delle Marcelline 8
+Gorgonzola,Lombardia,Cinema Sala Argentia,544451639,Via Giacomo Matteotti 187
+Legnano,Lombardia,Cinema Galleria,714791302,Galleria INA 82
+Legnano,Lombardia,Cinema Ratti,868475135,Corso Magenta 9
+Milano,Lombardia,Anteo,252634867,Via Demetrio Stratos 20
+Milano,Lombardia,Apollo,435199449,Via Giosuè Borsi 45
+Milano,Lombardia,Arcobaleno Film Center,442138046,Viale Tunisia 11
+Milano,Lombardia,Arena Umanitaria,1977225057,Via Francesco Daverio 128
+Milano,Lombardia,Arianteo Conservatorio,1977225058,Borgo San Dalmazzo 126
+Milano,Lombardia,Ariosto,442586656,Via Lodovico Ariosto 22
+Milano,Lombardia,Arlecchino,2420779234,Via San Pietro all'Orto 61
+Milano,Lombardia,Centrale,442587403,Municipio 2 82
+Milano,Lombardia,Cinema Orchidea,3840440921,Via Terraggio 3
+Milano,Lombardia,Colosseo,442587550,Viale Monte Nero 84
+Milano,Lombardia,Don Bosco,358878181,Via Melchiorre Gioia 91
+Milano,Lombardia,Ducale,29978509,Viale Carlo Troya 25
+Milano,Lombardia,Eliseo,442588357,Via Torino 129
+Milano,Lombardia,Europlex Bicocca,250051812,1781_42913 91
+Milano,Lombardia,Garden,255138301,Via Durazzo 1
+Milano,Lombardia,Gloria,268616396,Corso Vercelli 49
+Milano,Lombardia,Gnomo,442590118,Via Lanzone 67
+Milano,Lombardia,Mexico,442591065,Via Savona 28
+Milano,Lombardia,Odeon,251293086,Via Santa Radegonda 8
+Milano,Lombardia,Orfeo,268616425,Viale Coni Zugna 50
+Milano,Lombardia,Rosetum,995613962,Piazzale Diego Velasquez 116
+Milano,Lombardia,Spazio Oberdan,1977225059,Viale Vittorio Veneto 2
+Milano,Lombardia,UCI Cinemas Certosa,714322674,Via Giorgio Stephenson 158
+Paderno Dugnano,Lombardia,"Cinema Multisala """"Le Giraffe""""",2525339105,Via Brasile 4
+Pioltello,Lombardia,UCI cinemas,445312008,Via San Francesco 33
+Rozzano,Lombardia,Medusa multisala,590353684,Tangenziale Ovest di Milano 150
+Sesto San Giovanni,Lombardia,Skyline,1505376846,Via Luigi Granelli 119
+Albino,Lombardia,Cineteatro Nuovo,1975212592,Piazza San Giuliano Martire 69
+Alzano Lombardo,Lombardia,Cineam dell'oratorio di Alzano Lombardo,3021940972,Prata di Pordenone 123
+Bergamo,Lombardia,Conca Verde,450615075,Rovetta 50
+Romano Di Lombardia,Lombardia,Multisala il Borgo,3242944010,Strada Statale Soncinese 498
+Sorisole,Lombardia,Cinema Agorá,1638074371,Via Martiri della Libertà 114
+Brescia,Lombardia,Astra,733086608,Via Padana Superiore 156
+Brescia,Lombardia,Moretto,733086600,Via Moretto 71
+Brescia,Lombardia,Multisala OZ,1265574878,Via Sorbanella 12
+Brescia,Lombardia,Multisala Wiz,732898944,Viale Italia 31
+Brescia,Lombardia,Nuovo Eden,1773639455,Via Nino Bixio 9
+Brescia,Lombardia,Sociale,733086621,Via Felice Cavallotti 20
+Capriolo,Lombardia,Gemini,370344532,Via Palazzolo 66
+Collebeato,Lombardia,Cinema San Filippo Neri,2793795094,Via Giuseppe Borghini 7
+Desenzano Del Garda,Lombardia,Cinema Paolo VI,3013962671,Vicolo Oratorio 90
+Gargnano,Lombardia,Il teatrino,3979506088,Via Repubblica 95
+Montichiari,Lombardia,Cinema Teatro Gloria,2148210147,Via San Pietro 1
+Salo',Lombardia,Cinema teatro Cristal,1403540617,Largo Dante Alighieri 125
+Montebello Della Battaglia,Lombardia,The Space Multisala,2698875903,Via Mirabella 22
+Parona,Lombardia,Movie Planet Parona,694681554,Strada Provinciale SPexSS494 Vigevanese 181
+Pavia,Lombardia,Cinema Teatro Politeama,3569173697,Corso Cavour 20
+Rivanazzano,Lombardia,Cinema Sociale,2433981108,Via Giorgio Pedemonti 42
+Voghera,Lombardia,Cinema - Teatro Arlecchino,623548753,Viale Repubblica (Ciclabile) 46
+Crema,Lombardia,Sala Alessandrini,3771702547,Via Matilde di Canossa 108
+Spino D'Adda,Lombardia,Cinema Vottoria,3364335016,Canicattì 32
+Asola,Lombardia,San Carlo,1477405279,Via Libertà 1
+Bressanone,Trentino-Alto Adige,Sternkino,2398204047,Ceglie Messapico 182
+Coredo,Trentino-Alto Adige,Cinema Dolomiti,2140551480,Via Venezia 180
+Folgaria,Trentino-Alto Adige,Cinema Paradiso,1806514145,Via della Pace 182
+Lavarone,Trentino-Alto Adige,Cinema Dolomiti,1732128586,Viale Dolomiti 110
+Lavarone,Trentino-Alto Adige,Cinema Teatro Dolomiti,3170252310,Viale Dolomiti 7
+Male',Trentino-Alto Adige,Cinema Comunale,1098424206,Via E. Bezzi 34
+Pergine Valsugana,Trentino-Alto Adige,Cinema  Teatro Pergine Valsugana,2853936060,Viale degli Alpini 107
+Predazzo,Trentino-Alto Adige,Bar Teatro,2208013392,Via Cesare Battisti 147
+Predazzo,Trentino-Alto Adige,Cinema,269955384,Via Verdi 46
+Rovereto,Trentino-Alto Adige,Supercinema Rosmini,417419594,Vicolo Loreto 62
+Trento,Trentino-Alto Adige,Supercinema Vittoria,269184853,Via Giannantonio Manci 150
+Cerea,Veneto,Cinema Mignon,1402598138,Via Cordioli 97
+Cerea,Veneto,Cinema Principe,3214419210,Via Roma 40
+Isola Della Scala,Veneto,Cap. Bovo,1740460012,Via Rimembranza 60
+Legnago,Veneto,Cinema Italia,1417495630,Via Marsala 11
+San Bonifacio,Veneto,Cinema Cristallo,1941683049,Corso Italia 9
+Sona,Veneto,The space cinemas,2989532864,Via Trentino 1
+Verona,Veneto,Arena estiva Fiume,2381215266,Via Pontida 45
+Verona,Veneto,Cinema Diamante,1462387106,Via Pietro Zecchinato 6
+Verona,Veneto,Cinema Multisala Rivoli,1152590532,Piazza Bra 10
+Verona,Veneto,Cinema Pindemonte,262307626,Via Sabotino 140
+Asiago,Veneto,Lux,1373709124,Via Giacomo Matteotti 6
+Bassano Del Grappa,Veneto,Astra,506466076,Viale dei Martiri 160
+Bassano Del Grappa,Veneto,Cinema all'aperto Giardini Parolini,1795363443,Vicolo Parolini 192
+Bassano Del Grappa,Veneto,Cinema Grotta,1421298580,Via Matteotti 81
+Bassano Del Grappa,Veneto,Metropolis cinema multisala,506461391,Via Cristoforo Colombo 149
+Bassano Del Grappa,Veneto,Sala Martinovich,1587579132,Via Ognissanti 48
+Gallio,Veneto,Cineghel,1762104950,Via Mons. C. Liviero 56
+Malo,Veneto,Aurora,3135341630,Via Chiesa 195
+Marostica,Veneto,Sala Micropolis,2878909741,Via Sisemol 92
+Rossano Veneto,Veneto,Cinema Estivo all'aperto,1567309156,Via Bassano 41
+Schio,Veneto,Cinema Salesiani,1411213452,Via Guglielmo Marconi 14
+Schio,Veneto,Cinema Teatro Pasubio,345834526,Cagliari 139
+Schio,Veneto,Cinema Teatro Sociale,341157821,Via Pasubio 46
+Tonezza Del Cimone,Veneto,Cinema Tonezza,3914291067,Via Marconi 61
+Torrebelvicino,Veneto,Cinema Arcobaleno,311389234,Piazzale Paolo Borsellino 90
+Torri Di Quartesolo,Veneto,The Space,1998787402,Via Vercelli 146
+Valdagno,Veneto,Cinema Teatro Super,1800416591,Viale Trento 28
+Vicenza,Veneto,Cinema Patronato,2801987021,Contra' Vittorio Veneto 167
+Vicenza,Veneto,Cinema Roma,2115061857,Stradella dei Filippini 149
+Vicenza,Veneto,Cinema Teatro San Marco,612195662,Contra' San Francesco 70
+Vicenza,Veneto,Ex-Cinema Arlecchino,3538934250,Contra' Mure Porta Nova 151
+Vicenza,Veneto,Patronato Leone XIII Ekuò,2780522369,Contra' Vittorio Veneto 1
+Feltre,Veneto,OffiCinema,300997241,Piazza Antonio Cambruzzi 187
+Santo Stefano Di Cadore,Veneto,Cinema Piave,3014739319,Via Guglielmo Marconi 150
+Castelfranco Veneto,Veneto,Multisala Hesperia,736523050,Via Giorgio Saviane 186
+Mogliano Veneto,Veneto,Cinema Busan,857484461,Via Alcide De Gasperi 130
+Montebelluna,Veneto,Italia Eden,1402453777,Viale della Vittoria 31
+Paese,Veneto,Cinema Edera,500616960,Via della Costituzione 120
+Pieve Di Soligo,Veneto,Cinema Teatro Careni,1461896066,Via Guglielmo Marconi 159
+Silea,Veneto,Cinecity - The Space Cinema,190392858,Ostiglia 173
+Treviso,Veneto,"Cinema Teatro """"Embassy""""",1237234215,Largo Porta Altinia 118
+Treviso,Veneto,"Multisala """"Corso""""",1950581665,Corso del Popolo 159
+Vittorio Veneto,Veneto,Bianconiglio,1565688120,Pista Ciclabile 174
+Vittorio Veneto,Veneto,Cinema Estate,1575557337,San Cataldo 179
+Cavarzere,Veneto,Cinema Verdi,1499655901,Via Umberto I 58
+Marcon,Veneto,Uci Cinema,1859393968,Tangenziale di Mestre 23
+Spinea,Veneto,Ai bersaglieri,466226986,Via Capitanio 34
+Venezia,Veneto,Giorgione,1627214317,Rio terà dei Franceschi 101
+Venezia,Veneto,IMG Piazza Candiani,3883895942,Via Daniele Manin 159
+Venezia,Veneto,Rossini,3354644723,3397/A 15
+Padova,Veneto,Astra,250135708,Via Tiziano Aspetti 179
+Padova,Veneto,Cinema Concordi,476638123,Via San Martino e Solferino 154
+Padova,Veneto,Cinema Cristallo,1218298761,Via Palestro 62
+Padova,Veneto,Cinema Lux,617417280,Viale Felice Cavallotti 9
+Padova,Veneto,Cinema Rex,2804058326,Via Sant'Osvaldo 48
+Padova,Veneto,Multisala MPX,476638165,Via Antonio Francesco Bonporti 59
+Padova,Veneto,Multisala PortoAstra,746507331,Via Santa Maria Assunta 9
+Padova,Veneto,Torresino,1460204861,Via del Torresino 70
+Adria,Veneto,Cinema Teatro Politeama,3353099529,Corso Vittorio Emanuele II 211/a
+Rovigo,Veneto,Cinema Duomo,257437196,Via Nicola Badaloni 21
+Rovigo,Veneto,Cinergia,2383309043,Trevignano 73
+Rovigo,Veneto,Don Bosco,921257007,Viale Guglielmo Marconi 76
+Porto Viro,Veneto,Cinema Eden,1501848829,Via Cesare Battisti 130
+Pradamano,Friuli-Venezia Giulia,The Space,527332536,Via Pier Paolo Pasolini 115
+Udine,Friuli-Venezia Giulia,Centrale,1119814211,Via Poscolle 8
+Udine,Friuli-Venezia Giulia,Cinema Diana,630794527,Via Cividale 150
+Udine,Friuli-Venezia Giulia,Visionario,795959692,Via Fabio Asquini 33
+Gorizia,Friuli-Venezia Giulia,Kinemax Gorizia,316495408,Piazza della Vittoria 41
+Villesse,Friuli-Venezia Giulia,UCI Cinemas,3864637007,Località Maranuz 80
+Trieste,Friuli-Venezia Giulia,Ariston dei Fabbri,2414220134,Via dei Fabbri 2a
+Trieste,Friuli-Venezia Giulia,Cinema Ambasciatori,1822587746,Viale XX Settembre 35
+Trieste,Friuli-Venezia Giulia,Cinema Ariston,343320780,Viale Romolo Gessi 14
+Trieste,Friuli-Venezia Giulia,Cinema Federico Fellini,314396371,Viale XX Settembre 37
+Trieste,Friuli-Venezia Giulia,Cinema Giotto,1822587745,Via Giotto 8
+Trieste,Friuli-Venezia Giulia,Cinema Nazionale,255711607,Viale XX Settembre 30
+Trieste,Friuli-Venezia Giulia,The Space (ex CineCity),314394320,Monzuno 34
+Caorso,Emilia-Romagna,Cine Fox,1938073113,Piazza della Rocca 136
+Rottofreno,Emilia-Romagna,Cinema Jolly2,2317280590,Via Emilia Pavese 10
+Parma,Emilia-Romagna,CineCity,564669262,Volta Mantovana 184
+Parma,Emilia-Romagna,Warner Village,343657223,Taviano 178
+Albinea,Emilia-Romagna,Cinema Apollo,3012937610,Via Morandi 75
+Casalgrande,Emilia-Romagna,Cinema nuovo roma,2297852636,Via Canale 9
+Reggio Nell'Emilia,Emilia-Romagna,Cinema Olimpia,920542484,Via Alessandro Tassoni 4
+Reggio Nell'Emilia,Emilia-Romagna,City-In,2645251588,Villasor 159
+Reggio Nell'Emilia,Emilia-Romagna,Cristallo,2582050278,Via Giuseppe Ferrari Bonini 4
+Sant'Ilario D'Enza,Emilia-Romagna,Forum,612940040,Via Roma 31
+Carpi,Emilia-Romagna,Cinema Del Corso,1618024194,Corso Manfredo Fanti 49
+Carpi,Emilia-Romagna,Space City,1581366486,Viale dell'Industria 190
+Frassinoro,Emilia-Romagna,Cinemalux,290278246,Via Don Mario Prandi 122
+Modena,Emilia-Romagna,Michelangelo,1320140157,Via Pietro Giardini 26
+Novi Di Modena,Emilia-Romagna,Cinema Teatro LUX,1610889969,Lequile 174
+Baricella,Emilia-Romagna,Santa Maria,1213592776,Piazza U. Marescalchi 131
+Bologna,Emilia-Romagna,Bellinzona,3181504341,Via Bellinzona 44
+Bologna,Emilia-Romagna,Bloom Culture Teatri,3645563600,Via del Pratello 23
+Bologna,Emilia-Romagna,Capitol,3241249259,Via Milazzo 1
+Bologna,Emilia-Romagna,Chaplin,3181507492,Via Frassinago 30
+Bologna,Emilia-Romagna,Cinema Arlecchino,1685235409,Via delle Lame 57
+Bologna,Emilia-Romagna,Cinema Lumière,1735448480,Piazza Pierpaolo Pasolini 70
+Bologna,Emilia-Romagna,Cinema Medica Palace,1312716242,Via Monte Grappa 114
+Bologna,Emilia-Romagna,Cinema Orione,964932949,Via Cimabue 161
+Bologna,Emilia-Romagna,Cineteca di Bologna,3181344021,Via Riva di Reno 175
+Bologna,Emilia-Romagna,Jolly,3181441641,Via Giuseppe Bentivogli 32
+Bologna,Emilia-Romagna,Nuovo Nosadella,3181344018,Via Lodovico Berti 121
+Bologna,Emilia-Romagna,Perla,3182766145,Via San Vitale 54
+Bologna,Emilia-Romagna,Smeraldo,3817706458,Cirenaica 114
+Bologna,Emilia-Romagna,The Space Cinema,1621390104,Viale Europa 5
+Casalecchio Di Reno,Emilia-Romagna,Uci Cinemas Meridiana,853173714,Sant’Antonio Abate 84
+Imola,Emilia-Romagna,CineCircolo Cappuccini,2181326211,Via Villa Clelia 185
+Imola,Emilia-Romagna,Cinema Cristallo,246493836,Via Appia 143
+Minerbio,Emilia-Romagna,Mandrioli,1216084409,Via Barche 142
+Pianoro,Emilia-Romagna,Star City,1669292767,Monte Sant’Angelo 160
+San Giovanni In Persiceto,Emilia-Romagna,Cinema Giada,3909471987,Via Agostino Dalla Rovere 124
+Sant'Agata Bolognese,Emilia-Romagna,Cinecì,531294965,Via De Gasperi 2
+Vergato,Emilia-Romagna,Cinema Nuovo,811406731,Via Giuseppe Garibaldi 94
+Cento,Emilia-Romagna,Cinepark Cinema Multisala,2199578727,Via Matteo Loves 17
+Cento,Emilia-Romagna,Don Zucchini,2450671594,Via Guercino 19
+Ferrara,Emilia-Romagna,Cinema Boldini,1249700590,Via Cesare Laurenti 10
+Ferrara,Emilia-Romagna,Cinema parrocchiale di San Benedetto,1235745384,Via Don Michele Gregorio 165
+Ferrara,Emilia-Romagna,Multisala Apollo Cinepark,1251039469,Vicolo Ragno 145
+Ferrara,Emilia-Romagna,UCI Cinemas,1255267630,Via Darsena 189
+Cervia,Emilia-Romagna,Cinema Sarti,667881374,Via Venti Settembre 98/a
+Conselice,Emilia-Romagna,Cinema parrocchiale,1172710312,Piazza Felice Foresti 78
+Faenza,Emilia-Romagna,Cinema Italia,2313747032,Via Cavina 172
+Faenza,Emilia-Romagna,Sarti,2313747051,Via Carlo Cesare Scaletta 9
+Ravenna,Emilia-Romagna,Cinema City,657853385,Via Secondo Bini 66
+Ravenna,Emilia-Romagna,Mariani,2585089489,Via Ponte Marino 101
+Cesena,Emilia-Romagna,Cinema Astra,256784755,Piazzale Violante di Montefeltro 13
+Cesena,Emilia-Romagna,Cinema Eliseo Multisala,3499819542,Viale Giosuè Carducci 22
+Forli',Emilia-Romagna,Cinema Apollo,971825810,Via Mentana 175
+Forli',Emilia-Romagna,Cinema Eliseo,2900666154,Piazzale Igino Lega 59
+Forli',Emilia-Romagna,"Cinema """"Saffi""""",1104914492,Viale dell'Appennino 169
+Forli',Emilia-Romagna,Multisala Astoria,1140049300,Viale dell'Appennino 313
+Forlimpopoli,Emilia-Romagna,"Multisala """"Cineflash""""",1319770562,Via Emilia 167
+Fano,Marche,"Cinema Teatro """"Masetti""""",1490433052,Bassano del Grappa 70
+Fano,Marche,Cityplex Politeama,1597985102,Via Arco d'Augusto 57
+Fano,Marche,Malatesta,1598153211,Centro storico 72
+Fano,Marche,UCI Cinemas,590031865,Via Luigi Einaudi 20
+Pergola,Marche,capitol,1904017593,Montesano sulla Marcellana 180
+Pesaro,Marche,Multisala Metropolis,766426276,Via Volontari del Sangue 25
+Pesaro,Marche,UCI Cinemas,2089791115,Piazza Marcello Stefanini 15
+Urbania,Marche,SALA LUX,3229582465,Via Giacomo Leopardi 34
+Ancona,Marche,Cinema Teatro Dorico,687053357,Via Agostino Peruzzi 197
+Ancona,Marche,Cinema Teatro Galleria,1311372023,Via Antonio Giannelli 2a
+Ancona,Marche,Cinemazzurro,1311371745,Lonigo 17
+Ancona,Marche,Multisala Goldoni,1000475955,Montanaro 193
+Ancona,Marche,UCI Cinemas Ancona,893969287,Via Pietro Filonzi 4
+Castelfidardo,Marche,Cinema Teatro Astra,1870966935,Via Giacomo Matteotti 34
+Castelleone Di Suasa,Marche,Cinema Suasa,259723419,Viale della Repubblica 3
+Fabriano,Marche,Cinema Montini,1468816625,Via Cesare Balbo 64
+Fabriano,Marche,Movieland Multisala,1202391037,Via Beniamino Gigli 130
+Maiolati Spontini,Marche,Cinema Nuovo Ariston,3180285196,Via Trieste 166
+Numana,Marche,Cinema Arena Italia,2532660693,Via Giacomo Matteotti 17
+Senigallia,Marche,Cinema Teatro La Piccola Fenice,2783499144,Via Cesare Battisti 164
+Senigallia,Marche,Uci Cinemas Senigallia,1484736353,Via Nicola Abbagnano 132
+Camerino,Marche,Cinema Teatro Comunale M. Betti,684286700,Piazza Giuseppe Garibaldi 45
+Civitanova Marche,Marche,Capitol,1413618397,Via Venier 13
+Macerata,Marche,Cinema Italia,1352788356,Galleria Scipione 154
+Macerata,Marche,Multiplex2000,462246099,Via Giambattista Velluti 83
+Recanati,Marche,Multicinema Sabbatini,1413590715,vicolo Alemanni 117
+Tolentino,Marche,Giometti cinema,1388726771,Largo della Giustizia 52
+Ascoli Piceno,Marche,Multiplex delle Stelle,644068429,Via Salaria 19
+Ascoli Piceno,Marche,Odeon Multisala,639343070,Viale Marcello Federici 185
+Ascoli Piceno,Marche,Piceno Multisala,639343069,Lungocastellano Sisto V 124
+Cupra Marittima,Marche,Cinema Margherita,1717069517,Via Santa Margherita 112
+Carrara,Toscana,Supercinema,370832156,Boscotrecase 113
+Barga,Toscana,Puccini,2517150520,Via Provinciale 62
+Barga,Toscana,Roma,2517516293,Via Roma 33
+Lucca,Toscana,Astra,3168348026,Piazza del Giglio 7
+Lucca,Toscana,Cinema Centrale,1948962722,Via di Poggio 36
+Pietrasanta,Toscana,Italia,1409520703,Unione dei comuni della Versilia 134
+Viareggio,Toscana,Eden,664070060,Viale Regina Margherita 175
+Viareggio,Toscana,Eolo,664070062,Santo Stino di Livenza 89
+Viareggio,Toscana,Multisala Goldoni,1676985210,Via San Francesco 124
+Viareggio,Toscana,Odeon,664070061,Viale Regina Margherita 47
+Pistoia,Toscana,Globo,2503728699,Via dei Buti 118
+Pistoia,Toscana,Lux,2139016688,Corso Antonio Gramsci 109
+Pistoia,Toscana,Roma,3256462761,Villa Toscana 167
+Empoli,Toscana,Excelsior,1698428320,Via Cosimo Ridolfi 75
+Empoli,Toscana,La Perla,1698427836,Via dei Neri 179
+Fiesole,Toscana,Cinema Unione Girone,3914962189,Via Aretina 138
+Firenze,Toscana,Cinema Castello,3914910412,Via Reginaldo Giuliani 177
+Firenze,Toscana,Cinema Cinecittà,3914930975,Via Pisana 54
+Firenze,Toscana,Cinema CineRigacci,3914910411,Via Francesco Baracca 71
+Firenze,Toscana,Cinema Fiamma,3914932159,Via Antonio Pacinotti 53
+Firenze,Toscana,Cinema Fiorella Atelier,3089718408,Via Gabriele D'Annunzio 118
+Firenze,Toscana,Cinema Flora Atelier,1260432731,Piazza Dalmazia 172
+Firenze,Toscana,Cinema Fulgor,3914938240,Via Maso Finiguerra 31
+Firenze,Toscana,Cinema Marconi,3914940631,Viale Donato Giannotti 10
+Firenze,Toscana,Cinema Officine Cinematografiche - Sala Signori,3914951454,Pista Ciclabile Arno Sx 82
+Firenze,Toscana,Cinema Portico,3914951757,Via Capo di Mondo 103
+Firenze,Toscana,Cinema Principe,3914951455,Viale Giacomo Matteotti 190
+Firenze,Toscana,Cinema Spazio Alfieri,3914951685,Via dell'Ulivo 7
+Firenze,Toscana,Cinema Spazio Uno,3914929936,Via del Moro 175
+Firenze,Toscana,Cinema Stensen,3914951456,Viale Don Giovanni Minzoni 70
+Firenze,Toscana,Odeon Cinehall,2953868598,Via degli Anselmi 140
+Firenze,Toscana,UCI cinemas,533613242,Via del Cavallaccio 182
+Firenze,Toscana,UCI Cinemas,2091252665,Via del Cavallaccio 10
+Greve In Chianti,Toscana,Cinema Boito,1088852932,Viale Giuliano Vanghetti 155
+San Casciano In Val Di Pesa,Toscana,Cinema Everest,595572469,Piazza Cavour 154
+Scandicci,Toscana,Cinema Cabiria,541185690,Piazza Piave 163
+Scandicci,Toscana,Supercinema Aurora,533694248,Via San Bartolo in Tuto 65
+Sesto Fiorentino,Toscana,Multisala Grotta,560422830,Via Antonio Gramsci 387
+Castagneto Carducci,Toscana,Arena Etruria,1388699884,Via Giacomo Puccini 2
+Livorno,Toscana,Arena Estiva Ardenza,2082670320,Colle Salvetti 176
+Livorno,Toscana,Aurora,391750319,Viale Ippolito Nievo 1
+Livorno,Toscana,Cinema Gran Guardia,2609894405,Piazza Felice Cavallotti 32
+Livorno,Toscana,Cinema Teatro Quattro Mori,391925259,Via Pietro Tacca 186
+Livorno,Toscana,Kino Dessè,1294200368,Via dell'Angiolo 19
+Livorno,Toscana,Multisala Grande,2980869501,Casaluce 36
+Livorno,Toscana,Salesiani,1570750244,Viale del Risorgimento 41
+Livorno,Toscana,The Space Cinema,1474898011,Via Antonio Bacchelli 88
+Marciana Marina,Toscana,Cinemare,452948103,Via G. Dussol 111
+Marciana Marina,Toscana,Metropolis,1340334561,Via del Toro 158
+Piombino,Toscana,Odeon,1970213701,Via Cesare Lombroso 192
+Pisa,Toscana,Ciak,2969257837,Aci Castello 12
+Pisa,Toscana,Cinema Arno,253554577,Via Conte Fazio 169
+Pisa,Toscana,Cinema Arsenale,3489102937,Vicolo Scaramucci 2
+Pisa,Toscana,Cinema teatro Lux,2661741071,Piazza Santa Caterina 41
+Pisa,Toscana,Cinema teatro Nuovo,1677276923,Piazza della Stazione 1
+Pisa,Toscana,Lanteri,3323919870,Via San Michele degli Scalzi 46
+Pontedera,Toscana,Circolo Cinematografico Agorà,1813913094,Via Valtriani 20
+Volterra,Toscana,Cinema Centrale Multisala,471087414,Via Giacomo Matteotti 83
+Arezzo,Toscana,Politeama,1960949131,Via Lorentino D'Arezzo 27
+Arezzo,Toscana,UCI Arezzo,663188696,Viale Filippo Turati 6
+Bibbiena,Toscana,Italia,3854080671,Arezzo 141
+Bucine,Toscana,Cinema Ambra,3175628266,Piazza Garibaldi 8
+Montevarchi,Toscana,Cine8,500919179,Via della Farnia 68
+Sansepolcro,Toscana,Dante,1683198237,Via XX Settembre 154
+Sansepolcro,Toscana,Nuova Aurora,1683117737,Via Piero della Francesca 47
+Colle Di Val D'Elsa,Toscana,Cinema S.Agostino,1490181940,Piazza Sant'Agostino 26
+Poggibonsi,Toscana,Cinema Garibaldi,3709369352,Via della Repubblica 169
+Siena,Toscana,Cinema Nuovo Pendola,496123836,Via di San Quirico 33
+Sinalunga,Toscana,UCI Cinemas Sinalunga,254058342,Via Natalia Ginzburg 7
+Castiglione Della Pescaia,Toscana,Cinema,2475514018,Via Italo Calvino 1
+Follonica,Toscana,Cinema Astra,3003818928,Via della Pace 34a
+Grosseto,Toscana,Cinema,3598244304,Campsite Cieloverde 56
+Grosseto,Toscana,Cinema all'aperto / Spettacoli,3143607468,Sant’Egidio alla Vibrata 44
+Grosseto,Toscana,The Space cinema,1651578966,Via Canada 80
+Citta' Di Castello,Umbria,Cinema Eden,1480423640,Piazza Giovanni Magherini Graziani 176
+Citta' Di Castello,Umbria,Nuovo Cinema Castello,3833641114,Piazza Gioberti 136
+Corciano,Umbria,The Space cinema,1737773293,Via Pierluigi Nervi 95
+Foligno,Umbria,Multisala Supercinema Clarici,2616045820,Corso Cavour 84
+Gubbio,Umbria,Cinema Astra,3154005232,Via Giovanni Ansidei 10
+Gubbio,Umbria,Cinema Italia,1870786187,Via Giovanni Ansidei 120
+Marsciano,Umbria,Cinema Concordia,3227768173,Via Marconi 39
+Perugia,Umbria,Cinema Pavone,1942098827,Piazza Della Repubblica 140
+Perugia,Umbria,Nuovo Cinema Méliès,2494949679,Via della Viola 1
+Perugia,Umbria,PostModernissimo,3366294910,Via del Carmine 4
+Perugia,Umbria,Sant'Angelo Cinematografo Teatro,1728788965,Via Lucida 187
+Perugia,Umbria,UCI Cinemas,1514200378,Strada vicinale Centova 29
+Perugia,Umbria,Zenith,1731560125,Via Benedetto Bonfigli 57
+Umbertide,Umbria,Metropolis cinema,1664061614,Garbagnate Milanese 41
+Orvieto,Umbria,Cinema Corso,1449350664,Via dei Cartari 107
+Terni,Umbria,Cityplex Politeama Lucioli,3839528428,Largo Stanislao Falchi 3
+Montefiascone,Lazio,Cinema Gallery,757452223,Via Cardinal Salotti 147
+Tuscania,Lazio,Supercinema,1930180202,Via del Forno 133
+Valentano,Lazio,Cinema Colombo,3422166427,Via Monte Grappa 16
+Rieti,Lazio,Multisala Moderno,2763598274,Via Cintia 56
+Anzio,Lazio,Astoria,442495480,Via Giacomo Matteotti 119
+Anzio,Lazio,Moderno,442495672,Piazza della Pace 59
+Genzano Di Roma,Lazio,Cinema Multisala Cynthianum,1000774083,Viale Giuseppe Mazzini 88
+Grottaferrata,Lazio,Al Fellini,905085280,Castano Primo 15
+Monterotondo,Lazio,Mancini,1996953352,Via Giacomo Matteotti 141
+Roma,Lazio,Admiral,1283216891,Piazza Verbano 131
+Roma,Lazio,Adriano,309569303,Piazza Cavour 47
+Roma,Lazio,Alcazar,1528875622,Via Cardinale Merry del Val 103
+Roma,Lazio,Alhambra,3476234693,Via Pier delle Vigne 4/6
+Roma,Lazio,Andromeda,610928685,Via Mattia Battistini 155
+Roma,Lazio,Azzurro Scipioni,1334091777,Via degli Scipioni 82
+Roma,Lazio,Barberini,612605225,Piazza Barberini 186
+Roma,Lazio,Brodway,1701670092,Via dei Narcisi 108
+Roma,Lazio,Cinecittà,899270724,Via Tuscolana 168
+Roma,Lazio,Cineclub Alphaville,248663946,Via del Pigneto 59
+Roma,Lazio,Cineclub Detour,1542593183,Via Urbana 107
+Roma,Lazio,Cineclub Kino,1759856900,Via Perugia 177
+Roma,Lazio,CineClub Podere Rosa,1601383258,Via Diego Fabbri 169
+Roma,Lazio,Cineland,388097156,Viale dei Romagnoli 515
+Roma,Lazio,Cinema CIAK,916548809,Campagnano di Roma 165
+Roma,Lazio,Cinema Royal,276555836,Via Emanuele Filiberto 175
+Roma,Lazio,Cinema Savoy,301336161,Monselice 135
+Roma,Lazio,Cinema Teatro Don Bosco,3889651820,Via Publio Valerio 63
+Roma,Lazio,Cinema Tiziano,309568195,Via Guido Reni 2
+Roma,Lazio,Cinestar Cassia,916498660,Via Vibio Mariano 20
+Roma,Lazio,Doria,422034617,Via Andrea Doria 94
+Roma,Lazio,Eden,1160046238,Via Cornelio Magni 11/13
+Roma,Lazio,Empire,310479059,Via Aureliana 39
+Roma,Lazio,EUR Cine,250884088,Via Liszt 32
+Roma,Lazio,Europa,1023823864,Municipio Roma IX 57
+Roma,Lazio,Farnese,257352141,Via dei Giubbonari 157
+Roma,Lazio,Fiamma,1118787065,Via Leonida Bissolati 47
+Roma,Lazio,Filmstudio,267112900,Via degli Orti d'Alibert 187
+Roma,Lazio,Galaxi,610928412,Via Pietro Maffi 37
+Roma,Lazio,Giulio Cesare,612601679,Viale Giulio Cesare 28
+Roma,Lazio,Greenwich,251888861,Via Giovanni Battista Bodoni 59
+Roma,Lazio,Madison,260540041,Via Gabriello Chiabrera 121
+Roma,Lazio,Maestoso,1269962043,Via Appia Nuova 416
+Roma,Lazio,Multisala Atlantic,266493853,Via Tuscolana 745
+Roma,Lazio,Nuovo Cinema Aquila,330885344,Via L'Aquila 68
+Roma,Lazio,Nuovo Olimpia,1257246656,Via in Lucina 99
+Roma,Lazio,Nuovo Sacher,248674890,Via di Porta Portese 22
+Roma,Lazio,open air,393179330,Municipio Roma VII INIT
+Roma,Lazio,Quattro Fontane,250889369,Via XX Settembre 163
+Roma,Lazio,Reale,248676601,Piazza Sidney Sonnino 3
+Roma,Lazio,The Space-Moderno,1222037500,Piazza della Repubblica 145
+Roma,Lazio,Trianon,1267228617,Via Muzio Scevola 99
+Roma,Lazio,UCI - 8 sale,1507335546,San Giorgio Ionico 113
+Roma,Lazio,Warner Village,367251977,Acquapendente 63
+Tivoli,Lazio,Cinema Giuseppetti,3476274460,vicolo dell'Inversata 5
+Velletri,Lazio,Augustus Multiplex,665482026,Piazzale della Cultura 3
+Aprilia,Lazio,Multiplex Village,861012765,Via Pontina 59
+Fondi,Lazio,SuperCinema,669812227,Via Giulia Gonzaga 22
+Gaeta,Lazio,Ariston,3394164813,Piazza della Libertà 19
+Latina,Lazio,Corso,764449199,Corso della Repubblica 175
+Latina,Lazio,Giacomini,764449196,Viale Umberto I 141
+Latina,Lazio,Supercinema,764449194,Corso della Repubblica 126
+Minturno,Lazio,Cinema Arena Eden,2887215843,Via Stefano Forte 181
+Terracina,Lazio,Rio Cinema Multisala,1575174523,Via del Rio 47
+Frosinone,Lazio,Multisala Sisto,1929283107,Via Giovanni Jacobucci 171
+Curti,Campania,Cinema Fellini,2465270827,Via Vittorio Veneto 187
+San Cipriano D'Aversa,Campania,Faro,764075051,Dolianova 121
+Afragola,Campania,Happy Maxicinema,1704639198,Via Santa Maria la Nova 16
+Castellammare Di Stabia,Campania,Cinema Montil,1631087510,Via Giuseppe Bonito 10
+Castellammare Di Stabia,Campania,Stabia Hall,1631084455,Via Regina Margherita 50
+Ischia,Campania,Cinema Excelsior,1879168101,Via Francesco Sogliuzzo 39
+Napoli,Campania,Cinema delle Palme,499480599,Salita Betlemme 45
+Napoli,Campania,Cinema Filangieri,499479012,Via Gaetano Filangieri 120
+Napoli,Campania,Cinema Metropolitan,499480400,Largo Sant'Orsola 29
+Napoli,Campania,Plaza - ingresso Bernini,1418558868,Via Gianlorenzo Bernini 65
+Napoli,Campania,Plaza - ingresso Kerbaker,1418558871,Via Michele Kerbaker 17
+Nola,Campania,The Space Cinema,966077292,Via Boscofangone 101
+Piano Di Sorrento,Campania,Cimena delle Rose,1330756567,Bondeno 110
+Pomigliano D'Arco,Campania,Teatro Cinema GLORIA,1481651330,Via Pisa 181
+Procida,Campania,Procida Hall,2126186960,Via Roma 68
+San Giorgio A Cremano,Campania,Flaminio,298270500,Via Salvator Rosa 130
+Sorrento,Campania,Armida,679074648,Corso Italia 78
+Mercogliano,Campania,Movieplex,1693972997,Torelli 149
+Montella,Campania,Cinema Fierro,1436226469,Settimo San Pietro 191
+Montella,Campania,Fontana Parco Giochi,1436185060,Via Principe di Piemonte 88
+Battipaglia,Campania,Garofalo,1089138269,Via Roma 175
+Cava De' Tirreni,Campania,Cine Alambra,2397899318,Viale Francesco Crispi 192
+Eboli,Campania,Cinema Italia,1105027089,Via 24 Maggio 95
+Nocera Superiore,Campania,Italia,849595690,Salerno 54
+Salerno,Campania,Cinema Apollo,2841282795,Via Michele Vernieri 183
+Salerno,Campania,Cinema Fatima,2847372915,Via Madonna di Fatima 2
+Salerno,Campania,Cinema Teatro Augusteo,2796871163,Via Roma 53
+Salerno,Campania,Cinema Teatro San Demetrio,2841285453,Via Dalmazia 4
+Teramo,Abruzzo,Cinema Comunale,1084506648,Piazza Benvenuto Cellini 67
+Teramo,Abruzzo,Cinema Smeraldo,1084506645,Via Maestri del Lavoro 4
+Montesilvano,Abruzzo,The Space Cinema,75251540,Viale Alberto D'Andrea 1
+Pescara,Abruzzo,Pescara Cityplex,3292291236,Riposto 160
+Spoltore,Abruzzo,Cinema Arca Multiplex,135133652,Via Federico Fellini 2
+Torre De' Passeri,Abruzzo,Ciccillino,490585867,San Mauro Torinese 67
+Chieti,Abruzzo,Giometti,590031698,Guidizzolo 83
+Chieti,Abruzzo,Teatro Auditorium Supercinema,734442785,Via Silvio e Bertrando Spaventa 26
+Francavilla Al Mare,Abruzzo,Asterope,948559067,Viale Monte Corno 76
+Termoli,Molise,Cinema Sant'Antonio,687321749,Via Oliviero 58
+Foggia,Puglia,Cinema Ariston,1517625256,Piazza Vittorio Veneto 49
+Foggia,Puglia,La città del cinema,617187895,Piazzale Anna De Lauro Matera 135
+San Severo,Puglia,Cinema,1238336211,Via Belmonte 51
+Bari,Puglia,Cinema Armenise,639357019,San Vendemiano 194
+Bari,Puglia,Cinema Royal,620120661,Sottovia Quintino Sella 14
+Bari,Puglia,Esedra,643883764,Largo Monsignore Augusto Curi 19
+Bari,Puglia,Multicinema Galleria,360070137,Corso Italia 15
+Bari,Puglia,Nuovo Splendor,1242093379,Via Buccari 24
+Bari,Puglia,Odeon,849689836,Via Alfredo Baccarini 81
+Casamassima,Puglia,The Space Cinema,1634080143,Benzinaio 158
+Corato,Puglia,Cinema Elia,578119728,Corso Giuseppe Garibaldi 131
+Molfetta,Puglia,Cinema Odeon,2069339077,Via Alfredo Baccarini 174
+Molfetta,Puglia,UCI Cinemas multisala,448683033,Via dei Portuali 48
+Terlizzi,Puglia,Piccolo Osservatorio Garzia,563766858,Largo Don Pietro Pappagallo 151
+Castellaneta,Puglia,IMAX,2306636080,Castellaneta SP12
+Grottaglie,Puglia,Cinema Vittoria,2462950214,Piazza IV Novembre 31
+Martina Franca,Puglia,Cinema Teatro Nuovo,477498744,Viale della Libertà 150
+Martina Franca,Puglia,Cinema Teatro Verdi,592016534,Piazza XX Settembre 5
+Taranto,Puglia,Cinema Lumiere,2184740610,Via la Spezia 85
+Latiano,Puglia,cine-teatro Olmi,2410441862,Via Giuseppe Verdi 1
+Maglie,Puglia,Cinema Moderno,3580537995,Via Vittorio Emanuele II 100
+Potenza,Basilicata,Don Bosco,3654413788,Venosa 92
+Matera,Basilicata,Cinema Comunale,2505383729,Piazza Vittorio Veneto 105
+Amantea,Calabria,Arena Sicoli,1923309770,Via Noto 29
+Diamante,Calabria,vittoria,1414409471,Via Giovanni Verga 146
+Catanzaro,Calabria,Cinema Teatro Masciari,1787826504,Via Eroi 1799 169
+Catanzaro,Calabria,TheSpace,1856099751,Salerno 197
+Reggio Di Calabria,Calabria,Cinema Nuova Pergola,811798512,Via Reggio Campi Secondo Tronco 7
+Marsala,Sicilia,Cinema Centrale,881239511,Via Giuseppe Garraffa 31
+Campofelice Di Roccella,Sicilia,Arena Re,2942539216,Viale della Provincia 38/A
+Cefalu',Sicilia,Cinema de Francesc a,3826590511,Siderno Marina 71
+Palermo,Sicilia,ABC,268695044,Corleone 177
+Palermo,Sicilia,Ariston,277642730,Via della Vittoria 159
+Palermo,Sicilia,Cinema Lux,3730965262,Via Francesco Paolo di Blasi 25
+Palermo,Sicilia,Cine Multisala Marconi,618709524,Via Cuba 12
+Palermo,Sicilia,Dante,267186897,Via Guglielmo Marconi 23
+Palermo,Sicilia,Fiamma (nel 2015 non attivo),271672159,Noceto 24
+Palermo,Sicilia,Gaudium,573760502,Via Antonio Salinas 87
+Palermo,Sicilia,Golden,573760503,Via Terrasanta 85
+Palermo,Sicilia,Imperia,268695275,Partinico 3
+Palermo,Sicilia,King,3483720080,VIII Circoscrizione 153
+Palermo,Sicilia,King,3800809853,VIII Circoscrizione 139
+Palermo,Sicilia,UCI Cinemas,3241235167,Via Filipo Pecoraino 50
+Villabate,Sicilia,Cine Ambassador,412327779,Corso Vittorio Emanuele 113
+Lipari,Sicilia,Museo del Cinema,3419393690,Corso Vittorio Emanuele 94
+Messina,Sicilia,Apollo,3404942513,Via Cesare Battisti 118
+Messina,Sicilia,Cine Capitol,3120571791,Via Nino Bixio 70
+Messina,Sicilia,Lux,3404942516,Largo Seggiola 194
+Milazzo,Sicilia,Liga,2703924085,Via Giacomo Medici 98
+Agrigento,Sicilia,Cine Astor,1913916305,Via Cicerone 115
+Agrigento,Sicilia,Cinema Concordia,1913919134,Via Francesco Crispi 39
+Agrigento,Sicilia,cinema multisala Ciak,962993052,Via Venticinque Aprile 190
+Porto Empedocle,Sicilia,cinema multisala Mezzano,1913933924,Via Leoncavallo 50
+Gela,Sicilia,Cine Teatro Antidoto,3719711777,Via Pandino 2
+Piazza Armerina,Sicilia,Teatro Garibaldi,1664822167,Via Catalano 165
+Caltagirone,Sicilia,Cineteatro Sant'Anna,2351946827,Viale Principe Umberto 178
+Catania,Sicilia,ABC,310484907,Via Pietro Mascagni 179
+Catania,Sicilia,Alfieri,309476307,San Cristoforo 7
+Catania,Sicilia,Arena Adua,297883789,Via Gigi Macchi 103
+Catania,Sicilia,Arena Corsaro,297883786,Via San Nicolò al Borgo 142
+Catania,Sicilia,Ariston,309466252,Via Balduino 177
+Catania,Sicilia,Capitol,317430354,Via Vicenza 13
+Catania,Sicilia,Corsaro,297883790,Via Musumeci 99
+Catania,Sicilia,King,318607654,Toscano 196
+Catania,Sicilia,Lo Pò,2058561640,Via Etnea 113
+Catania,Sicilia,Odeon,3259731762,Via Teatro Greco 43
+Catania,Sicilia,Recupero,320041349,Via Osservatorio 137
+Catania,Sicilia,Tiffany,309123975,Viale Mario Milazzo 185
+Giarre,Sicilia,Cineteatro Garibaldi,2002700577,Via Giuseppe Garibaldi 168
+Motta Sant'Anastasia,Sicilia,Cinema Virgillito,929553592,Via Roma 81
+San Giovanni La Punta,Sicilia,Cine Centrale,317492309,Via Sottotenente Giuseppe Scalia 99
+San Giovanni La Punta,Sicilia,Multiplex Cinestar,316514588,Via Montello 194
+Ispica,Sicilia,Cinema Diana,454383800,Via Giosuè Carducci 151
+Modica,Sicilia,Aurora,877283753,Corso Regina Elena 71
+Ragusa,Sicilia,Cinema La Licata,2324552406,Via Cristoforo Colombo 110
+Ragusa,Sicilia,Cine Teatro Don Bosco,3232369112,Via Solferino 45
+Ragusa,Sicilia,Lumière,2397539469,Via Ottorino Respighi 103
+Scicli,Sicilia,Cine-Arena,2560793526,Via Perello 104
+Alghero,Sardegna,Miramare,1163331316,Via Giosuè Carducci 1
+Sassari,Sardegna,Cinema Moderno,2278931518,Viale Umberto I 93
+Sassari,Sardegna,Ex Cinema Ariston,4017967928,Casaluce 140
+Cagliari,Sardegna,Cinema Odissea,2508589301,Viale Trieste 84
+Cagliari,Sardegna,Greenwich d'essai,2508488940,Via Sassari 67
+Cagliari,Sardegna,Multisala Cineworld,1436689026,Treviso 167
+Cagliari,Sardegna,UCI Cinemas,1452759826,Via Santa Gilla 18
+Quartucciu,Sardegna,Warner village The space,867589445,Ceccano 31
+Maniago,Friuli-Venezia Giulia,Cinema Manzoni,3427386912,Via Regina Elena 123
+Pordenone,Friuli-Venezia Giulia,Cinema Don Bosco,1309384861,Viale Michelangelo Grigoletti 121
+Pordenone,Friuli-Venezia Giulia,CinemaZero,446008451,Via Giacomo Matteotti 8
+Sacile,Friuli-Venezia Giulia,Teatro ruffo,3297493561,Piazza Duomo 70
+Ghilarza,Sardegna,Cinema Joseph,3227058661,Corso Umberto I 211
+Oristano,Sardegna,Cinema Multisala Ariston,3275219840,Via Armando Diaz 1b
+Biella,Piemonte,Cinema Mazzini,2246723263,Via Giuseppe Mazzini 117
+Biella,Piemonte,Cinema Teatro Odeon,2246723266,Via Torino 194
+Candelo,Piemonte,Cinema Verdi,471945783,Via Isengarda 166
+Cossato,Piemonte,Cinema Teatro Comunale,2131182338,Fisciano 150
+Vigliano Biellese,Piemonte,Cineteatro Erios,2420559039,Via Quintino Sella 15
+Mandello Del Lario,Lombardia,Cine teatro F. De Andrè,2888790555,Via Alessandro Manzoni 109
+Lodi,Lombardia,Cinema del Viale,566454948,Villacidro 182
+Lodi,Lombardia,Fanfulla,3383756674,Viale Pavia 54
+Lodi,Lombardia,Moderno,3383734219,Corso Adda 133
+Pieve Fissiraga,Lombardia,Cinelandia,1819025450,Via Isola Rota 26
+Santarcangelo Di Romagna,Emilia-Romagna,Teatro Supercinema,1737593750,Piazza Guglielmo Marconi 1
+Pennabilli,Emilia-Romagna,Cinema Gambrinus,2858050764,Via Parco Begni 124
+Prato,Toscana,Eden,622540449,Via Benedetto Cairoli 114
+Prato,Toscana,Excelsior,622540462,Via Giuseppe Garibaldi 83
+Prato,Toscana,Multiplex Omnia Center,622540398,Via delle Pleiadi 20
+Prato,Toscana,Terminale,622540432,Via Carbonaia 35
+Crotone,Calabria,Sala Raimondi,1310845517,Vico Orfanotrofio 111
+Domodossola,Piemonte,Cinema Corso,448941947,Corso Paolo Ferraris 50
+Carbonia,Sardegna,Supercinema,2006430322,Via Abruzzi 106
+Brugherio,Lombardia,Cinema Teatro San Giuseppe,822310974,Via San Domenico Savio 90
+Carate Brianza,Lombardia,Vfx Cinema e TV di Federico Surace,3355590948,Novara 199
+Lissone,Lombardia,Cineteatro Excelsior,647694268,Via don Carlo Colnaghi 3
+Lissone,Lombardia,UCI Cinemas Lissone,647686881,Via Madre Teresa 1
+Monza,Lombardia,Capitol,455980207,Via Alessandro Pennati 10
+Lentate Sul Seveso,Lombardia,Cinema Teatro Sant'Angelo,3992149991,Via Giuseppe Garibaldi 47
+Fermo,Marche,Super 8,2665758497,Via Malintoppi 121
+Porto Sant'Elpidio,Marche,Multiplex,253327471,Lana 34
+Servigliano,Marche,Multisala,1217649652,Via Rosselli 109
+Andria,Puglia,Multisala Roma,3109427880,Via Flavio Giugno 97
+Barletta,Puglia,Cinema Opera,565693494,Via Imbriani 8

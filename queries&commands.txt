@@ -1,0 +1,221 @@
+QUERIES :
+
+- Find the Country with the highest number of positive Covid samples taken
+
+	MATCH (:Test)-[took:TOOK]-(p:Person)-[:LIVES_IN]-(c:City)-[:PART_OF]-(s:Country)
+    WHERE took.isPositive = true
+    WITH COUNT(p) AS positive_samples, s.name AS country
+    ORDER BY positive_samples DESC
+    LIMIT 1
+    RETURN country, positive_samples
+    
+- Find the place where the highest number of people, tested positive to a Covid sample 
+  performed on a certain date, went in the previous n (e.g. 300) days.
+  
+    MATCH (:Test)-[took:TOOK]-(p:Person)-[w:WENT_TO]-(place:Place)-
+    [l:LOCATED]-(c:City)-[pa:PART_OF]-(co:Country)
+    WHERE took.isPositive = true
+    AND took.date = date('2021-1-1')
+    AND w.date >= took.date - duration({days: 300})
+    AND w.date <= took.date
+    WITH COUNT(p) AS people, place.name AS name, place.type AS type,
+    l.address + ", " + c.name + ", " + c.region + ", " + co.name AS address
+    ORDER BY people DESC
+    LIMIT 1
+    RETURN name, type, address, people;
+    
+- List of people who tested positive to a Covid sample and the count of people 
+  they met over the last n (e.g.: 300) days
+  	
+  	MATCH (t:Test)-[took:TOOK]-(p1:Person)-[m:MET]->(p2:Person)
+    WHERE took.isPositive = true 
+    AND m.date >= took.date - duration({days: 300})  
+    AND m.date <= took.date
+    WITH COUNT(p2) AS people_met, p1.name AS name
+    ORDER BY people_met DESC
+    RETURN name, people_met;
+
+- Find the city with the highest number of first dose vaccinated people up to a given date
+
+	MATCH (:Vaccine)-[r:RECEIVED]-(p:Person)-[:LIVES_IN]-(c:City)-[:PART_OF]-(co:Country)
+    WHERE r.date <= date('2022-01-01') 
+    AND r.number = 1
+    WITH COUNT(p) AS people, 
+    c.name + ", " + c.region + ", " + co.name AS city
+    ORDER BY people DESC
+    LIMIT 1
+    RETURN city, people;
+    
+- Find the tracking source that registered the highest number of contacts
+
+	MATCH ()-[m:MET]->()
+    WITH m.source AS source, COUNT(m.source) AS num_sources
+    ORDER BY num_sources DESC
+    LIMIT 1
+    RETURN source, num_sources;
+    
+- Find the age range (10 years) who has been infected the most and the number of 
+  infections (in relation to the number of people composing that category)
+  
+    MATCH (:Test)-[took:TOOK]-(p:Person)
+    WITH "["+(duration.between(p.birthDate,datetime()).years/10)*10+","
+    +(duration.between(p.birthDate,datetime()).years/10+1)*10+")" AS age_range,
+    COUNT(*) AS total_people, 
+    SUM(CASE WHEN took.isPositive = true THEN 1 ELSE 0 END) AS positive_people,
+    SUM(CASE WHEN took.isPositive = true THEN 1 ELSE 0 END)*1.0/COUNT(*) AS rate
+    ORDER BY rate DESC
+    LIMIT 1
+    RETURN age_range,total_people,positive_people, round(rate, 2, 'HALF_UP');
+    
+- Find the vaccine with less positive samples registered until a certain date 
+  (in relation to the number of days past the vaccination)
+  
+    MATCH (v:Vaccine)-[r:RECEIVED]-(p:Person)-[took:TOOK]-(test:Test)
+    WHERE r.number = 1
+    WITH v.manufacturer AS manufacturer, 
+    SUM(CASE WHEN took.isPositive = true AND r.date <= took.date THEN 1 ELSE 0 END) 
+    AS positive_people, 
+    SUM(duration.inDays(r.date, date('2021-11-7')).days) AS total_days
+    ORDER BY total_days/positive_people ASC
+    RETURN manufacturer, total_days/positive_people;
+    
+- List the places visited by a given person over the last n (e.g. : 300) days 
+  starting from the positive Covid sample taken in a given date
+  
+    MATCH (:Test)-[took:TOOK]-(p:Person)-[w:WENT_TO]-(place:Place)-
+    [l:LOCATED]-(city:City)-[pa:PART_OF]-(c:Country)
+    WHERE p.fullname = 'Nanda Donati'
+    AND took.isPositive = TRUE
+    AND took.date = date('2020-07-29')
+    AND w.date >= took.date - duration({days: 20})
+    AND w.date <= took.date
+    WITH place.name AS name, 
+    l.address + ", " + city.name + ", " + city.region + ", " + c.name AS address,
+    w.date AS date, place.type AS type
+    ORDER BY date
+    RETURN name, type, address, date;
+    
+    
+-----------------------------------------------------------------------------------------
+
+COMMANDS :
+
+----- CSV LOAD Commands ------
+
+- Person nodes CSV Load
+
+	    LOAD CSV WITH HEADERS FROM $path
+        AS line FIELDTERMINATOR ','
+        WITH line
+        MERGE (:Person 
+        {name: line.name, 
+        surname: line.surname,
+        fullname: line.fullname, 
+        sex: line.sex, 
+        birthDate: date(line.birth_date), 
+        id: line.id, 
+        idType: line.id_type});
+
+- Country nodes CSV Load
+
+		LOAD CSV WITH HEADERS FROM $path
+        AS line FIELDTERMINATOR ','
+        WITH line
+        MERGE (:Country 
+        {name: line.Country, population: toInteger(line.Population)});
+
+- City nodes CSV Load
+
+		LOAD CSV WITH HEADERS FROM $path
+        AS line FIELDTERMINATOR ','
+        WITH line
+        MERGE (:City 
+        {name: line.city_ascii, 
+        id: toInteger(line.id), 
+        population: toInteger(line.population), 
+        region: line.admin_name}});  
+        
+- Place nodes CSV Load 
+	
+	   LOAD CSV WITH HEADERS FROM $path
+       AS line FIELDTERMINATOR ','
+       WITH line
+       MERGE (:Place 
+       {name: line.name, 
+       id: toInteger(line.ID), 
+       type: $type});
+
+- Vaccine nodes CSV Load
+
+	  LOAD CSV WITH HEADERS FROM $path
+      AS line FIELDTERMINATOR ','
+      WITH line
+      MERGE (:Vaccine {manufacturer: line.vaccine});
+
+- Test nodes CSV Load
+
+	  LOAD CSV WITH HEADERS FROM $path
+      AS line FIELDTERMINATOR ','
+      WITH line
+      MERGE (:Test {type : line.type});
+      
+      
+------ Other Commands -----
+
+- Update person’s residence (with relationships adjustments) 
+
+	MATCH (person:Person) - [old_street :LIVES_IN] - (old_city : City)
+    WHERE person.id = $person_id
+    DELETE old_street
+
+    WITH person
+    MATCH (person) - [old_lives_with :LIVES_WITH] - (old_cohabitant : Person)
+    DELETE old_lives_with
+
+    WITH person
+    MATCH(new_city:City)
+    WHERE new_city.id = $new_city_id
+
+    MATCH (new_cohabitant : Person) - [new_relationship :LIVES_IN] - (new_city)
+    WHERE new_relationship.address = $new_address
+    MERGE (new_cohabitant)-[:LIVES_WITH {address : $new_address}]->(person)
+    MERGE (person)-[:LIVES_IN {address :$new_address }]->(new_city)
+
+    RETURN person;
+    
+- Create new TOOK relationship 
+
+	MATCH (person:Person) 
+    MATCH (test:Test) 
+    WHERE person.id = $id 
+    AND test.type = $type 
+    MERGE (person)-[took:TOOK {date:$date, city_id:$city, isPositive:$isPositive}]-(test)
+    RETURN person, test, took;	
+    
+- Create a new family 
+  (ids: string that contains id of new family members, delimited by a comma)
+  
+    MATCH (person:Person)-[lives_with:LIVES_WITH]-(:Person)
+    MATCH(person)-[lives_in:LIVES_IN]-(:City)
+    WHERE person.id IN split(\$ids,",")
+    DELETE lives_with, lives_in
+    
+    MATCH (p1:Person)
+    MATCH (p2:Person)
+    MATCH (c:City)
+    WHERE p1.id IN split($ids,",")
+    AND p2.id IN split($ids,",")
+    AND p1.id <> p2.id 
+    AND c.id = $city
+    MERGE (p1)-[:LIVES_WITH]-(p2)
+    MERGE (p1)-[:LIVES_IN {address : $address}]-(c)
+    
+- Delete a Person node
+
+	MATCH (n: Person{fullname: $value}) 
+    DETACH DELETE n;
+	
+	
+	
+
+

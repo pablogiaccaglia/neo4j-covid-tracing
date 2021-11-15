@@ -1,0 +1,630 @@
+city,admin_name,name,ID,address
+Cambiano,Piemonte,Teatro Comunale,563313694,Piazza Innovazione 1
+Caselle Torinese,Piemonte,Tensostruttura Beato Giovanni Paolo II,1145909839,Chiampo 47
+Ceres,Piemonte,Gruppo Musicale,1760846493,Via Cantoira 169
+Chiaverano,Piemonte,Teatro Bertagnoglio,2189533333,Riesi 22
+Orbassano,Piemonte,Teatro Sandro Pertini,920720793,Via dei Molini 1
+Pinerolo,Piemonte,Teatro Sociale,2930838804,Piazza Vittorio Veneto 16
+Rivarolo Canavese,Piemonte,Sala Lux,2010241222,Via Trieste 179
+San Giorgio Canavese,Piemonte,Sala Teatro Don Dante Ruffa,2942678068,Via Carlo Botta 134
+Torino,Piemonte,Alfa Teatro,1181457290,Via Casalborgone 33
+Torino,Piemonte,Alfieri,2590338876,Via Battista Pininfarina 76
+Torino,Piemonte,Cine Teatro Baretti,2455133839,Via Giuseppe Baretti 4
+Torino,Piemonte,Teatro Carignano,617849850,Piazza Carignano 6
+Torino,Piemonte,Teatro Colosseo,596529626,Via Madama Cristina 71
+Torino,Piemonte,Teatro della Caduta,3352056176,Via Michele Buniva 24
+Torino,Piemonte,Teatro Erba,3079692473,Corso Moncalieri 241
+Torino,Piemonte,Teatro Giulia di Barolo,3352061372,2bis/B 26
+Torino,Piemonte,Teatro Gobetti,2018087953,Via Gioachino Rossini 153
+Torino,Piemonte,Teatro Monterosa,3361994106,Via Brandizzo 198
+Torino,Piemonte,Teatro Tangram,3828183486,Via Don Luigi Orione 5/C
+Villastellone,Piemonte,Auditorium,3442915057,Torino 48
+Fontanetto Po,Piemonte,Auditorium Giovan Battista Viotti,1277563108,Corso Massimo Montano 161
+Riva Valdobbia,Piemonte,Società di Mutuo Soccorso e Beneficenza,2134876866,Via degli Alpini 155
+Trino,Piemonte,Teatro Civico,1988783773,Piazza Martiri dei Lager 62
+Varallo,Piemonte,Teatro Civico,2627228403,Piazza Vittorio Emanuele 38
+Vercelli,Piemonte,Teatro Barbieri,3111329739,Via Vittorio Alfieri 3A-3B
+Trecate,Piemonte,Teatro Silvio Pellico,2975558832,Piazza Riccardo Cattaneo 177
+Bergolo,Piemonte,Amphiteatro,2422522789,Via Roma 67
+Narzole,Piemonte,Teatro,3198400474,Via Umberto I 32
+Rodello,Piemonte,Teatro dei Battuti,3431257655,Via Caduti 183
+Villanova Mondovi',Piemonte,Teatro F. Garelli,1516384862,Via del Teatro 148
+Fontanile,Piemonte,Centro culturale San Giuseppe,2433637048,Via Marconi 154
+Moncalvo,Piemonte,Teatro Civico,3292691662,Piazza Garibaldi 28
+Alessandria,Piemonte,Ambra,1858739408,Lussello 75
+Alessandria,Piemonte,teatro comunale,1333685550,Vicolo Falzetta 6
+Alessandria,Piemonte,Teatro Parvum,3456137095,Via Giuseppe Mazzini 85
+Pontecurone,Piemonte,S.O.A.M.S.,2570239953,Via Roma 175
+Silvano D'Orba,Piemonte,Teatro Comunale SOMS,1680908886,Via Roma 165
+Valenza,Piemonte,Cineteatro Sociale,1639017566,Gradisca d’Isonzo 165
+Valmacca,Piemonte,Teatro,2906057737,Piazza Marchesa Tarsilla di Bisio 194
+Aosta,Valle d'Aosta,Giacosa,1988134638,Aymavilles 49
+Pont-Saint-Martin,Valle d'Aosta,Auditorium Comunale,3795817729,Via Roveschialles 35
+San Lorenzo Al Mare,Liguria,Sala Teatro Samuel Beckett,1095221666,Via Vignasse 1
+Albisola Superiore,Liguria,Auditorium,3994812962,Via alla Massa 77
+Albisola Superiore,Liguria,Terrazza sul mare,3762386957,Omegna 195
+Savona,Liguria,Antico Teatro Sacco,3964854703,Via Quarda superiore 167
+Varazze,Liguria,Auditorium dei Frati Stellati,3994806984,Via Carlo Nocelli 36
+Arenzano,Liguria,"Teatro """"Il Sipario Strappato""""",1426740528,Via Guglielmo Marconi 134
+Borzonasca,Liguria,Teatro De Andrè,1771951775,Via Angelo Grilli 87
+Genova,Liguria,cinema teatro Instabile,311614752,Via Antonio Cecchi 158
+Genova,Liguria,Politeama Genovese,2620401938,Via Nicolò Bacigalupo 2
+Genova,Liguria,Teatro Albatros,1529901945,Via Gio Batta Roggerone 8
+Genova,Liguria,Teatro Altrove,3614940800,Piazzetta Cambiaso 1
+Genova,Liguria,Teatro della Corte,237300388,Corte dei Lambruschini 93
+Genova,Liguria,Teatro della Tosse,242693780,Piazza Renato Negri 139
+Genova,Liguria,Teatro dell'Ortica,2758096417,Via Salvador Allende 48
+Genova,Liguria,Teatro di Villa Duchessa di Galliera,1377933953,Vico Nicolò da Corte 4
+Genova,Liguria,Teatro Duse,237298943,Via Nicolò Bacigalupo 6
+Genova,Liguria,Teatro Garage,254565440,Salita nuova di Nostra Signora del Monte 167
+Genova,Liguria,Teatro Rina e Gilberto Govi,269904280,Via Pasquale Pastorino 138
+Genova,Liguria,Teatro S.O.C,1470967922,Via San Bartolomeo della Certosa 160
+Rapallo,Liguria,Auditorium delle Clarisse,731254641,Via Aurelia Orientale 38
+Sestri Levante,Liguria,Teatro Lavagnina,1739073478,Via Bruno Primi 107
+Sori,Liguria,Teatro del Levante,1891508504,Via Roma 39
+La Spezia,Liguria,Teatro Civico,1939336511,Via Carpanino 173
+Busto Arsizio,Lombardia,Cinema Teatro Lux,3371097145,Via Padre Reginaldo Giuliani 145
+Carnago,Lombardia,Agorà,1509598205,Via Giovanni Castiglioni 152
+Cassano Valcuvia,Lombardia,Teatro Comunale,2776890157,Via Quattro Novembre 178
+Cislago,Lombardia,Angolo dell'Arte,1770419840,Via Cavalieri di Vittorio Veneto 170
+Origgio,Lombardia,CineTeatro San Giuseppe,659798281,Via Piantanida 20
+Samarate,Lombardia,Caffè Teatro,3420536493,Via Indipendenza 10
+Saronno,Lombardia,Teatro Giuditta Pasta,1907266778,Via Primo Maggio 79
+Varano Borghi,Lombardia,Teatro Comunale,2612567647,Via Enrico Fermi 18
+Caglio,Lombardia,Arena,2303644072,Via Sant'Antonio 35
+Como,Lombardia,CineTeatro Cristallo,1263152897,Via Tommaso Malvito 6
+Como,Lombardia,La Lucernetta,2917627407,Via Tridi 139
+Erba,Lombardia,"Teatro all'aperto """"Licinium""""",331863140,Via Crotto Rosa 63
+Bussero,Lombardia,Auditorium Biblioteca,2762152018,Via Gotifredo da Bussero 1
+Castano Primo,Lombardia,Auditorium Paccagnini,1695921914,Via Tripoli 92
+Cesano Boscone,Lombardia,Teatro Piana,2028484958,Via Filippo Turati 6
+Cormano,Lombardia,Teatro del Buratto,1558406769,Via Gianni Rodari 3
+Cusano Milanino,Lombardia,Aia Taumastica - Torre dell?Acquedotto,982675406,17 bis 107
+Magenta,Lombardia,CinemateatroNuovo,626352412,Via San Martino 124
+Magenta,Lombardia,Teatro Lirico,611023932,Via Brenno Cavallari 73
+Melzo,Lombardia,Teatro Trivulzio,261666496,Piazza Risorgimento 142
+Milano,Lombardia,Auditorium di Milano,478795478,Via Conchetta 166
+Milano,Lombardia,Auditorium Giovanni Testori,3147227479,Piazza Città di Lombardia 1
+Milano,Lombardia,Auditorium San Fedele,442587179,Duomo no
+Milano,Lombardia,Greco,279829028,Municipio 2 153
+Milano,Lombardia,OutOff,252635403,Via Mac Mahon 129
+Milano,Lombardia,Piccolo Teatro Grassi,281885884,Via Rovello 2/B
+Milano,Lombardia,PIM Spazio Scenico,439208909,Naples 118
+Milano,Lombardia,San Babila,439207301,Piazza San Babila 10
+Milano,Lombardia,Spazio Tadini,2345613403,Via Niccolò Jommelli 24
+Milano,Lombardia,Teatro Carcano,442572432,Corso di Porta Romana 63
+Milano,Lombardia,Teatro dei filodrammatici,1285364954,Via Filodrammatici 1
+Milano,Lombardia,Teatro della 14a,441580391,Via Oglio 30
+Milano,Lombardia,Teatro della Contraddizione,3652841909,Via privata della Braida 45
+Milano,Lombardia,Teatro della Memoria,252635404,Via Domenico Cucchiari 4
+Milano,Lombardia,Teatro del Parco Trotter,265654320,Via Giovanni Pontano 40
+Milano,Lombardia,Teatro del Vigentino,1789998366,Via Barletta 86
+Milano,Lombardia,Teatro Elfo Puccini,1714332504,Corso Buenos Aires 33
+Milano,Lombardia,Teatro Franco Parenti,2065222330,Via Pier Lombardo 6
+Milano,Lombardia,Teatro i,439209165,Via Gaudenzio Ferrari 11
+Milano,Lombardia,Teatro Leonardo da Vinci,1427961587,Via Andrea Maria Ampère 1
+Milano,Lombardia,Teatro Libero,2404012462,Via Savona 117
+Milano,Lombardia,Teatro Lirico di Milano,2937821817,Villanuova sul clisi 147
+Milano,Lombardia,Teatro Manzoni,251291809,Via Alessandro Manzoni 42
+Milano,Lombardia,Teatro Nuovo,1855779383,Piazza San Babila 72
+Milano,Lombardia,Teatro Sala Fontana,2491568216,Gualtieri 26
+Milano,Lombardia,Teatro San Domingo,3719659369,Via Rovigno 11/A
+Milano,Lombardia,Teatro Sant'Andrea,258034830,Via Trebbia 93
+Milano,Lombardia,Teatro Verdi,2479386540,Via Pastrengo 16
+Milano,Lombardia,Teatro Verga,283049460,Via Giovanni Verga 98
+Milano,Lombardia,Tieffe Teatro,435189356,Via Ciro Menotti 147
+Paderno Dugnano,Lombardia,Teatro Stefano Strada,2046503080,Via Giovanni Amendola 41
+Pieve Emanuele,Lombardia,BEAT Scuola d'Arte,3076938289,Spoleto 16
+Segrate,Lombardia,Cascina Commenda,603797464,Via Giorgio Amendola 57
+Bergamo,Lombardia,Spazio Polaresco,945017321,Finazzi 25
+Bottanuco,Lombardia,Sala della Comunità,664002151,Via Locatelli 153
+Costa Valle Imagna,Lombardia,Teatro parrocchiale,2444734168,Via Miravalle 75
+Roncobello,Lombardia,Sala Polivalente,1356243514,Viale dei Caduti 127
+Villa D'Alme',Lombardia,Teatro Serassi,2087602858,Via Locatelli Milesi 58
+Brescia,Lombardia,Teatro Grande,1668862274,Portici di Corso Giuseppe Zanardelli 94
+Brescia,Lombardia,Teatro Sociale,1668862277,Corsia Gambero 27
+Chiari,Lombardia,Auditorium Bettolini,3132740097,Viale Pietro Cadeo 17
+Chiari,Lombardia,Saletta Ottavia,3453734559,Viale Pietro Cadeo 17
+Dello,Lombardia,Centro culturale San Giorgio,2098092702,Via Undici Febbraio 91
+Gottolengo,Lombardia,Teatro Zanardelli,2432098764,Piazza Venti Settembre 84
+Leno,Lombardia,Teatro Comunale,2647654051,Via Dante Alighieri 7
+Leno,Lombardia,Teatro Oratorio,2647654052,Via Re Desiderio 37
+Manerbio,Lombardia,Teatro Politeama,2433650803,Via Marsala 52
+Rezzato,Lombardia,Sala Civica Italo Calvino,979826154,Via Brescia 160
+Rovato,Lombardia,Teatro L. Zenucchini,2121227456,Via Castello 194
+Tignale,Lombardia,Auditorium,1209852915,Via Badiale 42
+Vezza D'Oglio,Lombardia,Centro Eventi Adamello,548736177,Via del Piano 123
+Casteggio,Lombardia,La Fabbrika della Musica 24,581999654,Via Teresio Bernini 101
+Godiasco,Lombardia,Teatro Cagnoni,2492169248,Via Ardivestra 172
+Mortara,Lombardia,Auditorium,2351212848,Via Dante Alighieri 44
+Mortara,Lombardia,Teatro comunale Vittorio Emanuele II,444012236,Via Luigi Belluschi 184
+Pavia,Lombardia,Teatro Fraschini,634994530,Corso Strada Nuova 116
+Retorbido,Lombardia,Teatro Comunale,3463110343,Piazza Roma 118
+Travaco' Siccomario,Lombardia,Teatro Spazio ISV,3513311091,Via Luigi Einaudi 151
+Vigevano,Lombardia,Civico Teatro Cagnoni,439789281,Via Guido da Vigevano 129
+Voghera,Lombardia,Cinema - Teatro Arlecchino,1827392492,Viale Repubblica (Ciclabile) 174
+Voghera,Lombardia,Cinema-Teatro Padri Barnabiti,1952422563,Via Giuseppe Garibaldi 80
+Voghera,Lombardia,Cinema-Teatro San Rocco,1827392480,Piazza Dino Provenzal 98
+Mantova,Lombardia,Teatrino d'Arco,2470519364,Via Angelo Scarsellini 81
+Marmirolo,Lombardia,Teatro Comunale,2416131227,Via Meucci 115
+Pegognaga,Lombardia,Teatro Anselmi,2449211260,Via Giuseppe Verdi 66
+Sabbioneta,Lombardia,Teatro Olimpico,2638132669,Via Teatro Olimpico 53
+Appiano Sulla Strada Del Vino,Trentino-Alto Adige,Kultursaal,1222907819,Kapuzinerstraße - Via Cappuccini 53
+Bolzano,Trentino-Alto Adige,Auditorium - Konzerthaus,1402798992,Via Dante - Dantestraße 15
+Bolzano,Trentino-Alto Adige,Teatro Rainerum,1337552650,Piazza Domenicani - Dominikanerplatz 15
+Bressanone,Trentino-Alto Adige,Gruppe Dekadenz,496083045,Obere Schutzengelgasse - Via Alta Angelo Custode 199
+Cornedo All'Isarco,Trentino-Alto Adige,Vereinshaus Peter Anich Steinegg,2584248006,Casalserugo 112
+Cortaccia Sulla Strada Del Vino,Trentino-Alto Adige,Ansitz Freienfeld,560017493,Andreas-Hofer-Straße - Via Andreas Hofer 3
+Cortaccia Sulla Strada Del Vino,Trentino-Alto Adige,Kulturhaus Kurtatsch,560006349,Andreas-Hofer-Straße - Via Andreas Hofer 69
+Dobbiaco,Trentino-Alto Adige,Mahler Saal,1781575605,Bahnhofstraße - Via Stazione 175
+Funes,Trentino-Alto Adige,Kulturhaus,2423633512,Schulhof 92
+Laives,Trentino-Alto Adige,Gino Coseri,2455560218,Passaggio zona scolastica - Schuldurchgang Maria Damian 14
+Merano,Trentino-Alto Adige,Altstadttheater,1666672795,Freiheitsstraße - Corso della Libertà 33
+Rio Di Pusteria,Trentino-Alto Adige,Theatersaal,1175483824,Außerecker Straße 1
+Silandro,Trentino-Alto Adige,Kulturhaus Karl Schönherr,807687215,Göflaner Straße - Via Covelano 27/B
+Terlano,Trentino-Alto Adige,Raiffeisensaal Terlan,582638952,Niederthorstraße - Via Niederthor 124
+Vipiteno,Trentino-Alto Adige,Stadttheater,932017312,J.-W.-v.-Goethe-Platz - Piazza J. W. v. Goethe 164
+Calceranica Al Lago,Trentino-Alto Adige,Teatro Sant'Ermete,2331890526,Piazza Graziadei 161
+Castello Tesino,Trentino-Alto Adige,Cinema teatro San Giorgio,3251226172,Strada Provinciale 75 del Grigno 62
+Centa San Nicolo',Trentino-Alto Adige,Teatro comunale,883411520,Via dei Campi 2
+Levico Terme,Trentino-Alto Adige,Teatro monsignor Caproni,1106786704,Via Monsignor Domenico Caproni 1
+Levico Terme,Trentino-Alto Adige,Teatro - Oratorio Barco,1080455298,Via di San Taddeo 63
+Mezzocorona,Trentino-Alto Adige,San Gottardo,1172071478,Via San Giovanni Bosco 183
+Pergine Valsugana,Trentino-Alto Adige,Sala musicale ACS Canale,3724680471,Via della Busa 30
+Predazzo,Trentino-Alto Adige,Teatro,303822589,Via Verdi 164
+Rovereto,Trentino-Alto Adige,Teatro Cinema Antonio Rosmini,3076571018,Via Paganini 111
+Sarnonico,Trentino-Alto Adige,Teatro Livio Covi,2288458101,Via Alessandro Manzoni 157
+Scurelle,Trentino-Alto Adige,Teatro,2194713687,Via 15 Agosto 184
+Storo,Trentino-Alto Adige,teatro Santa Croce,755814000,Via 24 Maggio 1915 159
+Telve,Trentino-Alto Adige,Teatro parrocchiale Telve,2628566893,Via Santa Giustina 61
+Trento,Trentino-Alto Adige,Teatro,265581228,Via Verdi 173
+Trento,Trentino-Alto Adige,Teatro Concordia,1999372436,Piazzale Carlo Merler 166
+Trento,Trentino-Alto Adige,teatro Cuminetti,1537286631,Via beato Lodovico Pavoni 8
+Trento,Trentino-Alto Adige,Teatro Demattè,1540485232,Via per Belvedere 82
+Trento,Trentino-Alto Adige,Teatro San Marco,265659089,Via San Bernardino 41
+Volano,Trentino-Alto Adige,Teatro Concordia,1381659951,Via Stazione 45
+Castelnuovo Del Garda,Veneto,Fantasy Show,2337066137,Rosolini 48
+Castelnuovo Del Garda,Veneto,Il Banchetto del Sultano,2337066136,Cumiana 154
+Castelnuovo Del Garda,Veneto,Il Tesoro di Labuan,2337066135,Bentivoglio 28
+Castelnuovo Del Garda,Veneto,Incantesimi,2337066138,Arenzano 24
+Castelnuovo Del Garda,Veneto,Teatro Comunale Diego Martinelli,703787377,Via San Martino 130
+Cerea,Veneto,Teatro di Asparetto,1401600222,Via San Nicolò 121
+Povegliano Veronese,Veneto,Teatro Parrocchiale,586450098,Piazza IV Novembre 172
+San Giovanni Ilarione,Veneto,Teatro Parrocchiale di Castello,3202006816,Via Castello 62
+San Giovanni Lupatoto,Veneto,Astra,1107546559,Via Roma 141
+Sommacampagna,Veneto,Auditorium Mirella Urbani,3805323234,Via Scuole 13
+Verona,Veneto,Cinema-Teatro San Massimo,250362881,Bitritto 195
+Verona,Veneto,Teatro Blu,2710784737,Via Monterotondo 188
+Verona,Veneto,Teatro Canossa,772960818,Via Marcantonio della Torre 147
+Villafranca Di Verona,Veneto,Auditorium Comunale,285962312,Via Aldo Rizzini 129
+Arsiero,Veneto,Cinema Patronato Don Bosco,1493334588,Via Riva 146
+Bassano Del Grappa,Veneto,Astra,506466077,Viale dei Martiri 42
+Bassano Del Grappa,Veneto,Sala Jacopo da Ponte,506466078,Piazzale Luigi Cadorna 34/a
+Bolzano Vicentino,Veneto,Teatro Ariston,2588146312,Piazza Roma 6
+Conco,Veneto,"Teatro all'aperto """"Buso del Giaso""""",3052571765,Fontaniva 121
+Costabissara,Veneto,"Teatro comunale """"G. Verdi""""",473161666,Mansuè 28
+Creazzo,Veneto,Auditorium comunale,1728872497,Via Alessandro Manzoni 66
+Dueville,Veneto,Teatro Busnelli,571783405,Via Dante 67
+Marostica,Veneto,Politeama,2520137483,Via Montegrappa 54
+Montecchio Maggiore,Veneto,Teatro al Castello,2529401150,Via Castelli 4 Martiri 52
+Monte Di Malo,Veneto,Teatro parrocchiale,3070192929,Melito di Napoli 32
+Noventa Vicentina,Veneto,Teatro Modernissimo,2019018413,Via Broli 163
+Romano D'Ezzelino,Veneto,Teatro Di Sacro Cuore,2022845585,Via Lanzarini 48
+Schio,Veneto,Teatro Astra,3210914787,Via Battaglione Val Leogra 45
+Schio,Veneto,Teatro Civico,342962770,Via Pietro Maraschin 19
+Schio,Veneto,Teatro Salesiani,1411213463,Via Guglielmo Marconi 14
+Tonezza Del Cimone,Veneto,Sala Conferenze Tonezza,3914291066,Via del Partigiano 172
+Valli Del Pasubio,Veneto,San Sebastiano,311389224,Via Roma 134
+Vicenza,Veneto,Teatro E. Zuccato,330416646,Strada del Cimitero di Polegge 92
+Vicenza,Veneto,Teatro Spazio Bixio,385447103,Via Goffredo Mameli 4
+Ponte Nelle Alpi,Veneto,Piccolo Teatro Giovanni Pierobon,309398477,Via I Novembre 55
+Santo Stefano Di Cadore,Veneto,Gruppo teatrale I Comelianti,3014739318,Piazzetta dell'emigrante 126
+Caerano Di San Marco,Veneto,Teatro Maffioli,1510082394,Via Montello 192
+Castelfranco Veneto,Veneto,Teatro Accademico di Castelfranco,736523061,Vicolo dei Vetri 113
+Conegliano,Veneto,Teatro Accademia,1393973113,Piazza Giovanni Battista Cima 158
+Oderzo,Veneto,"Cinema Teatro """"Cristallo""""",2301307127,Via Giuseppe Garibaldi 44
+Paderno Del Grappa,Veneto,Teatro Istituti Filippin,1925057542,Park Piscine 189
+Treviso,Veneto,Eden,593785809,Viale Quindici Luglio 189
+Treviso,Veneto,Teatro Alcuni,2349415877,Via Ugo Bassi 2
+Villorba,Veneto,Auditorium Mario del Monaco,2345941708,Via Guglielmo Marconi 32
+Vittorio Veneto,Veneto,Aula magna del Seminario,2317052092,Largo Seminario 128
+Campagna Lupia,Veneto,Sala Teatro Parrochiale,2005546639,Via Papa Giovanni XXIII 87
+Campagna Lupia,Veneto,"Sala Teatro Polivalente """"Emilia Naureda Caldon""",3718288977,Via della Repubblica 167
+Chioggia,Veneto,Arena,1166383440,Viale Tirreno 71
+Iesolo,Veneto,Anfiteatro Piazza Aurora,1574348738,Piazza Aurora 121
+Portogruaro,Veneto,Teatro Luigi Russolo,1867583374,Via degli Spalti 89
+San Michele Al Tagliamento,Veneto,Teatro,3180296430,Via Giacomo Puccini 91
+Venezia,Veneto,Goldoni,1627037963,Calle del Teatro o de la Commedia 89
+Venezia,Veneto,Musica A Palazzo,2189496192,Ramo Barbarigo 156
+Venezia,Veneto,Teatro Arnaldo Momo,1025016096,Via Sernaglia 186
+Venezia,Veneto,Teatro Corso,2229600894,Corso del Popolo 96
+Venezia,Veneto,Teatro La Fenice,251501878,Campo San Fantin 1965
+Venezia,Veneto,Teatro Marinoni Bene Comune,2361767761,Lungomare Gabriele D'Annunzio 171
+Venezia,Veneto,Virtuosi de Venezia,2189874138,Piazza San Marco 49
+Borgoricco,Veneto,Centro Civico,924233633,Viale Europa 12
+Cittadella,Veneto,Teatro Sociale,2368877156,Via Indipendenza 39
+Fontaniva,Veneto,Nuovo Palladio,1791443148,Via Monte Grappa 13
+Padova,Veneto,Piccolo Teatro Tom Benetollo,3849433257,Via Antonio Tonzig 15
+Padova,Veneto,Teatro Maddalene,2864698216,Via San Giovanni di Verdara 40
+Padova,Veneto,Teatro Ruzante,1473120322,Via del Padovanino 45
+Piove Di Sacco,Veneto,Teatro Filarmonico Comunale,3857787216,Piazza Matteotti 5-7
+San Giorgio Delle Pertiche,Veneto,Cinema Teatro Giardino,1832020253,Via Roma 171
+San Giorgio Delle Pertiche,Veneto,Sala Polivalente di Cavino,1832000573,Via A. Lincoln 64
+Rosolina,Veneto,Teatro Tendo,759923378,Via Settima Ovest 88
+Rovigo,Veneto,Teatro,2383250710,Piazza Papa Giovanni Paolo II 41
+Cividale Del Friuli,Friuli-Venezia Giulia,Teatro Adelaide Ristori,1144578223,Via Adelaide Ristori 167
+Flaibano,Friuli-Venezia Giulia,Centro sociale,2975045850,Via Vittorio Veneto 136
+Pozzuolo Del Friuli,Friuli-Venezia Giulia,Auditorium IPSAA,1754696409,Via delle Scuole 126
+Tolmezzo,Friuli-Venezia Giulia,Auditorium Luigi Candoni,3729705625,Via Venticinque Aprile 27
+Udine,Friuli-Venezia Giulia,Auditorium A. Zanon,1241049187,Casale sul Sile 101
+Udine,Friuli-Venezia Giulia,Centro Culturale delle Grazie,3574966193,Via Pracchiuso 158
+Gorizia,Friuli-Venezia Giulia,Magic Stage,3876096767,Via Carlo Morelli 146
+Gorizia,Friuli-Venezia Giulia,Teatro Giuseppe Verdi,316495410,Via Giuseppe Garibaldi 25
+Gradisca D'Isonzo,Friuli-Venezia Giulia,Teatro Comunale,527259289,Piazzale dell'Unità d'Italia 168
+Grado,Friuli-Venezia Giulia,Villaggio Europa,3686203091,Via Monfalcone 96
+Monfalcone,Friuli-Venezia Giulia,Teatro Comunale,525882939,Corso del Popolo 146
+Muggia,Friuli-Venezia Giulia,Verdi,985370806,Via San Giovanni 114
+San Dorligo Della Valle,Friuli-Venezia Giulia,France Pre?eren,332218721,Erchie 175
+Trieste,Friuli-Venezia Giulia,Cinema Teatro Silvio Pellico,1268713841,Via Gregorio Ananian 5/2
+Trieste,Friuli-Venezia Giulia,Kulturni dom Albert Sirk,597274693,Via del Pucino 112
+Trieste,Friuli-Venezia Giulia,Teatro Lirico Giuseppe Verdi,1083426913,Riva Tre Novembre 1
+Trieste,Friuli-Venezia Giulia,Teatro Orazio Bobbio,1268713838,Via del Ghirlandaio 12a
+Castel San Giovanni,Emilia-Romagna,Giuseppe Verdi,956408277,Piazza cardinale Agostino Casaroli 170
+Busseto,Emilia-Romagna,Giuseppe Verdi,2868460893,Via Claudio Monteverdi 159
+Medesano,Emilia-Romagna,Teatro Adolfo Tanzi,1740274525,Via Vittorio Alfieri 110
+Medesano,Emilia-Romagna,Teatro Adriana Baratta,1933513941,Via Don Giovanni Bosco 130
+Parma,Emilia-Romagna,Auditorium Paganini,440891970,Via Toscana 64
+Parma,Emilia-Romagna,Teatro Cinghio,1538272387,Alpignano 197
+Parma,Emilia-Romagna,Teatro Europa,441377697,Via Oradour 187
+Parma,Emilia-Romagna,Teatro Farnese,1744217578,Piazza della Pilotta 150
+Casalgrande,Emilia-Romagna,Teatro Fabrizio De Andrè,795761884,Piazza Ruffilli 105
+Novellara,Emilia-Romagna,Teatro della Rocca,1651270079,Via Edmondo De Amicis 12
+Reggio Nell'Emilia,Emilia-Romagna,Arena,3906436430,Viale Timavo 40
+Reggio Nell'Emilia,Emilia-Romagna,La Fonderia sede Aterballeto,1577119306,Cesenatico 72
+Reggio Nell'Emilia,Emilia-Romagna,Teatro parrocchiale,3919539113,Via Massimo Samoggia 118
+Reggio Nell'Emilia,Emilia-Romagna,Teatro Piccolo Orologio,1800773039,Via Jules Emile Massenet 41
+Reggio Nell'Emilia,Emilia-Romagna,Teatro ReGiò,845407127,Ciclovia 12 13
+Scandiano,Emilia-Romagna,"Teatro """"Bruno Casini""""",2303539316,Via Armando Diaz 18
+Castelfranco Emilia,Emilia-Romagna,Teatro Dadà,610245839,Castelfranco E. Circondaria Sud 132
+Fiorano Modenese,Emilia-Romagna,Cinema Teatro Astoria,2108489270,Piazza Ciro Menotti 8
+Formigine,Emilia-Romagna,Teatro Incontro,3992348608,Via Battezzate 3
+Sassuolo,Emilia-Romagna,Teatro Carani,1660832403,Viale 20 Settembre 30
+Vignola,Emilia-Romagna,Teatro Ermanno Fabbri,1417677418,Via Pietro Minghelli 124
+Bentivoglio,Emilia-Romagna,TeZe,297333557,Via Enrico Berlinguer 25
+Bologna,Emilia-Romagna,Sala Centofiori,440951322,Corticella Byron
+Bologna,Emilia-Romagna,Teatro Arena del Sole,1477942362,Via San Giuseppe 192
+Bologna,Emilia-Romagna,Teatro Comunale,2084530113,Via dei Bibiena 103
+Bologna,Emilia-Romagna,Teatro Dehon,3190973936,Cirenaica Dehon
+Bologna,Emilia-Romagna,Teatro Eleonora Duse,411366235,Via Cartoleria 143
+Bologna,Emilia-Romagna,Teatro Manzoni,1195161496,Via de' Monari 180
+Bologna,Emilia-Romagna,Testoni Ragazzi,1623615533,Via Giacomo Matteotti 16
+Borgo Tossignano,Emilia-Romagna,Teatro Sala Polivalente,3907804930,Via Padre Luigi Zoffoli 1
+Budrio,Emilia-Romagna,Teatro Consorziale,294494446,Via Giuseppe Garibaldi 96
+Calderara Di Reno,Emilia-Romagna,Teatro Spazio Reno,2661914449,Via Roma 26
+Casalecchio Di Reno,Emilia-Romagna,Teatro Comunale A.Testoni,853180294,Collecorvino 50
+Castel Maggiore,Emilia-Romagna,Teatro Biagi D'Antona,1312812764,Via Giorgio La Pira 177
+Castel San Pietro Terme,Emilia-Romagna,Cassero,1633113619,Via Giacomo Matteotti 192
+Dozza,Emilia-Romagna,Teatro comunale Dozza,3424845278,Via Venti Settembre 166
+Imola,Emilia-Romagna,Teatro comunale Ebe Stignani,721933814,Via Giuseppe Verdi 1
+Imola,Emilia-Romagna,Teatro dell'Osservanza,354883958,Via Livia Venturini 18
+Imola,Emilia-Romagna,Teatro Lolli,3454567205,Viale Caterina Sforza 3
+Pieve Di Cento,Emilia-Romagna,Teatro comunale Alice Zeppilli,441130619,Piazza Andrea Costa 123
+San Lazzaro Di Savena,Emilia-Romagna,Centro Culturale Annalena Tonelli,2101737160,Via Otello Selleri 136
+Sasso Marconi,Emilia-Romagna,Cinema Teatro Comunale,1356232517,Via del Mercato 35
+Ferrara,Emilia-Romagna,Teatro Verdi,1251037182,Via Camaleonte 189
+Tresigallo,Emilia-Romagna,Teatro del '900,2072549536,Via Antonio Gramsci 123
+Bagnacavallo,Emilia-Romagna,Teatro Carlo Goldoni,303604381,Piazza della Libertà 179
+Cervia,Emilia-Romagna,Teatro Comunale di Cervia,840676734,Via Venti Settembre 47
+Conselice,Emilia-Romagna,Teatro Comunale,698893337,Via Selice 9
+Faenza,Emilia-Romagna,Angelo Masini,674948467,Piazza Pietro Nenni 190
+Faenza,Emilia-Romagna,Sala Fellini Faenza - Nostrarte,3275259808,Perugia 68
+Fusignano,Emilia-Romagna,"Auditorium """"Arcangelo Corelli""""",3343999485,Vicolo Alfredo Belletti 180
+Fusignano,Emilia-Romagna,Cinema Teatro Moderno,1715967301,Corso Renato Emaldi 20
+Lugo,Emilia-Romagna,Teatro Rossini,696566266,Caiazzo 32
+Ravenna,Emilia-Romagna,Teatro Dante Alighieri,547966314,Via Angelo Mariani 188
+Cesena,Emilia-Romagna,Teatro Verdi,539508367,Via Luigi Sostegni 42
+Forli',Emilia-Romagna,Anfiteatro,2242008618,Via Alferello 145
+Forli',Emilia-Romagna,Arena Forlivese,1322568686,Via Giorgio Regnoli 76
+Forli',Emilia-Romagna,Diego Fabbri,353058872,Corso Armando Diaz 47
+Forlimpopoli,Emilia-Romagna,Cinema Teatro Verdi,725632968,Piazza Fratti 199
+Meldola,Emilia-Romagna,Teatro Dragoni,1301672201,Via ventiquattro Maggio 62
+San Mauro Pascoli,Emilia-Romagna,"Teatro parrocchiale """"Ricci""""",1991038082,Via Pietro Nenni 40
+Santa Sofia,Emilia-Romagna,Teatro Comunale,1967996009,Piazza Giuseppe Garibaldi 118
+Sogliano Al Rubicone,Emilia-Romagna,Teatro Comunale Elisabetta Turroni,3414995262,Piazza della Repubblica 72
+Cagli,Marche,Teatro Comunale,3887709037,Via Angelo Celli 89
+Cartoceto,Marche,Teatro del Trionfo,964120869,Via Marcolini 100
+Pergola,Marche,Teatro Angel dal Foco,3968676773,Via Felice Cavallotti 44
+Urbania,Marche,Teatro Bramante,2585194425,Piazza San Cristoforo 128
+Ancona,Marche,Teatro Panettone,3915431332,Via Maestri del Lavoro 98
+Ancona,Marche,"Teatro Sperimentale """"Lirio Arena""""",1574996761,Via Redipuglia 169
+Arcevia,Marche,Teatro Misa,3099009498,Via G. Battistelli 11
+Camerano,Marche,Teatro Maratti,2108087526,Piazza Roma 118
+Chiaravalle,Marche,Teatro Valle,849024770,Corso Giacomo Matteotti 168
+Fabriano,Marche,Teatro Gentile,1468813236,Via Gentile da Fabriano 1
+Maiolati Spontini,Marche,teatro G.Spontini,317416059,Nichelino 116
+Montecarotto,Marche,Teatro comunale,503075852,Via Circonvallazione 102
+Montemarciano,Marche,Alfieri,2671549139,Via Giovan Battista Marotti 89
+Osimo,Marche,Teatro La Fenice,1584082513,Via Cinque Torri 118
+Sirolo,Marche,Teatro Le Cave,871077750,Arcore 99
+Caldarola,Marche,Teatrino parrocchiale,3642088297,Via Pallotta 50
+Caldarola,Marche,Teatro comunale,1407435917,Via Pallotta 150
+Corridonia,Marche,Teatro Gian Battista Velluti,2037850671,Piazza del Popolo 109
+Macerata,Marche,Arena Sferisterio,726603294,Vicolo dell'Asilo 35
+Macerata,Marche,Lauro Rossi,559337757,Piazza della Libertà 20
+Macerata,Marche,Terrazza dei popoli,2406898295,Tribunale 169
+Montecosaro,Marche,Teatro delle Logge,2324780881,Piazza Trieste 11
+Ascoli Piceno,Marche,Teatro Filarmonici,673025703,Via di Corfinio 196
+Offida,Marche,Teatro Serpente Aureo,672506551,Piazza del Popolo 96
+Ripatransone,Marche,Anfiteatro delle Fonti,3693145814,Circonvallazione Uno Gera 121
+Ripatransone,Marche,Teatro Mercantini,3441576185,Corso Vittorio Emanuele 160
+Carrara,Toscana,Marconi,308765517,Via Roma 168
+Bagni Di Lucca,Toscana,Teatro Comunale Accademico,714136267,Viale Umberto I 166
+Camaiore,Toscana,Teatro dell'Olivo,865000508,Corso Vittorio Emanuele 10
+Capannori,Toscana,Artè,2133922588,Via Francesco Banchieri 95
+Lucca,Toscana,Teatro Ponte a Moriano,1150578482,Via Giovanni Volpi 112
+Massarosa,Toscana,Teatro Vittoria Manzoni,1543130671,Via Carlo Pellegrini 79
+Montecarlo,Toscana,Teatro dei Rassicurati,1707032119,Via Carmignani 20
+Pescaglia,Toscana,Teatrino di Vetriano,2112513516,S.V. della Maginetta di Lecchino 146
+Lamporecchio,Toscana,Teatro Comunale,1714923941,Via Giuseppe Verdi 45
+Monsummano Terme,Toscana,Teatro Yves Montand,1569045450,Via Cesare Battisti 196
+Pistoia,Toscana,Piccolo Teatro Mauro Bolognini,3982110574,Via del Presto 142
+Pistoia,Toscana,Saletta Gramsci,3982110587,Piazza San Francesco 62
+Piteglio,Toscana,Teatro Mascagni,3526230124,Via delle Corti 136
+Bagno A Ripoli,Toscana,Teatro dell'Antella,1106144167,Via di Montisoni 177
+Bagno A Ripoli,Toscana,Teatro SMS,1106035749,Nuova ciclabile 77
+Barberino Val D'Elsa,Toscana,Teatro Regina Margherita,1085564299,Pignola 171
+Campi Bisenzio,Toscana,Teatro Dante,443635877,Dronero 132
+Castelfiorentino,Toscana,Ridotto del Teatro del Popolo,3429447058,Piazza Antonio Gramsci 37
+Castelfiorentino,Toscana,Teatro del Popolo,344030350,Piazza Antonio Gramsci 160
+Firenze,Toscana,Obihall,1659743374,San Felice sul Panaro 195
+Firenze,Toscana,Teatro 13,3783835487,Via Aurelio Nicolodi 54
+Firenze,Toscana,Teatro di Cestello,3112688340,Piazza di Cestello 174
+Firenze,Toscana,Teatro di Rifredi,1589563179,Via Vittorio Emanuele Secondo 104
+Firenze,Toscana,Teatro Goldoni,3097076989,Via Santa Maria 197
+Firenze,Toscana,Teatro La Fiaba,3114658086,Via delle Mimose 16
+Firenze,Toscana,Teatro Le Laudi,3114407759,Via Leonardo da Vinci 28
+Firenze,Toscana,Teatro Niccolini,3930950512,Via Ricasoli 63
+Firenze,Toscana,teatro nuovo sentiero,3867849957,Via delle Panche 36
+Firenze,Toscana,Teatro Verdi,3120275179,Via dei Lavatoi 52
+Greve In Chianti,Toscana,Teatro Boito,1088852922,Viale Giuliano Vanghetti 38
+San Casciano In Val Di Pesa,Toscana,Teatro Niccolini,1903920071,Via Roma 22
+Sesto Fiorentino,Toscana,Teatro della Limonaia,2209921717,Via Antonio Gramsci 147
+Figline E Incisa Valdarno,Toscana,Teatro Garibaldi,1396661523,Via Giovanbattista Del Puglia 75
+Castagneto Carducci,Toscana,Teatro Roma,492694051,Via Antonio Gramsci 129
+Livorno,Toscana,Nuovo Teatro delle Commedie,854375811,Via Giuseppe Maria Terreni 70
+Livorno,Toscana,Teatro Goldonetta,391302735,Via Carlo Goldoni 158
+Livorno,Toscana,Teatro Goldoni,391302734,Via Carlo Goldoni 85
+Piombino,Toscana,Metropolitan,1970211950,Viale Piombino 5
+Rosignano Marittimo,Toscana,L'Ordigno,1366022371,Via Fratelli Roselli 74
+Rosignano Marittimo,Toscana,Teatrino all'aperto,1377669940,Via dei Macchiaioli 137
+Guardistallo,Toscana,Teatro Marchionneschi,1351176782,Via Palestro 175
+Lajatico,Toscana,Teatro del Silenzio,1590068388,Strada Vicinale dell'Uccelliera 141
+Pisa,Toscana,Teatro Rossi,2350122616,Via del Collegio Ricci 2
+San Giuliano Terme,Toscana,Anfiteatro Cava di Nord-Est,286755172,Largo Nevilio Casarosa 140
+Anghiari,Toscana,Teatro Communale,1783404726,Castelfiorentino 55
+Arezzo,Toscana,Teatro Mecenate,3883831555,Via Dante 198
+Arezzo,Toscana,Teatro Petrarca,2618260815,Via Guido Monaco 12
+Arezzo,Toscana,Teatro Virginian,3321554113,Via dei Redi 12
+Cortona,Toscana,Teatro signorelli,1601702182,Via Dardano 46
+Pieve Santo Stefano,Toscana,Teatro Comunale Giovanni Papini,2821961190,via Antiche prigioni 104
+Sansepolcro,Toscana,Dante,1683198238,Via XX Settembre 35
+Colle Di Val D'Elsa,Toscana,Teatro del Popolo,1489936807,Via Roma 61
+Colle Di Val D'Elsa,Toscana,Testro dei Varii,2429348046,Via del Castello 165
+Montepulciano,Toscana,Teatro Poliziano,1907439271,Piazzetta del Teatro 6
+Rapolano Terme,Toscana,Teatro del Popolo,3159806016,Subborgo Giuseppe Garibaldi 92
+San Gimignano,Toscana,Teatro dei Leggieri,1929175935,Via San Matteo 186
+Siena,Toscana,Teatro Dei Rinnovati,663860685,Via di Salicotto 1
+Siena,Toscana,Teatro dell'Accademia dei Rozzi,2806773680,Via delle Terme 15
+Sinalunga,Toscana,Teatro Ciro Pinsuti,275546243,Via San Martino 64
+Grosseto,Toscana,Teatro,3598244276,Campsite Cieloverde 77
+Grosseto,Toscana,Teatro degli Industri,762018922,Via del Mulino a Vento 94
+Grosseto,Toscana,Teatro Moderno,1729034008,Via Tripoli 39
+Assisi,Umbria,Teatro Lyrick,1925837024,Viale Gabriele D'Annunzio 113
+Bevagna,Umbria,Teatro Francesco Torti,2621360516,Piazza Filippo Silvestri 126
+Cannara,Umbria,Ettore Thesorieri teatro,2378985311,Via Ettore Thesorieri 170
+Citerna,Umbria,Teatro Bontempelli,1653752911,Corso Giuseppe Garibaldi 79
+Gualdo Tadino,Umbria,Teatro Don Bosco,2622493335,Viale Don Bosco 21
+Gubbio,Umbria,Teatro Romano,1870731937,Viale del Teatro Romano 8
+Montone,Umbria,Teatro San Fedele,3191365394,Corso Giuseppe Garibaldi 153
+Norcia,Umbria,Teatro Civico,2643611159,Piazza Vittorio Veneto 124
+Perugia,Umbria,Pavone Teatro,980297641,Corso Vannucci 67
+Perugia,Umbria,Sala Cutu - teatro di Sacco,3237675171,Piazza Giordano Bruno 9
+Perugia,Umbria,Teatro di figura,1794222856,Via del Castellano 187
+Perugia,Umbria,Teatro Franco Bicini,3237679070,Via del Cortone 35
+Perugia,Umbria,Turreno Teatro,1942098828,Piazza Danti 130
+San Giustino,Umbria,La filarmonica,1371713825,Via Sant'Andrea 117
+Trevi,Umbria,Teatro Clitunno,2636332671,Piazza del Teatro 13
+Bolsena,Lazio,Teatro Piccolo Cavour,1832162258,Corso Cavour 4
+Tuscania,Lazio,Il Rivellino,1930258101,Via Rivellino 101
+Viterbo,Lazio,Teatro dell'Unione,387703021,Via Fratelli Rosselli 175
+Salisano,Lazio,Teatro di Salisano,1589491472,Via Circonvallazione 42
+Anzio,Lazio,Teatro di Villa Adele,442490906,Via Antonio Gramsci 129
+Arsoli,Lazio,Teatro Comunale,4009575913,Arsoli SP39B
+Roma,Lazio,Anfitrione,266963039,Via di San Saba 156
+Roma,Lazio,Auditorium RAI di via della Conciliazione,259653354,Via della Conciliazione 136
+Roma,Lazio,"Spazio Anarchico """"19 luglio""""",1793865801,Via Rocco da Cesinale 18
+Roma,Lazio,Teatro allo Scalo,356696450,Via dei Reti 36
+Roma,Lazio,Teatro Ambra alla Garbatella,1646269932,San Daniele del Friuli 36
+Roma,Lazio,Teatro Argot Studio,1565344046,Via Natale Del Grande 148
+Roma,Lazio,Teatro dei burattini San Carlino,1305071780,Viale Valadier 73
+Roma,Lazio,Teatro dei Satiri,3185502321,Via di Grotta Pinta 18
+Roma,Lazio,Teatro della Cometa,1391511152,Via del Teatro di Marcello 35
+Roma,Lazio,Teatro dell'Angelo,1524746360,Via Simone De Saint Bon 97
+Roma,Lazio,Teatro dell'Orologio,1142943804,Via dei Filippini 17a
+Roma,Lazio,Teatro Ghione,1754895755,Via delle Fornaci 78
+Roma,Lazio,Teatro Golden,2593354384,Via Taranto 36
+Roma,Lazio,Teatro Manzoni,1046022651,Via Monte Zebio 14
+Roma,Lazio,Teatro Olimpico,259642836,Piazza Gentile da Fabriano 44
+Roma,Lazio,Teatro Parioli,614409043,Via Giosuè Borsi 20
+Roma,Lazio,Teatro Petrolini,2737700137,Via Rubattino 5
+Roma,Lazio,Teatro Prati,1756284049,Via degli Scipioni 176
+Roma,Lazio,Teatro San Genesio,260204146,Via Podgora 41
+Roma,Lazio,Teatro Sistina,3039065548,Via Sistina 129
+Roma,Lazio,Teatro Vittoria,252419164,Piazza di Santa Maria Liberatrice 10
+Roma,Lazio,Vascello,1201568109,Via Giacinto Carini 101
+Velletri,Lazio,Teatro Aurora,2187805974,Piazza San Clemente 169
+Velletri,Lazio,Teatro di Terra,2187805973,Via San Crispino 62
+Velletri,Lazio,Teatro Ugo Tognazzi,665482029,Piazzale della Cultura 52
+San Cesareo,Lazio,Teatro Auditorium Comunale,2330791687,Viale dei Cedri 133
+Aprilia,Lazio,Teatro Ex Claudia,2669981647,600 km 46
+Latina,Lazio,"Teatrino dei Mille """"Alessia Berardi""""",3916615527,Via Oreste Leonardi 5
+Latina,Lazio,Teatro Armando Cafaro,998848518,Viale Ventuno Aprile 113
+Latina,Lazio,Teatro Gabriele D'Annunzio,806463852,Viale Umberto I 70
+Terracina,Lazio,Cinema Teatro Traiano,1575191420,Via Traiano 67
+Anagni,Lazio,Teatro Stabile dei Ragazzi,1756479834,Piazza Innocenzo III 38
+Caserta,Campania,Teatro Comunale,1084502946,Via Giuseppe Mazzini 71
+Forio,Campania,Teatro Greco,1654255046,Via Zaro 32
+Napoli,Campania,Cabaret Port'Alba,2825008898,Via Port'Alba 105
+Napoli,Campania,Posillipo,2338350211,Municipalità 1 163
+Napoli,Campania,Teatro Augusteo,2497916627,Piazzetta Duca d'Aosta 263
+Pompei,Campania,Di Costanzo Mattiello,1127223870,Via Fratel Adriano Celentano 155
+Pozzuoli,Campania,Duel Beat,3243195063,Via Antiniana 2/A
+Sorrento,Campania,Teatro Tasso,679074657,Via San Francesco 111
+Battipaglia,Campania,Centro Sociale,1089138304,Via Guicciardini 24
+Campagna,Campania,Piazza Teatro,1098368129,Via Molinari 37
+Cava De' Tirreni,Campania,Sala Teatro Comunale,2175189122,Piazza Andrea e Gina Passaro 98
+Celle Di Bulgheria,Campania,Centro polifunzionale - cineteatro,1421017702,Poderia SP58
+Mercato San Severino,Campania,Teatro Comunale M.S.Severino,1846769055,Via Don Gregorio Portanova 18
+Salerno,Campania,Teatro A. Genovesi,2841321263,Via Principessa Sichelgaita 32
+Serre,Campania,Auditorium Marco Simoncelli,1979150656,Via 24 Maggio 126
+Atri,Abruzzo,Auditorium Sant'Agostino,2335432860,Via Sant'Agostino 150
+Atri,Abruzzo,Teatro Comunale,859504316,Piazza Duomo 102
+Teramo,Abruzzo,Teatro Comunale,1084506652,Piazza Duomo 135
+Montesilvano,Abruzzo,Auditorium,730157343,Via Fosso dello Sportello 175
+Montesilvano,Abruzzo,Teatro del Mare,276086708,Corso Strasburgo 149
+Atessa,Abruzzo,Teatro Comunale,1486656862,Viale Cesare Battisti 14
+Chieti,Abruzzo,Teatro Marrucino,749862258,Via Cesare De Lollis 1
+Foggia,Puglia,Teatro del Fuoco,2021323637,Vico Cutino 119
+Foggia,Puglia,Teatro Mediterraneo,3681366663,Via Marina Mazzei 116
+Foggia,Puglia,Teatro regio di capitanata,1920067516,Via Alfredo Guglielmi 31
+Foggia,Puglia,Teatro Umberto Giordano,835910078,Piazza Cesare Battisti 98
+San Severo,Puglia,Teatro Giuseppe Verdi,1238336218,Corso Giuseppe Garibaldi 157
+Stornara,Puglia,Auditorium,2651653092,Via Campo Sportivo 155
+Bari,Puglia,Anfiteatro della Pace,1495490311,Via Natale Loiacono 62
+Bari,Puglia,Piccolo teatro,1828422296,Strada Borrelli 53
+Bari,Puglia,Teatro Bravò,1364984750,Strada Stoppelli 44
+Bari,Puglia,Teatro Kismet Opera,3933947457,Strada San Giorgio Martire 22/F
+Bari,Puglia,Teatro Kismet OperA,3232054567,Strada San Giorgio Martire 22/F
+Bari,Puglia,Teatro Palazzo,3744165238,Corso Sidney Sonnino 142/D
+Bari,Puglia,Teatro Purgatorio,1285442721,Via Salvatore Pietrocola 170
+Conversano,Puglia,CineTeatro Norba,2256020413,Piazza della Repubblica 32
+Terlizzi,Puglia,Teatro Millico,347426479,Via Amedeo di Savoia 185
+Crispiano,Puglia,Teatro Comunale,1409402959,Via Galliano 95
+Massafra,Puglia,Cineteatro Spadaro,1307041456,Valenza 43
+Gallipoli,Puglia,Teatro Garibaldi,2742442967,Via Giuseppe Garibaldi 152
+Novoli,Puglia,Teatro Comunale,3365453176,Piazza Regina Margherita 165
+Brindisi Montagna,Basilicata,Parco della Grancia,3104504547,Brindisi Montagna SP37
+Campomaggiore,Basilicata,Città dell'Utopia,1840102897,Via Rendina 164
+Melfi,Basilicata,Re Ruggero II,3483961870,Via Vittorio Emauele 125
+Potenza,Basilicata,Teatro Francesco Stabile,1325468170,Piazza Mario Pagano 178
+Aliano,Basilicata,Anfiteatro di Aliano,3147717529,Via Cisterna 40
+Aiello Calabro,Calabria,Teatro Comunale di Aiello Calabro,2822658509,Strada Provinciale 245 ex SS108 Silana di Cariati 76
+Castrolibero,Calabria,Anfiteatro,2979440831,Via Fausto Gullo 45
+Rende,Calabria,Cinema Santa Chiara,1428095203,Via R. De Bartolo 89
+Catanzaro,Calabria,Anfiteatro del Parco,1787597767,Tangenziale Ovest 94
+Maida,Calabria,"Casa della Cultura """"G. De Rada""""",2585754355,Viale Primo Maggio 87
+Soveria Mannelli,Calabria,Teatro Il Piccolo,3361219304,Bivio Bonacci SS19
+Lamezia Terme,Calabria,Teatro Grandinetti,3774855966,Via Colonnello Cassoli 128
+Lamezia Terme,Calabria,Teatro Politeama,3775382237,Via Matarazzo 158
+Melito Di Porto Salvo,Calabria,Anfiteatro Villa Comunale,1471325671,Via Marina 40
+Palmi,Calabria,Accademia d'Arte Drammatica della Calabria,1925271702,Via Papa Giovanni XXIII 158
+Palmi,Calabria,Cinema Teatro Sciarrone,1690261407,Frattaminore 50
+Palmi,Calabria,Palmi Anfiteatro,1734271843,Via Marinella 63
+Polistena,Calabria,Anfiteatro,1405956895,Via Torrente 169
+Polistena,Calabria,Auditorium Comunale,1405956913,Piazza della Pace 58
+Reggio Di Calabria,Calabria,Arena dello Stretto,2383074958,Lungomare di Reggio Calabria 108
+Reggio Di Calabria,Calabria,"Auditorium """"Gianni Versace""""",1985376310,Via Argine Destro Calopinace 142
+Alcamo,Sicilia,Teatro Cielo d'Alcamo,3154038955,Via Tenente Francesco Paolo Lucchese 2
+Castelvetrano,Sicilia,Selinus,1882509186,Via del'Caltone 41
+Castellana Sicula,Sicilia,Anfiteatro,1510485538,via Padre Pio 179
+Palermo,Sicilia,al Massimo,2622791015,Piazza Giuseppe Verdi 102
+Palermo,Sicilia,Franco Zappalà,268966307,Via Autonomia Siciliana 123
+Palermo,Sicilia,Jolly,573760497,Piazzale Bruno Lavagnini 53
+Palermo,Sicilia,teatro delle Balate,268982152,Via delle Balate 5;7
+Palermo,Sicilia,teatro Ditirammu,268983537,Via Torremuzza 6
+Palermo,Sicilia,Teatro di Verdura,2505339869,Via Villa Rosato 117
+Palermo,Sicilia,Teatro Gregotti (Ingresso),3326954514,Via Ernesto Basile 67
+Palermo,Sicilia,teatro Libero,268957825,Salita Partanna 198
+Palermo,Sicilia,teatro Santa Cecilia,268981242,Piazza Teatro Santa Cecilia 36
+Pollina,Sicilia,Teatro Pietra Rosa,2264288543,Viale Alfredo Musotto 134
+Barcellona Pozzo Di Gotto,Sicilia,Arena Montecroci,3914892213,Viale Giacomo Leopardi 42
+Patti,Sicilia,Cineteatro Comunale Beniamino Joppolo,1611171999,Via Trieste 41
+Santo Stefano Di Camastra,Sicilia,Cinetatro Glauco,3925392543,Via Quartieri 152
+Tusa,Sicilia,Teatro all'aperto,3948142126,Via delle Fontane 9
+Agrigento,Sicilia,Teatro Pirandello,962993064,Vicolo Teatro 1
+Cianciana,Sicilia,Compagnia Teatrale Theatron,2315841116,Cuorgnè 197
+Cianciana,Sicilia,Teatro Villa Comunale,2313398763,Corso Commendator Nicolò Cinquemani Arcuri 175
+Caltanissetta,Sicilia,Teatro di pietra Palmintelli,2003827121,Piazza Falcone-Borsellino 131
+Aci Castello,Sicilia,Grotta Smeralda,320522287,Via Antonello da Messina 106
+Acireale,Sicilia,Opera dei Pupi - Turi Grasso,1747650163,Via Nazionale per Catania 98
+Caltagirone,Sicilia,museo-teatro stabile dei pupi siciliani,2377103452,Via Perticone 54
+Catania,Sicilia,Associazione Harpago,3286497734,Sovere 194
+Catania,Sicilia,Piccolo Teatro di Catania,296953743,Sarcedo 33
+Catania,Sicilia,Sipario Blu,3606795083,Via Macallé 139
+Catania,Sicilia,Teatro Ambasciatori,282351952,Via Eleonora d'Angiò 170
+Catania,Sicilia,Teatro Angelo Musco,310880151,Via Umberto I 102
+Catania,Sicilia,Teatro Brancati,310484908,Via Sabotino 134
+Catania,Sicilia,Teatro del Tre,393507439,Viale Africa 149
+Catania,Sicilia,Teatro Don Bosco,312204804,Viale Mario Rapisardi 136
+Catania,Sicilia,Teatro Erwin Piscator,317455865,Via Giovanni Amendola 23
+Catania,Sicilia,Teatro Fellini,309466256,Via Enna 9
+Catania,Sicilia,Teatro Giovanni Verga,282353172,Via Calabrese 159
+Catania,Sicilia,Teatro Guido Leontini,320041341,Via Duca degli Abruzzi 138
+Catania,Sicilia,Teatro Minimo Giuseppe Tovini,349118288,Via della Palma 183
+Catania,Sicilia,Teatro Valentino,297883787,Via San Nicolò al Borgo 76
+Catania,Sicilia,Teatro Zig Zag,1013801297,Mazzarino 69
+Giarre,Sicilia,Teatro Rex,2250878187,Via Teatro 157
+Nicolosi,Sicilia,Centro Congressi,911833775,Via Calvario 172
+Chiaramonte Gulfi,Sicilia,Sala Sciascia,2509618351,Via Fonderia 128
+Modica,Sicilia,Garibaldi,836839775,Modica Alta Dente
+Modica,Sicilia,Moderno,831141071,Sant’Agata di Militello 66
+Pozzallo,Sicilia,Anfiteatro Lungomare Pietre Nere,2215877995,Lungomare Pietre Nere 98
+Siracusa,Sicilia,Teatro Dei Pupi,1772624630,Frattaminore 138
+Bono,Sardegna,Teatro Rex,2063288788,Piazza Carlo Carretto 81
+Osilo,Sardegna,Salone Canonico Liperi,2197985555,Via Duca degli Abruzzi 74
+Sassari,Sardegna,Auditorium Comunale,2268058186,Ottava 49
+Sassari,Sardegna,Teatro Civico,2277283999,Via Padre Raffaele Arduino 154
+Sassari,Sardegna,Teatro Il Ferroviario,2284672205,Corso Vico 61
+Sassari,Sardegna,Teatro Smeraldo,2289340222,Via Gabriele D'Annunzio 42
+Sassari,Sardegna,Teatro Verdi,2275370524,Via Politeama 61
+Dorgali,Sardegna,"Centro Polifunzionale """"Don Milani""""",2254695512,Via Lazio 186
+Dorgali,Sardegna,Cineteatro Arena,2283121791,Via Vasco Da Gama 121
+Nuoro,Sardegna,"Anfiteatro """"Fabrizio De Andrè""""",473967404,Via Simone Weil 46
+Maracalagonis,Sardegna,Arena Parco Gioghi Torre,3346429465,Via Orione 151
+Maniago,Friuli-Venezia Giulia,Teatro Verdi,3427700467,Via Umberto Primo 16
+Pordenone,Friuli-Venezia Giulia,Teatro Verdi,410104305,Via Umberto Primo 173
+Prata Di Pordenone,Friuli-Venezia Giulia,Teatro Pileo da Prata,663369934,Via Cesare Battisti 160
+Sacile,Friuli-Venezia Giulia,Fazioli Concert Hall,3768171896,Strada Canevon 19
+San Vito Al Tagliamento,Friuli-Venezia Giulia,Teatro Arrigoni,409168567,Piazza del Popolo 42
+Travesio,Friuli-Venezia Giulia,Auditorium scolastico,3908354808,Via Centro Studi 172
+Isernia,Molise,Auditorium Unità d'Italia,2852740147,Corso Risorgimento 66
+Asuni,Sardegna,Anfiteatro Comunale,2500898035,Via Vittorio Emanuele 150
+Oristano,Sardegna,Teatro Antonio Garau,860131020,Via Parpaglia 190
+Paulilatino,Sardegna,Teatro Grazia Deledda,1968174171,Via San Sebastiano 140
+Terralba,Sardegna,Teatro civico,2066511400,Via Felice Porcella 197
+Coriano,Emilia-Romagna,Teatro Corte Coriano,2324205856,Via Giuseppe Garibaldi 127
+Santarcangelo Di Romagna,Emilia-Romagna,Sala Polivalente,2588151512,Via Andrea Costa 21
+Pennabilli,Emilia-Romagna,Teatro Vittoria,2857793857,Via Olivieri 137
+Prato,Toscana,Teatro Fabbricone,622540466,Via Ferdinando Targetti 2
+Prato,Toscana,Teatro Metastasio,622540459,Vicolo Fior di Vetta 68
+Crotone,Calabria,Anfiteatro di Capo Colonna,1890243688,Via Michele Di Donato 132
+Crotone,Calabria,Teatro della Maruca,2117416171,Via Vittorio Veneto 185
+Isola Di Capo Rizzuto,Calabria,Anfiteatro Comunale,2671168690,Via Emanuela Loi 187
+Berchidda,Sardegna,Teatro Santa Croce,2063108464,Via Regina Margherita 149
+Olbia,Sardegna,Michelucci,2356052119,Via Vitaliano Brancati 154
+Olbia,Sardegna,Teatro all'aperto,1885852283,Via Porto Rotondo 9
+Serramanna,Sardegna,Teatro Comunale,2109648476,Piazza Antonio Gramsci 150
+Carbonia,Sardegna,Anfiteatro,1678067605,Piazza Marmilla 106
+Carbonia,Sardegna,Teatro Centrale,1678053799,Vico San Ponziano 189
+Iglesias,Sardegna,Teatro Electra,2873625169,Vico del Monte 47
+Bellusco,Lombardia,Aleph,2153434209,Via Edmondo De Amicis 2
+Besana In Brianza,Lombardia,Cine-Teatro Edelweiss,2381864830,Piazza Pietro Cuzzi 109
+Giussano,Lombardia,Salone polivalente,2948476673,Viale Brianza 131
+Monza,Lombardia,Binario 7,2425674121,Via Filippo Turati 8
+Monza,Lombardia,Cinema Teatro San Carlo,2505341124,Via Volturno 38
+Monza,Lombardia,Teatrino di corte,2935664899,Viale Brianza 2
+Monza,Lombardia,Teatro Villoresi,632830368,Piazza Carrobiolo 6/A
+Seregno,Lombardia,Teatro Santa Valeria,3525109279,Via Richard Wagner 85
+Varedo,Lombardia,Cine teatro IDEAL,987450943,Piazza Alessandro Volta 71
+Fermo,Marche,Teatro dell'Aquila,619005707,Via Giuseppe Mazzini 58
+Porto San Giorgio,Marche,Teatro comunale,615045170,Via Domenico Collina 195
