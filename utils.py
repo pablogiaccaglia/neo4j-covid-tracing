@@ -8,7 +8,7 @@ from OSMPythonTools.api import Api
 from OSMPythonTools.nominatim import Nominatim
 import pandas as pd
 
-''' paths to CSV paths in the 'final' folder '''
+""" paths of CSV files in the 'final' folder """
 italianCafesCSVPath = 'datasets/final/italian_cafes_standardized_no_nulls_with_streets_no_duplicates.csv'
 italianRestaurantsCSVPath = 'datasets/final/italian_restaurants_standardized_no_nulls_no_duplicates_with_streets.csv'
 italianCinemasCSVPath = 'datasets/final/italian_cinemas_standardized_no_nulls_no_duplicates_with_streets.csv'
@@ -19,10 +19,12 @@ italianStreetsCSVPath = 'datasets/final/italian_streets_no_duplicates_standardiz
 vaccinesCSVPath = 'datasets/final/italian_vaccines.csv'
 peopleCSVPath = 'datasets/final/people.csv'
 covidTestsCSVPath = 'datasets/final/covid_tests.csv'
+
 # using the reduced version of the original 'personal_info'
 # because it is huge (part of 2019 Facebook data breach)
 personalInfoCSVPath = "datasets/original/personal_info_reduced.txt"
 
+""" just a container list of Italian places' paths """
 italianPlaces = [italianCafesCSVPath,
                  italianRestaurantsCSVPath,
                  italianTheatersCSVPath,
@@ -31,6 +33,9 @@ italianPlaces = [italianCafesCSVPath,
 
 
 def getRandomDate(start_date = datetime.date(1930, 1, 1), end_date = datetime.date(2021, 1, 1)) -> datetime:
+    """ Generates a random datetime in between the start_date and the end_date.
+        In case of one or both missing parameters, the default values are used """
+
     start_date = start_date
     end_date = end_date
 
@@ -43,6 +48,19 @@ def getRandomDate(start_date = datetime.date(1930, 1, 1), end_date = datetime.da
 
 
 def getRandomResidence() -> namedtuple:
+    """ Creates a new namedtuple named 'residence' with the following structure :
+
+        'city' , 'region' , 'country'
+
+        The fields' values are retrieved from the CSV 'italian_cities'
+
+        Example :
+
+        'city'    :  'Brescia'
+        'region'  :  'Lombardy'
+        'country' :  'ITA'
+
+        """
     data = DictReader(open(italianCitiesCSVPath))
     term = random.choice([i for i in data])
     residenceTuple = namedtuple('residence', ['city', 'region', 'country'])
@@ -52,7 +70,8 @@ def getRandomResidence() -> namedtuple:
 
 
 def generateRandomCIENumber() -> str:
-    """2 letters – 5 digits – 2 letters"""
+    """ Generates a random "Carta d'Identità Elettronica" identification number,
+        whose structure is 2 letters – 5 digits – 2 letters """
 
     NumeroUnicoNazionale = \
         str(random.choice(string.ascii_uppercase)) \
@@ -65,7 +84,8 @@ def generateRandomCIENumber() -> str:
 
 
 def generateRandomItalianDrivingLicenseNumber() -> str:
-    """2 letters - 7 digits - 1 letter"""
+    """ Generates a random Italian Driving License identification number,
+        whose structure is 2 letters - 7 digits - 1 letter """
 
     DrivingLicenseNumber = \
         str(random.choice(string.ascii_uppercase)) \
@@ -77,7 +97,8 @@ def generateRandomItalianDrivingLicenseNumber() -> str:
 
 
 def generateRandomItalianPassportNumber() -> str:
-    """2 letters - 7 digits"""
+    """ Generates a random Italian Passport identification number,
+        whose structure is 2 letters - 7 digits """
 
     ItalianPassportNumber = \
         str(random.choice(string.ascii_uppercase)) \
@@ -104,6 +125,8 @@ def getRandomDocument() -> Document:
 
 
 def getRandomCityName() -> str:
+    """ Picks a random Italian city name from the CSV 'italy_cities' """
+
     csvFile = pd.read_csv(italianCitiesCSVPath)
     sample = csvFile.sample()
     city = sample.values[0][0]
@@ -111,6 +134,8 @@ def getRandomCityName() -> str:
 
 
 def getRandomCityID() -> str:
+    """ Picks a random city ID (OpenStreetMap ID) from the CSV 'italy_cities' """
+
     csvFile = pd.read_csv(italianCitiesCSVPath)
     sample = csvFile.sample()
     cityID = sample.values[0][5]
@@ -118,6 +143,13 @@ def getRandomCityID() -> str:
 
 
 def getRandomItalianVaccine() -> str:
+    """ Picks a random Italian vaccine from the CSV 'italian_vaccine'.
+        The random choice is among:
+        -> Pfizer/BioNTech
+        -> Moderna
+        -> Johnson&Johnson
+        -> Oxford/AstraZeneca """
+
     csvFile = pd.read_csv(vaccinesCSVPath)
     sample = csvFile.sample()
     vaccine = sample.values[0][1]
@@ -125,6 +157,9 @@ def getRandomItalianVaccine() -> str:
 
 
 def getRandomItalianAddress() -> str:
+    """ Picks a random Italian street address (name + number) from the CSV 'italian_streets_no_duplicates_standardized.
+        Example : 'Via Certaldese 155' """
+
     csvFile = pd.read_csv(italianStreetsCSVPath)
     sample = csvFile.sample()
     address = sample.values[0][0]
@@ -132,6 +167,12 @@ def getRandomItalianAddress() -> str:
 
 
 def getRandomCovidTest() -> str:
+    """ Picks a random Covid test from the CSV 'covid_tests'
+        The random choice is among:
+        -> Molecular test
+        -> Antigen test
+        -> Antibody test """
+
     csvFile = pd.read_csv(covidTestsCSVPath)
     sample = csvFile.sample()
     test = sample.values[0][0]
@@ -139,6 +180,9 @@ def getRandomCovidTest() -> str:
 
 
 def getRandomPersonID() -> str:
+    """ Picks a random person's ID from the CSV 'people'.
+        The ID belongs to a person node in the database """
+
     csvFile = pd.read_csv(peopleCSVPath)
     sample = csvFile.sample()
     personID = sample.values[0][5]
@@ -146,6 +190,15 @@ def getRandomPersonID() -> str:
 
 
 def getRandomPlaceID() -> int:
+    """ Picks a random place ID from one of the following CSVs:
+
+        -> italian_cafes_standardized_no_nulls_with_streets_no_duplicates
+        -> italian_restaurants_standardized_no_nulls_no_duplicates_with_streets
+        -> italian_cinemas_standardized_no_nulls_no_duplicates_with_streets
+        -> italian_theaters_standardized_no_nulls_no_duplicates_with_streets
+
+        """
+
     csvFile = pd.read_csv(random.choice(italianPlaces))
     sample = csvFile.sample()
     placeID = sample.values[0][3]
@@ -156,7 +209,10 @@ def getRandomPlaceID() -> int:
 # CSV MANIPULATION METHODS
 
 def removeNullRows(csvPath, delimiter = ':') -> None:
-    """ removes all the row which contains at least one null value"""
+    """ Given the path of a CSV file and eventually its delimiter,
+        removes all the rows which contains at least one null value,
+        creating (or overwriting) a new file"""
+
     try:
         dictReader = DictReader(open(csvPath), delimiter = delimiter)
     except:
@@ -179,6 +235,10 @@ def removeNullRows(csvPath, delimiter = ':') -> None:
 
 
 def removeDuplicateRows(csvPath) -> None:
+    """ Given the path of a CSV file,
+        removes all the duplicated rows
+        creating (or overwriting) a new file """
+
     written_entries = []
 
     fileExtension = csvPath.find('.csv')
@@ -194,7 +254,11 @@ def removeDuplicateRows(csvPath) -> None:
 
 
 def standardizeCSVColumn(csvPath, columnName, delimiter = ':') -> None:
-    """converts each row of the given column in the csv in a standard lowercase format with first letter uppercase"""
+    """ Given a path of a CSV file and eventually its delimiter,
+        converts each row of the given column in the CSV in a
+        standard lowercase format with first letter uppercase
+        creating (or overwriting) a new file """
+
     try:
         dictReader = DictReader(open(csvPath), delimiter = delimiter)
         if columnName not in dictReader.fieldnames:
@@ -215,6 +279,10 @@ def standardizeCSVColumn(csvPath, columnName, delimiter = ':') -> None:
 
 
 def convertCSVDelimiter(csvPath, oldDelimiter, newDelimiter) -> None:
+    """ Given a path of a CSV file, its delimiter and a new delimiter,
+        creates (or overwrites) a new CSV file replacing the old delimiter
+         with the new one provided as a parameter """
+
     fileExtension = csvPath.find('.csv')
     outputString = csvPath[:fileExtension] + '_converted' + csvPath[fileExtension:]
 
@@ -226,6 +294,9 @@ def convertCSVDelimiter(csvPath, oldDelimiter, newDelimiter) -> None:
 
 
 def getOSMAddressFromID(ID) -> str:
+    """ Given an ID, tries to retrieve an OpenStreetMap address with that ID.
+        If not found, return 'None' string """
+
     try:
         api = Api()
         way = api.query('way/' + str(ID))
