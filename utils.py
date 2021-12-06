@@ -260,8 +260,8 @@ def standardizeCSVColumn(csvPath, columnName, delimiter = ':') -> None:
         creating (or overwriting) a new file """
 
     try:
-        dictReader = DictReader(open(csvPath), delimiter = delimiter)
-        if columnName not in dictReader.fieldnames:
+        reader = DictReader(open(csvPath), delimiter = delimiter)
+        if columnName not in reader.fieldnames:
             raise Exception
     except:
         print("cannot standardize")
@@ -270,12 +270,11 @@ def standardizeCSVColumn(csvPath, columnName, delimiter = ':') -> None:
     fileExtension = csvPath.find('.csv')
     outputString = csvPath[:fileExtension] + '_standardized' + csvPath[fileExtension:]
 
-    dictWriter = DictWriter(open(outputString, 'w'), dictReader.fieldnames, delimiter = delimiter)
-    dictWriter.writeheader()
-    for row in dictReader:
-        word = row[columnName] + " " + str(random.randint(1, 199))
-        row[columnName] = word
-        dictWriter.writerow(row)
+    writer = DictWriter(open(outputString, 'w'), reader.fieldnames, delimiter = delimiter)
+    writer.writeheader()
+    for row in reader:
+        row[columnName] = row[columnName].title()
+        writer.writerow(row)
 
 
 def convertCSVDelimiter(csvPath, oldDelimiter, newDelimiter) -> None:
@@ -386,12 +385,12 @@ def buildPersonsList() -> list:
     return peoplesData
 
 
-def createCSV(header, data) -> None:
+def createCSV(header: list, data: list, path: str) -> None:
     for entry in data:
         if len(entry) != len(header):
             return
 
-    with open(peopleCSVPath, 'w') as f:
+    with open(path, 'w') as f:
         wrt = writer(f)
         wrt.writerow(header)
         wrt.writerows(data)
@@ -400,7 +399,7 @@ def createCSV(header, data) -> None:
 def createNamesCSV() -> None:
     names = buildPersonsList()
     header = ["name", "surname", "fullname", "sex", "birth date", "id", "id_type"]
-    createCSV(header, names)
+    createCSV(header = header, data = names, path = peopleCSVPath)
 
 
 if __name__ == '__main__':
