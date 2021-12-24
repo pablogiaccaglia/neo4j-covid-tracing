@@ -62,12 +62,12 @@ From the project's directory run the following commands:
 
 This file is part of "Noe4j Covid Tracing Database".
 
-"Noe4j Covid Tracing Database" is free software: you can redistribute it and/or modify
+"Neo4j Covid Tracing Database" is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-"Noe4j Covid Tracing Database" is distributed in the hope that it will be useful,
+"Neo4j Covid Tracing Database" is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
