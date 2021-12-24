@@ -27,6 +27,7 @@ to monitor the viral diffusion.
 - 🚀 [Setup instructions](#-setup-instructions)
 - 📜 [Report](report.pdf)
 - 👨‍💻 [Usage](#-usage)
+- 🗄️ [Database dump](https://1drv.ms/u/s!Ahq9yFCnfdZEjulz7J5lFAN65v9tvQ?e=MvCgVh)
 - 📷 [Screenshots](#-screenshots)  
 - 📝 [License](#-license)
 
