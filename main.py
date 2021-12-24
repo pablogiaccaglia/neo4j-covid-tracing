@@ -489,10 +489,7 @@ class CovidGraphHandler:
 
 
 if __name__ == "__main__":
-    start_time = time.time()
-    handler = CovidGraphHandler("bolt://localhost:7687", "neo4j", "PablitoPablo990")
+    
+    handler = CovidGraphHandler("URI", "USER", "PASSWORD")
     handler.populateDatabase()
     handler.close()
-    print("--- %s seconds ---" % (time.time() - start_time))
-
-# dqyZajw7-gbE-nV-ZkPAaZ9kqBiJnATN2gJqmFsslfA
