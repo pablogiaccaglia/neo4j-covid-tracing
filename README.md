@@ -5,7 +5,7 @@
 </p>
 <h1 align="center">
 	<strong>
-	🦠Noe4j Covid Tracing Database
+	🦠Neo4j Covid Tracing Database
 	</strong>
 	<br>
 </h1>
