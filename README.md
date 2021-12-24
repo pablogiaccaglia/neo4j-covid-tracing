@@ -25,6 +25,7 @@ to monitor the viral diffusion.
 
 - ⚙  [System requirements️](#system-requirements)
 - 🚀 [Setup instructions](#-setup-instructions)
+- 📜 [Report](report.pdf)
 - 👨‍💻 [Usage](#-usage)
 - 📷 [Screenshots](#-screenshots)  
 - 📝 [License](#-license)
