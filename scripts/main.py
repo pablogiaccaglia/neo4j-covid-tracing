@@ -1,5 +1,4 @@
 import random
-import time
 
 from neo4j import GraphDatabase
 import csv
@@ -31,7 +30,7 @@ class CovidGraphHandler:
     def close(self):
         self.driver.close()
 
-    def populateDatabase(self):
+    def populateDatabase(self) -> None:
 
         """ if the database is not empty, clear it"""
         if not self.session.write_transaction(self._checkIfDBIsEmpty):
@@ -56,29 +55,29 @@ class CovidGraphHandler:
         MATCH(n)
         DETACH DELETE n;""")
 
-    def createPersonNodes(self):
+    def createPersonNodes(self) -> None:
         self.session.write_transaction(self._createPersonNodes)
 
-    def createPlaceNodes(self):
+    def createPlaceNodes(self) -> None:
         self.session.write_transaction(self._createCinemaNodes)
         self.session.write_transaction(self._createHospitalNodes)
         self.session.write_transaction(self._createRestaurantNodes)
         self.session.write_transaction(self._createTheaterNodes)
         self.session.write_transaction(self._createCafeNodes)
 
-    def createVaccineNodes(self):
+    def createVaccineNodes(self) -> None:
         self.session.write_transaction(self._createVaccineNodes)
 
-    def createTestsNodes(self):
+    def createTestsNodes(self) -> None:
         self.session.write_transaction(self._createTestsNodes)
 
-    def createCityNodes(self):
+    def createCityNodes(self) -> None:
         self.session.write_transaction(self._createCityNodes)
 
-    def createCountryNodes(self):
+    def createCountryNodes(self) -> None:
         self.session.write_transaction(self._createCountryNodes)
 
-    def createRelationships(self):
+    def createRelationships(self) -> None:
         self.session.write_transaction(self._createPartOfRelationship)
         self._createLocateRelationship()
         self._livesInAndLivesWithRelationshipsHandler()
@@ -87,7 +86,7 @@ class CovidGraphHandler:
         self._handleMetRelationship()
         self._handleWentToRelationship()
 
-    def _createTestsNodes(self, tx):
+    def _createTestsNodes(self, tx) -> None:
         query = """ LOAD CSV WITH HEADERS FROM '{0}'
                 AS line FIELDTERMINATOR ','
                 WITH line
@@ -96,7 +95,7 @@ class CovidGraphHandler:
 
         tx.run(query)
 
-    def _createPersonNodes(self, tx):
+    def _createPersonNodes(self, tx) -> None:
         query = """
         LOAD CSV WITH HEADERS FROM '{0}'
         AS line FIELDTERMINATOR ','
@@ -107,7 +106,7 @@ class CovidGraphHandler:
 
         tx.run(query)
 
-    def _createCafeNodes(self, tx):
+    def _createCafeNodes(self, tx) -> None:
         query = """
                 LOAD CSV WITH HEADERS FROM '{0}'
                 AS line FIELDTERMINATOR ','
@@ -117,7 +116,7 @@ class CovidGraphHandler:
 
         tx.run(query)
 
-    def _createCinemaNodes(self, tx):
+    def _createCinemaNodes(self, tx) -> None:
         query = """
                 LOAD CSV WITH HEADERS FROM '{0}'
                 AS line FIELDTERMINATOR ','
@@ -127,7 +126,7 @@ class CovidGraphHandler:
 
         tx.run(query)
 
-    def _createRestaurantNodes(self, tx):
+    def _createRestaurantNodes(self, tx) -> None:
         query = """
                 LOAD CSV WITH HEADERS FROM '{0}'
                 AS line FIELDTERMINATOR ','
@@ -137,7 +136,7 @@ class CovidGraphHandler:
 
         tx.run(query)
 
-    def _createHospitalNodes(self, tx):
+    def _createHospitalNodes(self, tx) -> None:
         query = """LOAD CSV WITH HEADERS FROM '{0}'
                 AS line FIELDTERMINATOR ','
                 WITH line
@@ -146,7 +145,7 @@ class CovidGraphHandler:
 
         tx.run(query)
 
-    def _createTheaterNodes(self, tx):
+    def _createTheaterNodes(self, tx) -> None:
         query = """LOAD CSV WITH HEADERS FROM '{0}'
                 AS line FIELDTERMINATOR ','
                 WITH line
@@ -155,7 +154,7 @@ class CovidGraphHandler:
 
         tx.run(query)
 
-    def _createVaccineNodes(self, tx):
+    def _createVaccineNodes(self, tx) -> None:
         query = """LOAD CSV WITH HEADERS FROM '{0}'
                 AS line FIELDTERMINATOR ','
                 WITH line
@@ -163,7 +162,7 @@ class CovidGraphHandler:
 
         tx.run(query)
 
-    def _createCityNodes(self, tx):
+    def _createCityNodes(self, tx) -> None:
         query = """ LOAD CSV WITH HEADERS FROM '{0}'
                 AS line FIELDTERMINATOR ','
                 WITH line
@@ -172,7 +171,7 @@ class CovidGraphHandler:
 
         tx.run(query)
 
-    def _createCountryNodes(self, tx):
+    def _createCountryNodes(self, tx) -> None:
         # since we are storing just Italian data, we do not need to store all these nodes
         #    tx.run('''
         #            LOAD CSV WITH HEADERS FROM
@@ -186,7 +185,7 @@ class CovidGraphHandler:
         CREATE (:Country {name: 'Italy', population: toInteger('60446035')});
         ''')
 
-    def _createLocateRelationship(self):
+    def _createLocateRelationship(self) -> None:
 
         for CSVPath in self.italianPlacesCSVsPaths:
             dictReader = csv.DictReader(open(CSVPath))
@@ -220,21 +219,21 @@ class CovidGraphHandler:
 
                 self.session.write_transaction(self._queryExecutor, query)
 
-    def _queryExecutor(self, tx, query):
+    def _queryExecutor(self, tx, query) -> None:
         tx.run(query)
 
-    def _createPartOfRelationship(self, tx):
+    def _createPartOfRelationship(self, tx) -> None:
         tx.run('''
                 MATCH (ci:City) MATCH (co:Country)
                 WHERE co.name = 'Italy'
                 MERGE (ci)-[r:PART_OF]->(co);
                 ''')
 
-    def _createReceivedVaccineRelationship(self):
+    def _createReceivedVaccineRelationship(self) -> None:
         self._createRelationshipsForDoubleDoseVaccinated()
         self._createRelationshipForSingleDoseVaccinated()
 
-    def _createRelationshipForSingleDoseVaccinated(self):
+    def _createRelationshipForSingleDoseVaccinated(self) -> None:
 
         peopleData = csv.reader(open(utils.peopleCSVPath))
         data = sorted(peopleData, key = operator.itemgetter(4), reverse = True)
@@ -270,7 +269,7 @@ class CovidGraphHandler:
             if numOfVaccinatedWith1Dose > maxNumOfVaccinatedWith1Dose:
                 break
 
-    def _createRelationshipsForDoubleDoseVaccinated(self):
+    def _createRelationshipsForDoubleDoseVaccinated(self) -> None:
 
         peopleData = csv.reader(open(utils.peopleCSVPath))
         data = sorted(peopleData, key = operator.itemgetter(4), reverse = False)
@@ -306,7 +305,7 @@ class CovidGraphHandler:
             if numOfVaccinatedWith2Doses > maxNumOfVaccinatedWith2Doses:
                 break
 
-    def _createLivesInRelationship(self, tx, entry, address, cityId):
+    def _createLivesInRelationship(self, tx, entry, address, cityId) -> None:
 
         personId = entry['id']
         query = ''' 
@@ -318,7 +317,7 @@ class CovidGraphHandler:
 
         tx.run(query)
 
-    def _createLivesWithRelationship(self, tx, id1, id2):
+    def _createLivesWithRelationship(self, tx, id1, id2) -> None:
 
         query = ''' 
                                   MATCH (p1:Person) MATCH (p2:Person)
@@ -329,7 +328,7 @@ class CovidGraphHandler:
 
         tx.run(query)
 
-    def _livesInAndLivesWithRelationshipsHandler(self):
+    def _livesInAndLivesWithRelationshipsHandler(self) -> None:
 
         components = [1, 2, 3, 4, 5, 6]
 
@@ -374,7 +373,7 @@ class CovidGraphHandler:
                         id2 = entry4['id']
                         self.session.write_transaction(self._createLivesWithRelationship, id1, id2)
 
-    def _handleWentToRelationship(self):
+    def _handleWentToRelationship(self) -> None:
         peopleData = csv.DictReader(open(utils.peopleCSVPath))
 
         for entry in peopleData:
@@ -384,7 +383,7 @@ class CovidGraphHandler:
                 personID = entry['id']
                 self.session.write_transaction(self._createWentToRelatioship, personID, placeID, date)
 
-    def _createWentToRelatioship(self, tx, personID, placeID, date):
+    def _createWentToRelatioship(self, tx, personID, placeID, date) -> None:
 
         query = '''
                     MATCH (pe:Person) MATCH (pl:Place)
@@ -392,10 +391,9 @@ class CovidGraphHandler:
                     AND pl.id = {1}
                     MERGE (pe)-[r:WENT_TO {{date : date('{2}')}}]-(pl);'''.format(personID, int(placeID), date)
 
-
         tx.run(query)
 
-    def _handleTookTestRelationship(self):
+    def _handleTookTestRelationship(self) -> None:
 
         peopleData = csv.DictReader(open(utils.peopleCSVPath))
 
@@ -411,7 +409,7 @@ class CovidGraphHandler:
                 isPositive = random.choice([True, False])
                 self.session.write_transaction(self._createTookTestRelationship, personID, date, test, isPositive)
 
-    def _createTookTestRelationship(self, tx, personID, date, test, isPositive):
+    def _createTookTestRelationship(self, tx, personID, date, test, isPositive) -> None:
         query = '''
                 MATCH (p:Person)-[:LIVES_IN]-(c:City)
                 WHERE p.id = '{0}'
@@ -422,7 +420,7 @@ class CovidGraphHandler:
                 date, bool(isPositive))
         tx.run(query)
 
-    def _handleMetRelationship(self):
+    def _handleMetRelationship(self) -> None:
 
         peopleData = csv.DictReader(open(utils.peopleCSVPath))
         sources = ['smartphone', 'smartwatch', 'wearable']
@@ -451,7 +449,7 @@ class CovidGraphHandler:
                     self.session.write_transaction(self._createMetRelationship, person1ID, person2ID, date, source,
                                                    placeID)
 
-    def _createMetRelationship(self, tx, person1ID, person2ID, date, source, placeID = None):
+    def _createMetRelationship(self, tx, person1ID, person2ID, date, source, placeID = None) -> None:
 
         if placeID is not None:
 
@@ -489,7 +487,6 @@ class CovidGraphHandler:
 
 
 if __name__ == "__main__":
-    
     handler = CovidGraphHandler("URI", "USER", "PASSWORD")
     handler.populateDatabase()
     handler.close()
