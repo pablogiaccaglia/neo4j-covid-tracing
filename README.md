@@ -23,24 +23,25 @@ to monitor the viral diffusion.
 
 # Contents
 
-- ⚙  [System requirements️](#system-requirements)
+- ⚙ [System requirements️](#-system-requirements)
 - 🚀 [Setup instructions](#-setup-instructions)
 - 📜 [Report](report.pdf)
 - 👨‍💻 [Usage](#-usage)
 	- [Load DB Dump](#load-db-dump) 
-	- [Load from CSV](#-load-from-csv)
+	- [Load from CSV](#load-from-csv)
 - 🗄️ [Database dump](https://1drv.ms/u/s!Ahq9yFCnfdZEjulz7J5lFAN65v9tvQ?e=MvCgVh)
 - 📊 [Diagrams](#-diagrams)
 - 📷 [Relationships Visualizations](#-relationships-visualizations)  
+- 💡 [About database population scripts](#-about-database-population-scripts)
 - 📝 [License](#-license)
 
-# System requirements
+# ⚙ System requirements
 
 ## Required software
 
-- [Python](https://www.python.org/) 3.8 or higher
+- [Python](https://www.python.org/) 3.8 or higher **(only if you want to perform manual load from CSVs)**
 - [Neo4J](https://neo4j.com) database
-- Python modules in [requirements.txt](requirements.txt)
+- Python modules in [requirements.txt](requirements.txt)  **(only if you want to perform manual load from CSVs)**
 
 
 # 🚀 Setup instructions
@@ -58,9 +59,69 @@ From the project's directory run the following commands:
     
 # 👨‍💻 Usage
 
+## Load from CSV
+
+This operation is advise only if you want to have full control of the database from the data collection and generation point of view, since the process of populating the database takes a lot of time, as stated [here](#-about-database-population-scripts).<br>
+
+
+The first step is to move the CSV files inside the <a href="import">import</a> folder into the corresponding Neo4j folder, whose location changes as follows:
+	
+<div class="sectionbody">
+<div class="paragraph">
+</div>
+<table id="table-file-locations" class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 16.6666%;">
+<col style="width: 16.6666%;">
+<col style="width: 16.6666%;">
+<col style="width: 16.667%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Linux / macOS / Docker</th>
+<th class="tableblock halign-left valign-top">Windows</th>
+<th class="tableblock halign-left valign-top">Debian / RPM</th>
+<th class="tableblock halign-left valign-top">Neo4j Desktop <a id="tnoteref1"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>&lt;neo4j-home&gt;/import</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>&lt;neo4j-home&gt;\import</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>/var/lib/neo4j/import</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">From the <em>Open</em> dropdown menu of your Neo4j instance, select <em>Terminal</em>, and navigate to <em>&lt;installation-version&gt;/import</em>.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<br>
+
+Then info of a connection to the Neo4j database is needed.
+As you can see in the <a href="scripts/main.py#L489">main</a>  method of the <a href="scripts/main.py">main.py</a> file, a <code>CovidGraphHandler</code> object is created in the following way:
+
+```python
+   handler = CovidGraphHandler("URI", "USER", "PASSWORD")
+```
+
+the data passed to the class' constructor is used in the init method to establish a connection through a driver:
+
+```python
+   self.driver = GraphDatabase.driver(uri, auth = (user, password), max_connection_lifetime = 1000)
+```
+
+Different settings can be specified by changing that line of code. More info available <a href="https://neo4j.com/docs/api/python-driver/current/">here</a> 
+
+After this step all you need to do is execute the main method and wait the routine to complete. 
+
+The Python code manipulates several CSV files which can be found in different versions inside the <a href="datasets">datasets</a> folders. If you want to do further changes to them, make sure to substitute the older version with the new one inside the Neo4j import folder. 
+Detailed information of the manipulation process which lead to the final state of the database can be found in the <a href="report/report.pdf">Report</a>.
+
 ## Load DB Dump
 
-<details>
+If you dont' want to use Python or install the requiered dependencies, you can quickly start using the database by loading the dump available <a href="https://onedrive.live.com/?cid=44d67da750c8bd1a&id=44D67DA750C8BD1A%21242931&authkey=!AOyeZRQDeub_bb0">here</a>.
+The following section shows how to do so. 
 	
 <aside class="toc embedded"><div class="toc-menu"><h2>Contents</h2><ul><li data-level="1"><a href="#restore-dump-command">1. Command</a></li><li data-level="2"><a href="#restore-dump-syntax">1.1. Syntax</a></li><li data-level="2"><a href="#restore-dump-command-options">1.2. Options</a></li><li data-level="1"><a href="#restore-dump-example">2. Example</a></li></ul></div></aside><div id="preamble">
 <div class="sectionbody">
@@ -193,9 +254,6 @@ When replacing an existing database, you have to shut it down before running the
 Alternatively, you can stop the Neo4j instance and unbind it from the cluster using <code>neo4j-admin unbind</code> to remove its cluster state data.
 If you fail to DROP or unbind before loading the dump, that database’s store files will be out of sync with its cluster state, potentially leading to logical corruptions.
 For more information, see <a href="https://neo4j.com/docs/operations-manual/current/clustering/seed/#causal-clustering-seed-from-backups" class="page">Seed a cluster from a database backup (online)</a>.</p>
-
-
-</details>
 	
 ---
 
@@ -208,7 +266,7 @@ For more information, see <a href="https://neo4j.com/docs/operations-manual/curr
 
  <p align= "center">
  <kbd> 
- <img src="https://github.com/pablogiaccaglia/neo4j-covid-tracing/blob/master/report/latex/ER_Neo4J.png" align="center" />
+ <img src="report/latex/ER_Neo4J.png" align="center" />
  </kbd>
  </>
 ---
@@ -217,7 +275,7 @@ For more information, see <a href="https://neo4j.com/docs/operations-manual/curr
 
  <p align= "center">
  <kbd> 
- <img src="https://github.com/pablogiaccaglia/neo4j-covid-tracing/blob/master/report/latex/neo4j-meta-graph.png" align="center" />
+ <img src="report/latex/neo4j-meta-graph.png" align="center" />
  </kbd>
  </>
 ---
@@ -226,27 +284,27 @@ For more information, see <a href="https://neo4j.com/docs/operations-manual/curr
 
 WENT TO        |  TOOK
 :-------------------------:|:-------------------------:
-![](https://github.com/pablogiaccaglia/neo4j-covid-tracing/blob/master/report/latex/WENT_TO.png)|  ![](https://github.com/pablogiaccaglia/neo4j-covid-tracing/blob/master/report/latex/TOOK.png)
+![](report/latex/WENT_TO.png)|  ![](report/latex/TOOK.png)
 
 ---
 
 RECEIVED      |  PART OF
 :-------------------------:|:-------------------------:
-![](https://github.com/pablogiaccaglia/neo4j-covid-tracing/blob/master/report/latex/RECEIVED.png)|  ![](https://github.com/pablogiaccaglia/neo4j-covid-tracing/blob/master/report/latex/PART_OF.png)
+![](report/latex/RECEIVED.png)|  ![](report/latex/PART_OF.png)
 
 ---
 
 MET           |  LOCATED
 :-------------------------:|:-------------------------:
-![](https://github.com/pablogiaccaglia/neo4j-covid-tracing/blob/master/report/latex/MET.png)|  ![](https://github.com/pablogiaccaglia/neo4j-covid-tracing/blob/master/report/latex/LOCATED.png)
+![](report/latex/MET.png)|  ![](report/latex/LOCATED.png)
 
 ---
 
 LIVES WITH            |  LIVES IN
 :-------------------------:|:-------------------------:
-![](https://github.com/pablogiaccaglia/neo4j-covid-tracing/blob/master/report/latex/LIVES_WITH.png)|  ![](https://github.com/pablogiaccaglia/neo4j-covid-tracing/blob/master/report/latex/LIVES_IN.png)
+![](report/latex/LIVES_WITH.png)|  ![](report/latex/LIVES_IN.png)
 	 
-# About database population scripts
+# 💡 About database population scripts
 
 	 
 The creation script, which can be executed invoking the <a href="https://github.com/pablogiaccaglia/neo4j-covid-tracing/blob/1589bc335e250322837fed4cd52f6d46b6f016eb/scripts/main.py#L33">populateDatabase</a> method of class CovidGraphHandler located inside file <a href="https://github.com/pablogiaccaglia/neo4j-covid-tracing/blob/1589bc335e250322837fed4cd52f6d46b6f016eb/scripts/main.py">main.py</a>, takes approximately 
