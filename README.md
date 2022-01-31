@@ -123,6 +123,8 @@ What it creates inside the Neo4j database are:
   * 5000 directed (10000 undirected) **LIVES IN** relationships
   * 119651 directed (239302 undirected) **MET** relationships
   * 150040 directed (300080 undirected) **WENT TO** relationships
+ 
+Information on how the data has been produced can be found on the <a href="report/report.pdf">report</a>   
 	 
 # 📝 License
 
