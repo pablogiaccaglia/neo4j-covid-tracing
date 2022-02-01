@@ -17,6 +17,10 @@
 	</font>
 </p>
 
+<p align="center">
+  <img width="300" height="300" src="report/latex/Neo4j-logo.jpeg">
+</p>
+
 Considering the scenario in which there’s the need to build a system for managing the **COVID-19 pandemic** in a specific country, 
 our project focuses on the data perspective level. This is why we designed and implemented a **Neo4j** data structure to face the need of contact tracing functionality,
 to monitor the viral diffusion. 
