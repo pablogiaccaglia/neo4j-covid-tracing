@@ -261,9 +261,6 @@ For more information, see <a href="https://neo4j.com/docs/operations-manual/curr
 	
 ---
 
-
-## Load from CSV
-
 # 📊 Diagrams
 
 <h2><p align="center"><b>ER Diagram</b></></h2>
